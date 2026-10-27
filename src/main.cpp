@@ -22,6 +22,7 @@
 #include <Arduino.h>
 #include <NimBLEDevice.h>
 #include "mbedtls/aes.h"
+#include <WiFi.h>          // RSSI in heartbeat
 #include <time.h>          // NTP time for the oven clock (getLocalTime/configTzTime)
 #include "oven.h"
 #include "net_mqtt.h"
@@ -224,7 +225,8 @@ void ovenApplyReg(uint16_t reg, uint16_t val){
     case REG_PHASE:    if(g_oven.phase !=(int8_t)val){ g_oven.phase =(int8_t)val; bumpSeq(); } break;
     case REG_ALARM:  { int code=val&0xFF;                               // live tipo_allarme (low byte)
         if(code!=0 && code!=g_alarmLivePrev) g_alarmDirty=true;         // new alarm -> refresh history
-        g_alarmLivePrev=code; } break;
+        g_alarmLivePrev=code;
+        if(g_oven.alarm!=code){ g_oven.alarm=(int16_t)code; bumpSeq(); } } break;
     case REG_ALARM_IDX: g_alarmIndex=(val>>8); g_alarmNum=(val&0xFF); break;  // head / count
     case REG_FLAGS:    if(g_oven.flags !=(int16_t)val){g_oven.flags =(int16_t)val;bumpSeq(); } break;
     case REG_IGNIT:    if(g_oven.ignitions!=(int32_t)val){g_oven.ignitions=(int32_t)val;bumpSeq();} break;
@@ -270,6 +272,16 @@ bool ovenSetOnOff(bool on){
   }
   Serial.printf(">> %s: power toggle 0x038A=1 (phase was %d)\n", on?"ON":"OFF", g_oven.phase);
   sendWrite(REG_ONOFF, 1);
+  return true;
+}
+bool ovenResetAlarm(){
+  // Only acknowledge when a live alarm is actually pending (never a blind command write).
+  if (g_oven.alarm <= 0){
+    Serial.printf(">> No active alarm (live code %d) - no reset sent\n", g_oven.alarm);
+    return false;
+  }
+  Serial.printf(">> Acknowledge alarm A%d: 0x%04X=1\n", g_oven.alarm, REG_ALARM_RESET);
+  sendWrite(REG_ALARM_RESET, 1);
   return true;
 }
 bool ovenSetFan(int level){
@@ -363,6 +375,8 @@ static void printStatus(){
   if (g_oven.active>=0)         Serial.printf("  Active           = %ld\n", (long)g_oven.active);
   if (g_oven.flags>=0)          Serial.printf("  Flags 0x0332     = 0x%02X (Chrono=%d Silent=%d)\n",
                                               g_oven.flags, (g_oven.flags>>6)&1, (g_oven.flags>>5)&1);
+  if (g_oven.alarm>=0){ Serial.print("  Active alarm     = ");
+    if(g_oven.alarm>0) Serial.printf("A%d  ('ack' to acknowledge)\n", g_oven.alarm); else Serial.println("none"); }
   if (g_oven.alarmHist[0]>=0){  Serial.print("  Last alarm       = ");
     if(g_oven.alarmHist[0]>0) Serial.printf("A%d\n", g_oven.alarmHist[0]); else Serial.println("none");
     Serial.print("  Alarm history    =");
@@ -533,11 +547,12 @@ static void handleLine(String line){
   line.trim(); if(!line.length()) return; String low=line; low.toLowerCase();
   if(low=="help"){
     Serial.println("temp <c> | power <1-5> | mode <0-4> | fan <auto|1-5> | silent <on|off> | "
-                   "on | off | settime | alarms | getchrono | status | poll | scan | target <mac|none> | log <on|off> | r <regHex> <count> | w <regHex> <valHex> | wm <regHex> <v..> | ctr <hex> | help"); return; }
+                   "on | off | ack | settime | alarms | getchrono | status | poll | scan | target <mac|none> | log <on|off> | r <regHex> <count> | w <regHex> <valHex> | wm <regHex> <v..> | ctr <hex> | help"); return; }
   if(low=="poll"){ sendRead(0x02BC,0x33); return; }
   if(low=="status"){ printStatus(); return; }
   if(low=="on"){ ovenSetOnOff(true); return; }
   if(low=="off"){ ovenSetOnOff(false); return; }
+  if(low=="ack"){ ovenResetAlarm(); return; }
   if(low=="silent on"){ ovenSetSilent(true); return; }
   if(low=="silent off"){ ovenSetSilent(false); return; }
   if(low=="settime"){ ovenSetClock(); return; }
@@ -773,9 +788,9 @@ static void clockTick(){
 static void heartbeat(){
   static uint32_t last=0; uint32_t now=millis();
   if(now-last < 60000) return; last=now;
-  Serial.printf("[hb] up=%lus heap=%u min=%u ble=%d wifi=%d mqtt=%d\n",
+  Serial.printf("[hb] up=%lus heap=%u min=%u ble=%d wifi=%d rssi=%d mqtt=%d\n",
     (unsigned long)(now/1000), (unsigned)ESP.getFreeHeap(), (unsigned)ESP.getMinFreeHeap(),
-    g_connected?1:0, netWifiUp()?1:0, netMqttUp()?1:0);
+    g_connected?1:0, netWifiUp()?1:0, netWifiUp()?(int)WiFi.RSSI():0, netMqttUp()?1:0);
 }
 void loop(){
   static String line;

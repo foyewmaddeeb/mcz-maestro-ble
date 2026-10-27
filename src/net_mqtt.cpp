@@ -16,7 +16,7 @@
 static WiFiClient   wifiClient;
 static PubSubClient mqtt(wifiClient);
 
-static String T_BASE, T_STATE, T_AVAIL, T_SET_TEMP, T_SET_POWER, T_SET_MODE, T_SET_ONOFF, T_SET_FAN, T_SET_SILENT;
+static String T_BASE, T_STATE, T_AVAIL, T_SET_TEMP, T_SET_POWER, T_SET_MODE, T_SET_ONOFF, T_SET_FAN, T_SET_SILENT, T_SET_ALARM_RESET;
 static String g_id, g_devName;
 
 static bool     g_idReady     = false;
@@ -69,6 +69,7 @@ static bool buildIdentity(){
   T_SET_ONOFF = T_BASE + "/set/onoff";
   T_SET_FAN   = T_BASE + "/set/fan";
   T_SET_SILENT= T_BASE + "/set/silent";
+  T_SET_ALARM_RESET = T_BASE + "/set/alarm_reset";
   buildDevName();
   return true;
 }
@@ -138,7 +139,7 @@ static void publishDiscovery(){
     pm.add("Comfort"); pm.add("Overnight"); pm.add("Turbo"); pm.add("Auto"); pm.add("Manual");
     d["preset_mode_command_topic"]  = T_SET_MODE;
     d["preset_mode_state_topic"]    = T_STATE;
-    d["preset_mode_state_template"] = "{{ value_json.mode_name }}";
+    d["preset_mode_value_template"] = "{{ value_json.mode_name }}";   // HA key is *_value_template here
     addDevice(d.as<JsonObject>());
     publishJson(discoTopic("climate", "climate"), d, true);
   }
@@ -220,6 +221,22 @@ static void publishDiscovery(){
     snprintf(tpl,  sizeof(tpl),  "{{ value_json.pt%d }}", i);
     addSensor(oid, name, tpl, "min", "duration", "total_increasing");
   }
+  // Live alarm (0x0323): is the oven in an alarm RIGHT NOW? + button to acknowledge it.
+  { JsonDocument d;
+    d["name"]="Alarm"; d["unique_id"]=g_id+"_alarm_active";
+    d["availability_topic"]=T_AVAIL; d["state_topic"]=T_STATE;
+    d["value_template"]="{{ 'ON' if value_json.alarm_active else 'OFF' }}";
+    d["device_class"]="problem";
+    d["json_attributes_topic"]=T_STATE;
+    d["json_attributes_template"]="{{ {'code': value_json.alarm} | tojson }}";
+    addDevice(d.as<JsonObject>()); publishJson(discoTopic("binary_sensor","alarm_active"), d, true);
+  }
+  { JsonDocument d;
+    d["name"]="Acknowledge alarm"; d["unique_id"]=g_id+"_alarm_reset";
+    d["availability_topic"]=T_AVAIL; d["command_topic"]=T_SET_ALARM_RESET;
+    d["payload_press"]="reset"; d["icon"]="mdi:alert-remove-outline";
+    addDevice(d.as<JsonObject>()); publishJson(discoTopic("button","alarm_reset"), d, true);
+  }
   // Alarm log (all ovens): last alarm + history (raw Axx codes; meanings are model-specific)
   { JsonDocument d;
     d["name"]="Last alarm"; d["unique_id"]=g_id+"_alarm_last";
@@ -266,6 +283,11 @@ static void publishState(){
   d["ble"] = g_oven.bleOnline;
   d["seq"] = g_oven.seq;
   if (g_ovenSerial.length()) d["serial"] = g_ovenSerial;
+  if (g_oven.alarm >= 0){                        // live alarm: "A12" while active, else "none"
+    d["alarm_active"] = g_oven.alarm > 0;
+    if (g_oven.alarm > 0){ char a[8]; snprintf(a,sizeof(a),"A%d",g_oven.alarm); d["alarm"] = a; }
+    else d["alarm"] = "none";
+  }
   if (g_oven.alarmHist[0] >= 0){                 // alarm log (raw Axx codes, newest first)
     char la[8];
     if (g_oven.alarmHist[0] > 0) snprintf(la,sizeof(la),"A%d",g_oven.alarmHist[0]); else strncpy(la,"none",sizeof(la));
@@ -325,6 +347,7 @@ static void onMqtt(char* topic, byte* payload, unsigned int len){
   else if (t == T_SET_FAN){ String m=msg; m.toLowerCase();
     ovenSetFan(m=="auto" ? 0 : msg.toInt());        // "Auto"/"0" -> Auto, "1".."5" -> level
   }
+  else if (t == T_SET_ALARM_RESET) ovenResetAlarm();
   else if (t == T_SET_SILENT){ String m=msg; m.toLowerCase();
     if (m=="on"||m=="1"||m=="true")   ovenSetSilent(true);
     else if (m=="off"||m=="0"||m=="false") ovenSetSilent(false);
@@ -350,6 +373,7 @@ static bool mqttConnect(){
   mqtt.subscribe(T_SET_ONOFF.c_str());
   mqtt.subscribe(T_SET_FAN.c_str());
   mqtt.subscribe(T_SET_SILENT.c_str());
+  mqtt.subscribe(T_SET_ALARM_RESET.c_str());
   for (int i=0;i<HYDRO_NUM_CNT;i++)                 // hydro settings (harmless if not a hydro oven)
     mqtt.subscribe((T_BASE + "/set/" + HYDRO_NUMS[i].oid).c_str());
   publishDiscovery(); g_discSerial = g_ovenSerial;  // name = MAC -> immediately correct
