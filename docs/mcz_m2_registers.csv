@@ -1,0 +1,2233 @@
+table,reg_start,reg_end,sub_byte,type_code,key,description_it,group_it
+info,100,107,0,0,sm_sn,Numero seriale,scheda madre
+info,108,115,0,0,sm_nome_scheda,Nome scheda,scheda madre
+info,116,123,0,0,sm_nome_bootlander,Nome bootlander,scheda madre
+info,124,131,0,0,sm_vs_bootlander,Versione bootlander,scheda madre
+info,132,139,0,0,sm_nome_app,Nome applicazione,scheda madre
+info,140,147,0,0,sm_vs_app,Versione applicazione,scheda madre
+info,148,148,0,4,sm_n_compatibilita,Numero compatibilità,scheda madre
+info,149,149,0,16,_sm_free_,Free,scheda madre
+info,150,157,0,0,mc_sn,Numero seriale,modulo di connessione
+info,158,165,0,0,mc_nome_scheda,Nome scheda,modulo di connessione
+info,166,173,0,0,mc_nome_bootlander,Nome bootlander,modulo di connessione
+info,174,181,0,0,mc_vs_bootlander,Versione bootlander,modulo di connessione
+info,182,189,0,0,mc_nome_app,Nome applicazione,modulo di connessione
+info,190,197,0,0,mc_vs_app,Versione applicazione,modulo di connessione
+info,198,198,0,4,mc_n_compatibilita,Numero compatibilità,modulo di connessione
+info,199,199,0,16,_mc_free_,Free,modulo di connessione
+info,200,207,0,0,mdc_sn,Numero seriale,radiocomando
+info,208,215,0,0,mdc_nome_scheda,Nome scheda,radiocomando
+info,216,223,0,0,mdc_nome_bootlander,Nome bootlander,radiocomando
+info,224,231,0,0,mdc_vs_bootlander,Versione bootlander,radiocomando
+info,232,239,0,0,mdc_nome_app,Nome applicazione,radiocomando
+info,240,247,0,0,mdc_vs_app,Versione applicazione,radiocomando
+info,248,248,0,4,mdc_n_compatibilita,Numero compatibilità,radiocomando
+info,249,249,0,16,_mdc_free_,Free,radiocomando
+info,250,257,0,0,sr_sn,Numero seriale,sonda remota
+info,258,265,0,0,sr_nome_scheda,Nome scheda,sonda remota
+info,266,273,0,0,sr_nome_bootlander,Nome bootlander,sonda remota
+info,274,281,0,0,sr_vs_bootlander,Versione bootlander,sonda remota
+info,282,289,0,0,sr_nome_app,Nome applicazione,sonda remota
+info,290,297,0,0,sr_vs_app,Versione applicazione,sonda remota
+info,298,298,0,4,sr_n_compatibilita,Numero compatibilità,sonda remota
+info,299,299,0,16,_sr_free_,Free,sonda remota
+info,300,307,0,0,micro_sn,Numero seriale,radiocomando
+info,308,315,0,0,micro_nome_scheda,Nome scheda,radiocomando
+info,316,323,0,0,micro_nome_bootlander,Nome bootlander,radiocomando
+info,324,331,0,0,micro_vs_bootlander,Versione bootlander,radiocomando
+info,332,339,0,0,micro_nome_app,Nome applicazione,radiocomando
+info,340,347,0,0,micro_vs_app,Versione applicazione,radiocomando
+info,348,348,0,4,micro_n_compatibilita,Numero compatibilità,radiocomando
+info,349,349,0,16,_micro_free_,Free,radiocomando
+info,350,357,0,0,cond_sn,Numero seriale,condizionatore
+info,358,365,0,0,cond_cliente,Numero cliente,condizionatore
+info,366,373,0,0,cond_nome_scheda,Nome scheda,condizionatore
+info,374,381,0,0,cond_nome_bootlander,Nome bootlander,condizionatore
+info,382,389,0,0,cond_vs_bootlander,Versione bootlander,condizionatore
+info,390,397,0,0,cond_nome_app,Nome applicazione,condizionatore
+info,398,398,0,4,cond_vs_app,Versione applicazione,condizionatore
+info,399,399,0,16,_cond_free_,Free,condizionatore
+info,400,407,0,0,fr4_sn,Numero seriale,free4
+info,408,415,0,0,fr4_nome_scheda,Nome scheda,free4
+info,416,423,0,0,fr4_nome_bootlander,Nome bootlander,free4
+info,424,431,0,0,fr4_vs_bootlander,Versione bootlander,free4
+info,432,439,0,0,fr4_nome_app,Nome applicazione,free4
+info,440,447,0,0,fr4_vs_app,Versione applicazione,free4
+info,448,448,0,4,fr4_n_compatibilita,Numero compatibilità,free4
+info,449,449,0,16,_fr4_free_,Free,free4
+info,450,457,0,0,fr5_sn,Numero seriale,free5
+info,458,465,0,0,fr5_nome_scheda,Nome scheda,free5
+info,466,473,0,0,fr5_nome_bootlander,Nome bootlander,free5
+info,474,481,0,0,fr5_vs_bootlander,Versione bootlander,free5
+info,482,489,0,0,fr5_nome_app,Nome applicazione,free5
+info,490,497,0,0,fr5_vs_app,Versione applicazione,free5
+info,498,498,0,4,fr5_n_compatibilita,Numero compatibilità,free5
+info,499,499,0,16,_fr5_free_,Free,free5
+info,500,507,0,0,fr6_sn,Numero seriale,free6
+info,508,515,0,0,fr6_nome_scheda,Nome scheda,free6
+info,516,523,0,0,fr6_nome_bootlander,Nome bootlander,free6
+info,524,531,0,0,fr6_vs_bootlander,Versione bootlander,free6
+info,532,539,0,0,fr6_nome_app,Nome applicazione,free6
+info,540,547,0,0,fr6_vs_app,Versione applicazione,free6
+info,548,548,0,4,fr6_n_compatibilita,Numero compatibilità,free6
+info,549,549,0,16,_fr6_free_,Free,free6
+info,550,557,0,0,fr7_sn,Numero seriale,free7
+info,558,565,0,0,fr7_nome_scheda,Nome scheda,free7
+info,566,573,0,0,fr7_nome_bootlander,Nome bootlander,free7
+info,574,581,0,0,fr7_vs_bootlander,Versione bootlander,free7
+info,582,589,0,0,fr7_nome_app,Nome applicazione,free7
+info,590,597,0,0,fr7_vs_app,Versione applicazione,free7
+info,598,598,0,4,fr7_n_compatibilita,Numero compatibilità,free7
+info,599,599,0,16,_fr7_free_,Free,free7
+info,600,607,0,0,fr8_sn,Numero seriale,free8
+info,608,615,0,0,fr8_nome_scheda,Nome scheda,free8
+info,616,623,0,0,fr8_nome_bootlander,Nome bootlander,free8
+info,624,631,0,0,fr8_vs_bootlander,Versione bootlander,free8
+info,632,639,0,0,fr8_nome_app,Nome applicazione,free8
+info,640,647,0,0,fr8_vs_app,Versione applicazione,free8
+info,648,648,0,4,fr8_n_compatibilita,Numero compatibilità,free8
+info,649,649,0,16,_fr8_free_,Free,free8
+info,650,657,0,0,fr9_sn,Numero seriale,free9
+info,658,665,0,0,fr9_nome_scheda,Nome scheda,free9
+info,666,673,0,0,fr9_nome_bootlander,Nome bootlander,free9
+info,674,681,0,0,fr9_vs_bootlander,Versione bootlander,free9
+info,682,689,0,0,fr9_nome_app,Nome applicazione,free9
+info,690,697,0,0,fr9_vs_app,Versione applicazione,free9
+info,698,698,0,4,fr9_n_compatibilita,Numero compatibilità,free9
+info,699,699,0,16,_fr9_free_,Free,free9
+status,700,700,0,3,temp_NTC1,Temperatura sonda NTC 1,temperature
+status,701,701,0,3,temp_NTC2,Temperatura sonda NTC 2,temperature
+status,702,702,0,3,temp_NTC3,Temperatura sonda NTC 3,temperature
+status,703,703,0,3,temp_caldaia,Temperatura caldaia,temperature
+status,704,704,0,3,temp_puffer,Temperatura puffer,temperature
+status,705,705,0,3,temp_scheda,Temperatura scheda,temperature
+status,706,706,0,3,temp_bollitore,Temperatura bollitore sanitario,temperature
+status,707,707,0,3,temp_sonda_est,Temperatura sonda esterna,temperature
+status,708,708,0,3,temp_sonda_acc,Temperatura sonda accumulo bassa,temperature
+status,709,709,0,3,temp_termocoppia1,Temperatura termocoppia 1,temperature
+status,710,710,0,3,temp_termocoppia_imp,Temperatura termocoppia impostata,temperature
+status,711,711,0,3,temp_pan,Temperatura pannello,temperature
+status,712,712,0,3,pressione_pascal,Pressione dell'aria in Pascal,pressione dell'aria
+status,713,713,0,3,pressione,Pressione dell'aria,pressione dell'aria
+status,714,714,0,3,pressione_imp,Pressione dell'aria impostata,pressione dell'aria
+status,715,715,0,3,pressione_acqua,Pressione dell'acqua,pressione dell'acqua
+status,716,716,0,4,flusso_acqua1,Flusso d'acqua 1,pressione dell'acqua
+status,717,717,0,8,di_stati,Stati,digital IN
+status,718,718,0,4,vel_imp_coclea,Velocità impostata coclea,motori
+status,719,719,0,4,vel_real_coclea,Velocità reale coclea,motori
+status,720,720,0,4,uscita_coclea,Uscita coclea,motori
+status,721,721,0,4,vel_imp_ventola_fumi,Velocità impostata ventola fumi,motori
+status,722,722,0,4,vel_real_ventola_fumi,Velocità reale ventola fumi,motori
+status,723,723,0,4,uscita_ventola_fumi,Uscita ventola fumi,motori
+status,724,724,0,4,ventola_scamb1,Ventola scambiatore 1,motori
+status,725,725,0,4,ventola_scamb2,Ventola scambiatore 2,motori
+status,726,726,0,4,ventola_scamb3,Ventola scambiatore 3,motori
+status,727,727,0,4,ventola_scamb4,Ventola scambiatore 4,motori
+status,728,728,0,4,pompa,Pompa,motori
+status,729,729,0,8,do_stati,Stati,digital OUT
+status,730,730,0,8,led_stati,Stati,LED
+status,731,731,0,3,sr1_temp,Temperatura,sonda remota 1
+status,732,732,0,4,sr1_qualita_aria,Qualità aria,sonda remota 1
+status,733,733,0,2,sr1_progr_comunicazioni,Progressivo comunicazioni,sonda remota 1
+status,733,733,1,2,sr1_umidita,Umidità,sonda remota 1
+status,734,734,0,3,sr2_temp,Temperatura,sonda remota 2
+status,735,735,0,4,sr2_qualita_aria,Qualità aria,sonda remota 2
+status,736,736,0,2,sr2_progr_comunicazioni,Progressivo comunicazioni,sonda remota 2
+status,736,736,1,2,sr2_umidita,Umidità,sonda remota 2
+status,737,737,0,3,sr3_temp,Temperatura,sonda remota 3
+status,738,738,0,4,sr3_qualita_aria,Qualità aria,sonda remota 3
+status,739,739,0,2,sr3_progr_comunicazioni,Progressivo comunicazioni,sonda remota 3
+status,739,739,1,2,sr3_umidita,Umidità,sonda remota 3
+status,740,740,0,3,pos_pul_brush,Posizione reale pulitore,pulitore brushless
+status,741,741,0,3,pos_pul_brush_set,Posizione obiettivo pulitore,pulitore brushless
+status,742,742,0,3,battery_voltage_1,Tensione della batteria tampone n°1,Batterie tampone (solo BLDC)
+status,743,743,0,3,battery_voltage_2,Tensione della batteria tampone n°2,Batterie tampone (solo BLDC)
+status,744,744,0,3,battery_charge_voltage_1,Tensione di carica della batteria tampone n° 1,Batterie tampone (solo BLDC)
+status,745,745,0,3,battery_charge_voltage_2,Tensione di carica della batteria tampone n° 2,Batterie tampone (solo BLDC)
+status,746,746,0,4,fan_speed_1,Velocità del ventilatore 1,Feedback ventilatori (solo BLDC)
+status,747,747,0,4,fan_speed_2,Velocità del ventilatore 2,Feedback ventilatori (solo BLDC)
+status,748,748,0,4,fan_speed_3,Velocità del ventilatore 3,Feedback ventilatori (solo BLDC)
+status,749,749,0,4,fan_speed_4,Velocità del ventilatore 4,Feedback ventilatori (solo BLDC)
+status,750,750,0,3,thermocouple_temperature,Temperatura della termocoppia 2,Temperature
+status,751,799,0,16,_free_,Free,Free
+status,800,800,0,2,sub_fase_op,Sub-Fase operativa,stato
+status,800,800,1,2,fase_op,Fase operativa,stato
+status,801,801,0,2,lim_index_IM07,Limite indice IM07,stato
+status,801,801,1,2,sub_sub_fase_op,Sub-Sub-Fase operativa,stato
+status,802,802,0,2,stato_sec_stufa,stato secondario della stufa,stato
+status,802,802,1,2,stato_stufa,stato della stufa,stato
+status,803,803,0,2,potenza_att,potenza attuale,stato
+status,803,803,1,2,tipo_allarme,tipo allarme,stato
+status,804,804,0,2,index_vel_v2,indice velocità ventola 2,ventole
+status,804,804,1,2,index_vel_v1,indice velocità ventola 1,ventole
+status,805,805,0,2,index_vel_v4,indice velocità ventola 4,ventole
+status,805,805,1,2,index_vel_v3,indice velocità ventola 3,ventole
+status,806,806,0,3,temp_amb_install,Temperatura ambiente luogo installazione,temperature
+status,807,807,0,3,temp_amb_can1,Temperatura ambiente canalizzata 1,temperature
+status,808,808,0,3,temp_amb_can2,Temperatura ambiente canalizzata 2,temperature
+status,809,809,0,3,temp_amb_can3,Temperatura ambiente canalizzata 3,temperature
+status,810,810,0,4,auto_pellet,Tempo autonomia pellet,autonomia pellet
+status,811,811,0,3,temp_set_caldaia,Temperatura Set Caldaia,undefined
+status,812,812,0,3,temp_stop_pompa,Temperatura Stop Pompa,undefined
+status,813,813,0,2,sbloc_mr_bl,Fase Sblocco Motoriduttore Brushless,undefined
+status,813,813,1,2,pot_max,Potenza Max,undefined
+status,814,814,0,4,mod_lav_att,Modalità di lavoro attuale,undefined
+status,815,815,0,4,t_power,Tempo al Power,undefined
+status,816,816,0,4,tempo_ciclo,Tempo ciclo,undefined
+status,817,817,0,4,num_banche_dati,Numero banche dati,undefined
+status,818,819,0,7,flags,Flags,flags
+status,820,821,0,6,cont_tot_n_acc,Numero accensioni,contatori totali
+status,822,823,0,6,cont_tot_t_lav1,Tempo lavoro 1,contatori totali
+status,824,825,0,6,cont_tot_t_lav2,Tempo lavoro 2,contatori totali
+status,826,827,0,6,cont_tot_t_lav3,Tempo lavoro 3,contatori totali
+status,828,829,0,6,cont_tot_t_lav4,Tempo lavoro 4,contatori totali
+status,830,831,0,6,cont_tot_t_lav5,Tempo lavoro 5,contatori totali
+status,832,833,0,6,cont_tot_t_lavoro,Tempo lavoro Tot,contatori totali
+status,834,835,0,6,cont_ser_t_lav1,Tempo lavoro 1,contatori service
+status,836,837,0,6,cont_ser_t_lav2,Tempo lavoro 2,contatori service
+status,838,839,0,6,cont_ser_t_lav3,Tempo lavoro 3,contatori service
+status,840,841,0,6,cont_ser_t_lav4,Tempo lavoro 4,contatori service
+status,842,843,0,6,cont_ser_t_lav5,Tempo lavoro 5,contatori service
+status,844,845,0,6,cont_ser_t_lavoro,Tempo lavoro Tot,contatori service
+status,846,847,0,5,ore_service,Ore al service,undefined
+status,848,848,0,8,pres_disp,Presenza dispositivi,undefined
+status,849,849,0,4,dia_res_cau,reset cause,diagnostica
+status,850,850,0,4,dia_CRC16_comp_info,CRC16 components info,diagnostica
+status,851,851,0,4,CRC16_NVM,CRC16 NVM,undefined
+status,852,852,0,4,t_dur_pul,tempo durata pulizia,undefined
+status,853,853,0,4,t_dur_lim,tempo durata limitazione,undefined
+status,854,854,0,4,t_int_pul,tempo intervallo pulizia,undefined
+status,855,855,0,2,cont_rid_cop,contatore riduzioni di coppia,undefined
+status,855,855,1,2,fase_core,fase CORE,undefined
+status,856,856,0,4,act_set_pot1,valore active SET potenza 1,undefined
+status,857,857,0,4,act_set_pot2,valore active SET potenza 2,undefined
+status,858,858,0,4,act_set_pot3,valore active SET potenza 3,undefined
+status,859,859,0,4,act_set_pot4,valore active SET potenza 4,undefined
+status,860,860,0,4,act_set_pot5,valore active SET potenza 5,undefined
+status,861,861,0,2,cont_car_rid_act,contatore n carichi ridotti per active,undefined
+status,861,861,1,2,cont_car_rid_sp,contatore n carichi ridotti per spegnimento,undefined
+status,862,862,0,2,freq_feed_pompa,frequenza feedback pompa,undefined
+status,862,862,1,9,flags_display,tasti display in modalità test,undefined
+status,863,863,0,8,flags2,Flags di stato vari,undefined
+status,864,864,0,4,feed_pompa,feedback pompa,undefined
+status,865,865,0,4,temp_ingr_standby,tempo ingresso standby,undefined
+status,866,866,0,4,t_ipercomb,tempo ipercombustione,undefined
+status,867,867,0,2,index_ric_flu,indice ricetta flusso,undefined
+status,867,867,1,2,index_ric_pel,indice ricetta pellet,undefined
+status,868,868,0,4,umid_rel,umidità,undefined
+status,869,869,0,2,panel_battery_charge_level,livello carica batteria tampone (pannello),undefined
+status,869,869,1,2,absolute_battery_charge_level,livello carica batteria tampone (assoluto),undefined
+status,870,871,0,6,last_alarm_ts,timestamp ultimo allarme,undefined
+status,872,872,0,8,battery_status,flags 3,undefined
+status,873,873,0,4,battery_capacity,capacità batteria tampone,undefined
+status,874,874,0,4,battery_charging_power_1,corrente di carica batteria tampone 1,undefined
+status,875,875,0,4,battery_charging_power_2,corrente di carica batteria tampone 2,undefined
+status,876,876,0,4,battery_charging_time,tempo carica batterie tampone,undefined
+status,877,877,0,4,cont_reset_pan,Contatore reset pannello,undefined
+status,878,879,0,6,ts_last_reset_pan,Timestamp ultimo reset pannello,undefined
+status,880,881,0,6,ts_last_con_rad,Timestamp ultima connessione radio,undefined
+status,882,882,0,2,tipo_allarme_clima,Tipo allarme Clima,condizionatore
+status,882,882,1,2,stato_clima,Stato Clima,condizionatore
+status,883,883,0,9,flags_clima,Flags Clima,condizionatore
+status,883,883,1,1,temp_clima,Stato Clima,condizionatore
+status,884,899,0,16,_free_,Free,Free
+status,900,900,0,2,mese,Mese,orodatario
+status,900,900,1,2,giorno,Giorno,orodatario
+status,901,901,0,4,anno,Anno,orodatario
+status,902,902,0,2,minuti,Minuti,orodatario
+status,902,902,1,2,ore,Ore,orodatario
+status,903,903,0,2,giorno_sett,Giorno della settimana,orodatario
+status,903,903,1,2,secondi,Secondi,orodatario
+status,904,904,0,11,set_orodatario,Set orodatario,orodatario
+status,904,904,1,11,am_pm,AM/PM,orodatario
+status,905,905,0,4,tempo_sleep,Tempo sleep,timer
+status,906,906,0,13,com_on_off,On-Off stufa,comandi
+status,907,907,0,13,com_reset_allarm,Reset allarme,comandi
+status,908,908,0,4,com_reset_manut_CAT,Reset manutenzione CAT,comandi
+status,909,909,0,4,com_forza_spegn,Forza spegnimento,comandi
+status,910,910,0,13,com_es_car_coclea,Esegui carico coclea,comandi
+status,911,911,0,4,com_canc_cont_par,Cancella contatori parziali,comandi
+status,912,912,0,4,com_test_freddo,Avvia test a freddo,comandi
+status,913,913,0,4,com_skip_fase_op,Skip fase operativa,comandi
+status,914,914,0,4,com_test_wifi,Attiva test Wi-Fi,comandi
+status,915,915,0,13,com_inv_pos_bruciatore,Inverti posizione bruciatore,comandi
+status,916,916,0,4,reset_def_params,Ripristino default parametri,ripristino
+status,917,917,0,4,reset_storico_allarmi,Reset storico allarmi,ripristino
+status,918,918,0,4,reset_boot_pc,Reset per boot da PC,ripristino
+status,919,919,0,4,cod_fil_test_rap,Codice filtri test rapido,undefined
+status,920,920,0,4,cod_salta_acc,Codice salta accensione,undefined
+status,921,921,0,4,cod_zero_sens_press,Codice Zero sensore pressione,undefined
+status,922,922,0,4,cod_for_spe_mqtt,Codice forza spedizione MQTT,undefined
+status,923,923,0,4,ind_sel_nome_banca_dati,Indice selezione nome banca dati,undefined
+status,924,931,0,0,nome_banca_dati_sel,nome banca dati selezionata,undefined
+status,932,932,0,4,down_firm,Esegui il downlaod del firmware,undefined
+status,933,933,0,4,cod_test_disp,Codice test display,undefined
+status,934,934,0,4,zero_brush,comando zero pulitore,undefined
+status,935,935,0,4,cod_clear_board,codice sbaincamento,undefined
+status,936,936,0,4,cod_reset_conf,codice reset configurazione,undefined
+status,937,937,0,4,cod_spg_imp,codice spurgo impianto,undefined
+status,938,938,0,4,cod_no_reset_pan,codice no reset pannello,undefined
+status,939,939,0,4,battery_installation_reset_code,codice reset installazione batterie,undefined
+status,940,940,0,4,act_buz_rad,attivazione buzzer radiocomando,undefined
+status,941,941,0,4,act_cond,Attivazione condizionatore,condizionatore
+status,942,999,0,16,_free_,Free,Free
+status_exchange,900,900,0,2,mese,Mese,orodatario
+status_exchange,900,900,1,2,giorno,Giorno,orodatario
+status_exchange,901,901,0,4,anno,Anno,orodatario
+status_exchange,902,902,0,2,minuti,Minuti,orodatario
+status_exchange,902,902,1,2,ore,Ore,orodatario
+status_exchange,903,903,0,2,giorno_sett,Giorno della settimana,orodatario
+status_exchange,903,903,1,2,secondi,Secondi,orodatario
+status_exchange,904,904,0,11,set_orodatario,Set orodatario,orodatario
+status_exchange,904,904,1,11,am_pm,AM/PM,orodatario
+status_exchange,905,905,0,4,tempo_sleep,Tempo sleep,timer
+status_exchange,906,906,0,13,com_on_off,On-Off stufa,comandi
+status_exchange,907,907,0,13,com_reset_allarm,Reset allarme,comandi
+status_exchange,908,908,0,4,com_reset_manut_CAT,Reset manutenzione CAT,comandi
+status_exchange,909,909,0,4,com_forza_spegn,Forza spegnimento,comandi
+status_exchange,910,910,0,13,com_es_car_coclea,Esegui carico coclea,comandi
+status_exchange,911,911,0,4,com_canc_cont_par,Cancella contatori parziali,comandi
+status_exchange,912,912,0,4,com_test_freddo,Avvia test a freddo,comandi
+status_exchange,913,913,0,4,com_skip_fase_op,Skip fase operativa,comandi
+status_exchange,914,914,0,4,com_test_wifi,Attiva test Wi-Fi,comandi
+status_exchange,915,915,0,13,com_inv_pos_bruciatore,Inverti posizione bruciatore,comandi
+status_exchange,916,916,0,4,reset_def_params,Ripristino default parametri,ripristino
+status_exchange,917,917,0,4,reset_storico_allarmi,Reset storico allarmi,ripristino
+status_exchange,918,918,0,4,reset_boot_pc,Reset per boot da PC,ripristino
+status_exchange,919,919,0,4,cod_fil_test_rap,Codice filtri test rapido,undefined
+status_exchange,920,920,0,4,cod_salta_acc,Codice salta accensione,undefined
+status_exchange,921,921,0,4,cod_zero_sens_press,Codice Zero sensore pressione,undefined
+status_exchange,922,922,0,4,cod_for_spe_mqtt,Codice forza spedizione MQTT,undefined
+status_exchange,923,923,0,4,ind_sel_nome_banca_dati,Indice selezione nome banca dati,undefined
+status_exchange,924,931,0,0,nome_banca_dati_sel,nome banca dati selezionata,undefined
+status_exchange,932,932,0,4,down_firm,Esegui il downlaod del firmware,undefined
+status_exchange,933,933,0,4,cod_test_disp,Codice test display,undefined
+status_exchange,934,934,0,4,zero_brush,comando zero pulitore,undefined
+status_exchange,935,935,0,4,cod_clear_board,codice sbaincamento,undefined
+status_exchange,936,936,0,4,cod_reset_conf,codice reset configurazione,undefined
+status_exchange,937,937,0,4,cod_spg_imp,codice spurgo impianto,undefined
+status_exchange,938,938,0,4,cod_no_reset_pan,codice no reset pannello,undefined
+status_exchange,939,939,0,4,battery_installation_reset_code,codice reset installazione batterie,undefined
+status_exchange,940,940,0,4,act_buz_rad,attivazione buzzer radiocomando,undefined
+status_exchange,941,941,0,4,act_cond,Attivazione condizionatore,condizionatore
+status_exchange,942,999,0,16,_free_,Free,Free
+parameter,1000,1000,0,4,lingua,Lingue,cambio lingua
+parameter,1001,1001,0,4,mod_funz,Modalità di funzionamento,modalita
+parameter,1002,1002,0,4,c_or_f,degCdegF,unita misura temperatura
+parameter,1003,1003,0,4,set_pot_man,Set Potenza Manuale,set potenza
+parameter,1004,1004,0,13,silent,Attivazione silent,silent
+parameter,1005,1005,0,4,att_ora_leg,Attivazione passaggio ora legale,orodatario
+parameter,1006,1006,0,4,coclea_mod_continuo,Coclea in continuo,coclea
+parameter,1007,1007,0,4,am_pm_param,AM/PM,orodatario
+parameter,1008,1008,0,4,lum_disp,Luminosità display,display pannello comandi
+parameter,1009,1009,0,4,t_standby_disp,Tempo standby display,display pannello comandi
+parameter,1010,1010,0,4,toni_buzz,Toni buzzer,display pannello comandi
+parameter,1011,1011,0,3,ist_neg_amb,Isteresi negativa ambiente,set ambiente
+parameter,1012,1012,0,3,ist_pos_amb,Isteresi positiva ambiente,set ambiente
+parameter,1013,1013,0,3,ist_eco_neg_amb,Isteresi negativa ambiente,ecostop
+parameter,1014,1014,0,3,ist_eco_pos_amb,Isteresi positiva ambiente,ecostop
+parameter,1015,1015,0,3,set_amb1,Set Ambiente1,set ambiente
+parameter,1016,1016,0,3,set_amb2,Set Ambiente2,set ambiente
+parameter,1017,1017,0,3,set_amb3,Set Ambiente3,set ambiente
+parameter,1018,1018,0,4,set_vent_v1,Set Ventilazione ventola 1,ventilazione
+parameter,1019,1019,0,4,set_vent_v2,Set Ventilazione ventola 2,ventilazione
+parameter,1020,1020,0,4,set_vent_v3,Set Ventilazione ventola 3,ventilazione
+parameter,1021,1021,0,4,set_vent_v4,Set Ventilazione ventola 4,ventilazione
+parameter,1022,1022,0,13,att_eco,Attivazione Ecostop,ecostop
+parameter,1023,1023,0,4,sens_liv_pellet,Sensore livello pellet,sensore livello pellet
+parameter,1024,1024,0,13,pul_brac,Pulizia braciere,pulizia braciere
+parameter,1025,1025,0,4,ingr_amb,Ingresso ambiente,impostazioni
+parameter,1026,1026,0,4,paral_disp,Parallasse display,display pannello comandi
+parameter,1027,1027,0,3,temp_min_circ_on,Temperatura min circolatore on,pompa
+parameter,1028,1028,0,3,ist_neg_cald,Isteresi negativa caldaia,regolazione potenza
+parameter,1029,1029,0,3,ist_pos_cald,Isteresi positiva caldaia,regolazione potenza
+parameter,1030,1030,0,3,set_cald,set caldaia,regolazione potenza
+parameter,1031,1031,0,3,set_boiler,set boiler,boiler
+parameter,1032,1032,0,3,ist_neg_boiler,isteresi negativa boiler,boiler
+parameter,1033,1033,0,3,ist_pos_boiler,isteresi positiva boiler,boiler
+parameter,1034,1034,0,3,set_san,set sanitario,regolazione potenza
+parameter,1035,1035,0,4,ingr_ntc2,ingresso NTC2,configurazione
+parameter,1036,1036,0,4,ingr_ntc3,ingresso NTC3,configurazione
+parameter,1037,1037,0,4,ingr_fluss,ingresso flussostato,configurazione
+parameter,1038,1038,0,4,est_inv,estate/inverno,configurazione
+parameter,1039,1039,0,4,max_pot_idro,massima potenza idro,regolazione potenza
+parameter,1040,1040,0,3,ist_neg_puffer,Isteresi negativa puffer,puffer
+parameter,1041,1041,0,3,ist_pos_puffer,Isteresi positiva puffer,puffer
+parameter,1042,1042,0,3,set_puffer,set puffer,puffer
+parameter,1043,1043,0,4,conf_imp,configurazione impianto,undefined
+parameter,1044,1044,0,3,delta_cald_boiler,delta caldaia per richiesta boiler,boiler
+parameter,1045,1045,0,3,delta_cald_puffer,delta caldaia per richiesta puffer,boiler
+parameter,1046,1046,0,4,conf_rele_aux,configurazione relè aux,undefined
+parameter,1047,1047,0,3,soglia_temp_cons_cald,soglia temperatura consenso caldaia,undefined
+parameter,1048,1048,0,2,lum_radioc_att,luminosità radiocomando attivo,radiocomando
+parameter,1048,1048,1,10,abil_preall_A21,abilitazione preallarme A21,undefined
+parameter,1049,1049,0,2,t_radioc_att,tempo radiocomando attivo,radiocomando
+parameter,1049,1049,1,2,lum_radioc_standby,luminosità radiocomando standby,radiocomando
+parameter,1050,1050,0,10,suono_buz_manc_rete,suono buzzer mancanza rete,Batterie Tampone
+parameter,1050,1050,1,2,t_radioc_standby,tempo radiocomando standby,radiocomando
+parameter,1051,1051,0,2,mod_clima,Modalità Clima,condizionatore
+parameter,1051,1051,1,10,sav_m,Opzione saving mode attiva,saving mode
+parameter,1052,1052,0,10,acc_swing_clima,Accendi Swing Clima,condizionatore
+parameter,1052,1052,1,2,vel_vent_clima,Velocità ventola Clima,condizionatore
+parameter,1053,1053,0,2,temp_clima_auto,Temperatura set Clima Auto,condizionatore
+parameter,1053,1053,1,10,n_buzz_clima,Abilita buzzer Clima,condizionatore
+parameter,1054,1054,0,17,_free8_,Free,Free
+parameter,1054,1054,1,2,temp_clima_man,Temperatura set Clima Man,condizionatore
+parameter,1055,1198,0,16,_free_,Free,Free
+parameter,1199,1199,0,4,cod_comp_1,Codice compatibilità,compatibilita
+parameter,1200,1398,0,16,_free_,Free,Free
+parameter,1399,1399,0,4,cod_comp_2,Codice compatibilità,compatibilita
+parameter,1400,1400,0,4,pos_ric_asp,Posizione ricetta aspirazione,ricette
+parameter,1401,1401,0,4,pos_ric_pel,Posizione ricetta pellet,ricette
+parameter,1402,1402,0,4,pos_ric_flu,Posizione ricetta flusso,ricette
+parameter,1403,1403,0,1,ric_asp_pos2,Ricetta aspirazione pos 2,ricette
+parameter,1403,1403,1,1,ric_asp_pos1,Ricetta aspirazione pos 1,ricette
+parameter,1404,1404,0,1,ric_asp_pos4,Ricetta aspirazione pos 4,ricette
+parameter,1404,1404,1,1,ric_asp_pos3,Ricetta aspirazione pos 3,ricette
+parameter,1405,1405,0,1,ric_asp_pos6,Ricetta aspirazione pos 6,ricette
+parameter,1405,1405,1,1,ric_asp_pos5,Ricetta aspirazione pos 5,ricette
+parameter,1406,1406,0,1,ric_pel_pos1,Ricetta pellet pos 1,ricette
+parameter,1406,1406,1,1,ric_asp_pos7,Ricetta aspirazione pos 7,ricette
+parameter,1407,1407,0,1,ric_pel_pos3,Ricetta pellet pos 3,ricette
+parameter,1407,1407,1,1,ric_pel_pos2,Ricetta pellet pos 2,ricette
+parameter,1408,1408,0,1,ric_pel_pos5,Ricetta pellet pos 5,ricette
+parameter,1408,1408,1,1,ric_pel_pos4,Ricetta pellet pos 4,ricette
+parameter,1409,1409,0,1,ric_pel_pos7,Ricetta pellet pos 7,ricette
+parameter,1409,1409,1,1,ric_pel_pos6,Ricetta pellet pos 6,ricette
+parameter,1410,1410,0,1,ric_flu_pos2,Ricetta flusso pos 2,ricette
+parameter,1410,1410,1,1,ric_flu_pos1,Ricetta flusso pos 1,ricette
+parameter,1411,1411,0,1,ric_flu_pos4,Ricetta flusso pos 4,ricette
+parameter,1411,1411,1,1,ric_flu_pos3,Ricetta flusso pos 3,ricette
+parameter,1412,1412,0,1,ric_flu_pos6,Ricetta flusso pos 6,ricette
+parameter,1412,1412,1,1,ric_flu_pos5,Ricetta flusso pos 5,ricette
+parameter,1413,1413,0,17,_free8_,Free,free8
+parameter,1413,1413,1,1,ric_flu_pos7,Ricetta flusso pos 7,ricette
+parameter,1414,1414,0,4,t_fase_clean_fr,Tempo fase clean a freddo,pulizia iniziale
+parameter,1415,1415,0,4,t_fase_clean_ca,Tempo fase clean a caldo,pulizia iniziale
+parameter,1416,1416,0,4,v_vent_fumi_clean_fr,Velocità ventilatore fumi fase clean a freddo,pulizia iniziale
+parameter,1417,1417,0,4,v_vent_fumi_clean_ca,Velocità ventilatore fumi fase clean a caldo,pulizia iniziale
+parameter,1418,1418,0,4,t_fase_load_fr,Tempo fase Load a freddo,carico pellet
+parameter,1419,1419,0,4,t_fase_load_ca,Tempo fase Load a caldo,carico pellet
+parameter,1420,1420,0,4,t_car_pel_man,Tempo carico pellet Man,carico pellet
+parameter,1421,1421,0,4,v_vent_fumi_load_fr,Velocità ventilatore fumi Load a freddo,carico pellet
+parameter,1422,1422,0,4,v_vent_fumi_load_ca,Velocità ventilatore fumi Load a caldo,carico pellet
+parameter,1423,1423,0,4,car_pel_load_fr,Carico pellet fase Load a freddo,carico pellet
+parameter,1424,1424,0,4,car_pel_load_ca,Carico pellet fase Load a caldo,carico pellet
+parameter,1425,1425,0,4,val_flu_load_fr,Valore flusso fase Load a freddo,carico pellet
+parameter,1426,1426,0,4,val_flu_load_ca,Valore flusso fase Load a caldo,carico pellet
+parameter,1427,1427,0,3,delta_t_st2_fr,Delta T per Start 2 a freddo,avvio
+parameter,1428,1428,0,3,delta_t_st2_ca,Delta T per Start 2 a caldo,avvio
+parameter,1429,1429,0,3,temp_fumi_acc,Temperatura fumi per stufa accesa,avvio
+parameter,1430,1430,0,4,t_max_st1_fr,Tempo max fase Start 1 a freddo,avvio
+parameter,1431,1431,0,4,t_max_st1_ca,Tempo max fase Start 1 a caldo,avvio
+parameter,1432,1432,0,4,t_max_st2_fr,Tempo max fase Start 2 a freddo,avvio
+parameter,1433,1433,0,4,t_max_st2_ca,Tempo max fase Start 2 a caldo,avvio
+parameter,1434,1434,0,4,v_vent_fumi_st1_fr,Velocità ventilatore fumi fase Start 1 a freddo,avvio
+parameter,1435,1435,0,4,v_vent_fumi_st1_ca,Velocità ventilatore fumi fase Start 1 a caldo,avvio
+parameter,1436,1436,0,4,v_vent_fumi_st2_fr,Velocità ventilatore fumi fase Start 2 a freddo,avvio
+parameter,1437,1437,0,4,v_vent_fumi_st2_ca,Velocità ventilatore fumi fase Start 2 a caldo,avvio
+parameter,1438,1438,0,4,car_pel_st1_fr,Carico pellet fase Start 1 a freddo,avvio
+parameter,1439,1439,0,4,car_pel_st1_ca,Carico pellet fase Start 1 a caldo,avvio
+parameter,1440,1440,0,4,car_pel_st2_fr,Carico pellet fase Start 2 a freddo,avvio
+parameter,1441,1441,0,4,car_pel_st2_ca,Carico pellet fase Start 2 a caldo,avvio
+parameter,1442,1442,0,4,val_flu_st1_fr,Valore flusso fase Start 1 a freddo,avvio
+parameter,1443,1443,0,4,val_flu_st1_ca,Valore flusso fase Start 1 a caldo,avvio
+parameter,1444,1444,0,4,val_flu_st2_fr,Valore flusso fase Start 2 a freddo,avvio
+parameter,1445,1445,0,4,val_flu_st2_ca,Valore flusso fase Start 2 a caldo,avvio
+parameter,1446,1446,0,4,t_stab,Tempo fase stabilizzazione,stabilizzatore
+parameter,1447,1447,0,4,v_ven_fumi_stab,Velocità ventilatore fumi fase stabilizzazione,stabilizzatore
+parameter,1448,1448,0,4,car_pel_stab,Carico pellet fase stabilizzazione,stabilizzatore
+parameter,1449,1449,0,4,val_flu_stab,Valore flusso fase stabilizzazione,stabilizzatore
+parameter,1450,1450,0,4,dur_pul_h,Durata fase pulizia high,pulizia
+parameter,1451,1451,0,4,dur_pul_l,Durata fase pulizia low,pulizia
+parameter,1452,1452,0,4,dur_pul_l_ada,Durata fase pulizia low adaptive,pulizia
+parameter,1453,1453,0,4,dur_pul_h_ada,Durata fase pulizia high adaptive,pulizia
+parameter,1454,1454,0,4,v_ven_fumi_pul_h,Velocità ventilatore fumi fase pulizia high,pulizia
+parameter,1455,1455,0,4,v_ven_fumi_pul_l,Velocità ventilatore fumi fase pulizia low,pulizia
+parameter,1456,1456,0,4,v_ven_fumi_pul_h_ada,Velocità ventilatore fumi fase pulizia high adaptive,pulizia
+parameter,1457,1457,0,4,v_ven_fumi_pul_l_ada,Velocità ventilatore fumi fase pulizia low adaptive,pulizia
+parameter,1458,1458,0,4,car_pel_pul_h,Carico pellet fase pulizia high,pulizia
+parameter,1459,1459,0,4,car_pel_pul_l,Carico pellet fase pulizia low,pulizia
+parameter,1460,1460,0,4,car_pel_pul_h_ada,Carico pellet fase pulizia high adaptive,pulizia
+parameter,1461,1461,0,4,car_pel_pul_l_ada,Carico pellet fase pulizia low adaptive,pulizia
+parameter,1462,1462,0,4,va_flu_pul_h,Valore flusso fase pulizia high,pulizia
+parameter,1463,1463,0,4,va_flu_pul_l,Valore flusso fase pulizia low,pulizia
+parameter,1464,1464,0,4,va_flu_pul_h_ada,Valore flusso fase pulizia high adaptive,pulizia
+parameter,1465,1465,0,4,va_flu_pul_l_ada,Valore flusso fase pulizia low adaptive,pulizia
+parameter,1466,1466,0,4,t_spegn,Tempo fase spegnimento,spegnimento
+parameter,1467,1467,0,4,v_ven_fumi_spegn,Velocità ventilatore fumi fase spegnimento,spegnimento
+parameter,1468,1468,0,4,car_pel_spegn,Carico pellet fase spegnimento,spegnimento
+parameter,1469,1469,0,4,val_flu_spegn,Valore flusso fase spegnimento,spegnimento
+parameter,1470,1470,0,3,temp_fumi_st_spenta,Temperatura fumi per stufa spenta,raffreddamento
+parameter,1471,1471,0,4,v_ven_fumi_raff,Velocità ventilatore fumi fase raffreddamento,raffreddamento
+parameter,1472,1472,0,4,car_pel_raff,Carico pellet fase raffreddamento,raffreddamento
+parameter,1473,1473,0,4,val_flu_raff,Valore flusso fase raffreddamento,raffreddamento
+parameter,1474,1474,0,3,temp_fumi_pot1,Temperatura fumi fase potenza 1,potenze
+parameter,1475,1475,0,3,temp_fumi_pot2,Temperatura fumi fase potenza 2,potenze
+parameter,1476,1476,0,3,temp_fumi_pot3,Temperatura fumi fase potenza 3,potenze
+parameter,1477,1477,0,3,temp_fumi_pot4,Temperatura fumi fase potenza 4,potenze
+parameter,1478,1478,0,3,temp_fumi_pot5,Temperatura fumi fase potenza 5,potenze
+parameter,1479,1479,0,3,temp_fumi_pot1_ada,Temperatura fumi fase potenza 1 adaptive,potenze
+parameter,1480,1480,0,3,temp_fumi_pot2_ada,Temperatura fumi fase potenza 2 adaptive,potenze
+parameter,1481,1481,0,3,temp_fumi_pot3_ada,Temperatura fumi fase potenza 3 adaptive,potenze
+parameter,1482,1482,0,3,temp_fumi_pot4_ada,Temperatura fumi fase potenza 4 adaptive,potenze
+parameter,1483,1483,0,3,temp_fumi_pot5_ada,Temperatura fumi fase potenza 5 adaptive,potenze
+parameter,1484,1484,0,4,int_pul_pot1,Intervallo tra pulizia in potenza 1,potenze
+parameter,1485,1485,0,4,int_pul_pot2,Intervallo tra pulizia in potenza 2,potenze
+parameter,1486,1486,0,4,int_pul_pot3,Intervallo tra pulizia in potenza 3,potenze
+parameter,1487,1487,0,4,int_pul_pot4,Intervallo tra pulizia in potenza 4,potenze
+parameter,1488,1488,0,4,int_pul_pot5,Intervallo tra pulizia in potenza 5,potenze
+parameter,1489,1489,0,4,int_pul_pot1_ada,Intervallo tra pulizia in potenza 1 adaptive,potenze
+parameter,1490,1490,0,4,int_pul_pot2_ada,Intervallo tra pulizia in potenza 2 adaptive,potenze
+parameter,1491,1491,0,4,int_pul_pot3_ada,Intervallo tra pulizia in potenza 3 adaptive,potenze
+parameter,1492,1492,0,4,int_pul_pot4_ada,Intervallo tra pulizia in potenza 4 adaptive,potenze
+parameter,1493,1493,0,4,int_pul_pot5_ada,Intervallo tra pulizia in potenza 5 adaptive,potenze
+parameter,1494,1494,0,4,int_t_cam_pot,Intervallo tempo cambio potenza,potenze
+parameter,1495,1495,0,4,v_ven_fumi_pot1,Velocità ventilatore fumi fase potenza 1,potenze
+parameter,1496,1496,0,4,v_ven_fumi_pot2,Velocità ventilatore fumi fase potenza 2,potenze
+parameter,1497,1497,0,4,v_ven_fumi_pot3,Velocità ventilatore fumi fase potenza 3,potenze
+parameter,1498,1498,0,4,v_ven_fumi_pot4,Velocità ventilatore fumi fase potenza 4,potenze
+parameter,1499,1499,0,4,v_ven_fumi_pot5,Velocità ventilatore fumi fase potenza 5,potenze
+parameter,1500,1500,0,4,v_ven_fumi_pot1_ada,Velocità ventilatore fumi fase potenza 1 adaptive,potenze
+parameter,1501,1501,0,4,v_ven_fumi_pot2_ada,Velocità ventilatore fumi fase potenza 2 adaptive,potenze
+parameter,1502,1502,0,4,v_ven_fumi_pot3_ada,Velocità ventilatore fumi fase potenza 3 adaptive,potenze
+parameter,1503,1503,0,4,v_ven_fumi_pot4_ada,Velocità ventilatore fumi fase potenza 4 adaptive,potenze
+parameter,1504,1504,0,4,v_ven_fumi_pot5_ada,Velocità ventilatore fumi fase potenza 5 adaptive,potenze
+parameter,1505,1505,0,4,car_pel_pot1,Carico pellet fase potenza 1,potenze
+parameter,1506,1506,0,4,car_pel_pot2,Carico pellet fase potenza 2,potenze
+parameter,1507,1507,0,4,car_pel_pot3,Carico pellet fase potenza 3,potenze
+parameter,1508,1508,0,4,car_pel_pot4,Carico pellet fase potenza 4,potenze
+parameter,1509,1509,0,4,car_pel_pot5,Carico pellet fase potenza 5,potenze
+parameter,1510,1510,0,4,car_pel_pot1_ada,Carico pellet fase potenza 1 adaptive,potenze
+parameter,1511,1511,0,4,car_pel_pot2_ada,Carico pellet fase potenza 2 adaptive,potenze
+parameter,1512,1512,0,4,car_pel_pot3_ada,Carico pellet fase potenza 3 adaptive,potenze
+parameter,1513,1513,0,4,car_pel_pot4_ada,Carico pellet fase potenza 4 adaptive,potenze
+parameter,1514,1514,0,4,car_pel_pot5_ada,Carico pellet fase potenza 5 adaptive,potenze
+parameter,1515,1515,0,4,val_flu_pot1,Valore flusso fase potenza 1,potenze
+parameter,1516,1516,0,4,val_flu_pot2,Valore flusso fase potenza 2,potenze
+parameter,1517,1517,0,4,val_flu_pot3,Valore flusso fase potenza 3,potenze
+parameter,1518,1518,0,4,val_flu_pot4,Valore flusso fase potenza 4,potenze
+parameter,1519,1519,0,4,val_flu_pot5,Valore flusso fase potenza 5,potenze
+parameter,1520,1520,0,4,val_flu_pot1_ada,Valore flusso fase potenza 1 adaptive,potenze
+parameter,1521,1521,0,4,val_flu_pot2_ada,Valore flusso fase potenza 2 adaptive,potenze
+parameter,1522,1522,0,4,val_flu_pot3_ada,Valore flusso fase potenza 3 adaptive,potenze
+parameter,1523,1523,0,4,val_flu_pot4_ada,Valore flusso fase potenza 4 adaptive,potenze
+parameter,1524,1524,0,4,val_flu_pot5_ada,Valore flusso fase potenza 5 adaptive,potenze
+parameter,1525,1525,0,2,tipo_pul_pot2,Tipo pulizia potenza 2,potenze
+parameter,1525,1525,1,2,tipo_pul_pot1,Tipo pulizia potenza 1,potenze
+parameter,1526,1526,0,2,tipo_pul_pot4,Tipo pulizia potenza 4,potenze
+parameter,1526,1526,1,2,tipo_pul_pot3,Tipo pulizia potenza 3,potenze
+parameter,1527,1527,0,11,mod_ada_on,Modalità adaptive on,potenze
+parameter,1527,1527,1,2,tipo_pul_pot5,Tipo pulizia potenza 5,potenze
+parameter,1528,1528,0,3,sogl_az_ven1,Soglia azionamento ventola 1,ventilazioni
+parameter,1529,1529,0,3,sogl_az_ven2,Soglia azionamento ventola 2,ventilazioni
+parameter,1530,1530,0,3,sogl_az_ven3,Soglia azionamento ventola 3,ventilazioni
+parameter,1531,1531,0,3,sogl_az_ven4,Soglia azionamento ventola 4,ventilazioni
+parameter,1532,1532,0,4,val_k_calc_pot_max,Valore K per calcolo potenza max,ventilazioni
+parameter,1533,1533,0,2,v_ven1_v1,Velocità ventilatore 1 V1,ventilazioni
+parameter,1533,1533,1,2,v_ven1_v0,Velocità ventilatore 1 V0,ventilazioni
+parameter,1534,1534,0,2,v_ven1_v3,Velocità ventilatore 1 V3,ventilazioni
+parameter,1534,1534,1,2,v_ven1_v2,Velocità ventilatore 1 V2,ventilazioni
+parameter,1535,1535,0,2,v_ven1_v5,Velocità ventilatore 1 V5,ventilazioni
+parameter,1535,1535,1,2,v_ven1_v4,Velocità ventilatore 1 V4,ventilazioni
+parameter,1536,1536,0,2,v_ven2_v1,Velocità ventilatore 2 V1,ventilazioni
+parameter,1536,1536,1,2,v_ven2_v0,Velocità ventilatore 2 V0,ventilazioni
+parameter,1537,1537,0,2,v_ven2_v3,Velocità ventilatore 2 V3,ventilazioni
+parameter,1537,1537,1,2,v_ven2_v2,Velocità ventilatore 2 V2,ventilazioni
+parameter,1538,1538,0,2,v_ven2_v5,Velocità ventilatore 2 V5,ventilazioni
+parameter,1538,1538,1,2,v_ven2_v4,Velocità ventilatore 2 V4,ventilazioni
+parameter,1539,1539,0,2,v_ven3_v1,Velocità ventilatore 3 V1,ventilazioni
+parameter,1539,1539,1,2,v_ven3_v0,Velocità ventilatore 3 V0,ventilazioni
+parameter,1540,1540,0,2,v_ven3_v3,Velocità ventilatore 3 V3,ventilazioni
+parameter,1540,1540,1,2,v_ven3_v2,Velocità ventilatore 3 V2,ventilazioni
+parameter,1541,1541,0,2,v_ven3_v5,Velocità ventilatore 3 V5,ventilazioni
+parameter,1541,1541,1,2,v_ven3_v4,Velocità ventilatore 3 V4,ventilazioni
+parameter,1542,1542,0,2,v_ven4_v1,Velocità ventilatore 4 V1,ventilazioni
+parameter,1542,1542,1,2,v_ven4_v0,Velocità ventilatore 4 V0,ventilazioni
+parameter,1543,1543,0,2,v_ven4_v3,Velocità ventilatore 4 V3,ventilazioni
+parameter,1543,1543,1,2,v_ven4_v2,Velocità ventilatore 4 V2,ventilazioni
+parameter,1544,1544,0,2,v_ven4_v5,Velocità ventilatore 4 V5,ventilazioni
+parameter,1544,1544,1,2,v_ven4_v4,Velocità ventilatore 4 V4,ventilazioni
+parameter,1545,1545,0,2,v_ven1_v1_ada,Velocità ventilatore 1 V1 adaptive,ventilazioni
+parameter,1545,1545,1,2,v_ven1_v0_ada,Velocità ventilatore 1 V0 adaptive,ventilazioni
+parameter,1546,1546,0,2,v_ven1_v3_ada,Velocità ventilatore 1 V3 adaptive,ventilazioni
+parameter,1546,1546,1,2,v_ven1_v2_ada,Velocità ventilatore 1 V2 adaptive,ventilazioni
+parameter,1547,1547,0,2,v_ven1_v5_ada,Velocità ventilatore 1 V5 adaptive,ventilazioni
+parameter,1547,1547,1,2,v_ven1_v4_ada,Velocità ventilatore 1 V4 adaptive,ventilazioni
+parameter,1548,1548,0,2,v_ven2_v1_ada,Velocità ventilatore 2 V1 adaptive,ventilazioni
+parameter,1548,1548,1,2,v_ven2_v0_ada,Velocità ventilatore 2 V0 adaptive,ventilazioni
+parameter,1549,1549,0,2,v_ven2_v3_ada,Velocità ventilatore 2 V3 adaptive,ventilazioni
+parameter,1549,1549,1,2,v_ven2_v2_ada,Velocità ventilatore 2 V2 adaptive,ventilazioni
+parameter,1550,1550,0,2,v_ven2_v5_ada,Velocità ventilatore 2 V5 adaptive,ventilazioni
+parameter,1550,1550,1,2,v_ven2_v4_ada,Velocità ventilatore 2 V4 adaptive,ventilazioni
+parameter,1551,1551,0,2,v_ven3_v1_ada,Velocità ventilatore 3 V1 adaptive,ventilazioni
+parameter,1551,1551,1,2,v_ven3_v0_ada,Velocità ventilatore 3 V0 adaptive,ventilazioni
+parameter,1552,1552,0,2,v_ven3_v3_ada,Velocità ventilatore 3 V3 adaptive,ventilazioni
+parameter,1552,1552,1,2,v_ven3_v2_ada,Velocità ventilatore 3 V2 adaptive,ventilazioni
+parameter,1553,1553,0,2,v_ven3_v5_ada,Velocità ventilatore 3 V5 adaptive,ventilazioni
+parameter,1553,1553,1,2,v_ven3_v4_ada,Velocità ventilatore 3 V4 adaptive,ventilazioni
+parameter,1554,1554,0,2,v_ven4_v1_ada,Velocità ventilatore 4 V1 adaptive,ventilazioni
+parameter,1554,1554,1,2,v_ven4_v0_ada,Velocità ventilatore 4 V0 adaptive,ventilazioni
+parameter,1555,1555,0,2,v_ven4_v3_ada,Velocità ventilatore 4 V3 adaptive,ventilazioni
+parameter,1555,1555,1,2,v_ven4_v2_ada,Velocità ventilatore 4 V2 adaptive,ventilazioni
+parameter,1556,1556,0,2,v_ven4_v5_ada,Velocità ventilatore 4 V5 adaptive,ventilazioni
+parameter,1556,1556,1,2,v_ven4_v4_ada,Velocità ventilatore 4 V4 adaptive,ventilazioni
+parameter,1557,1557,0,2,ven_sta_ven2,Ventilazione standard ventilatore 2,ventilazioni
+parameter,1557,1557,1,2,ven_sta_ven1,Ventilazione standard ventilatore 1,ventilazioni
+parameter,1558,1558,0,2,ven_sta_ven4,Ventilazione standard ventilatore 4,ventilazioni
+parameter,1558,1558,1,2,ven_sta_ven3,Ventilazione standard ventilatore 3,ventilazioni
+parameter,1559,1559,0,2,ven_sta_allarmi_ven2,Ventilazione standard allarmi ventilatore 2,ventilazioni
+parameter,1559,1559,1,2,ven_sta_allarmi_ven1,Ventilazione standard allarmi ventilatore 1,ventilazioni
+parameter,1560,1560,0,2,ven_sta_allarmi_ven4,Ventilazione standard allarmi ventilatore 4,ventilazioni
+parameter,1560,1560,1,2,ven_sta_allarmi_ven3,Ventilazione standard allarmi ventilatore 3,ventilazioni
+parameter,1561,1561,0,17,_free8_,free8,ventilazioni
+parameter,1561,1561,1,2,ven_mod_pow,Ventilazione modalità Power,ventilazioni
+parameter,1562,1562,0,3,temp_fumi_pre_allarme_a04,Temperatura fumi pre allarme A04,allarmi
+parameter,1563,1563,0,3,temp_fumi_allarme_a04,Temperatura fumi allarme A04,allarmi
+parameter,1564,1564,0,3,ist_fumi_pre_allarme_a04,Isteresi temperatura fumi pre allarme A04,allarmi
+parameter,1565,1565,0,3,temp_fumi_allarme_a09,Temperatura fumi allarme A09,allarmi
+parameter,1566,1566,0,3,temp_sch_pre_allarme_a13,Temperatura scheda pre allarme A13,allarmi
+parameter,1567,1567,0,3,temp_sch_allarme_a13,Temperatura scheda allarme A13,allarmi
+parameter,1568,1568,0,3,s_min_temp_amb_allarme_a22,Soglia min temperatura sonda ambiente fase allarme A22,allarmi
+parameter,1569,1569,0,3,s_max_temp_amb_allarme_a22,Soglia max temperatura sonda ambiente fase allarme A22,allarmi
+parameter,1570,1570,0,4,v_ven_fumi_riarmo_allarme_a21,Velocità ventilatore fumi per riarmo fase allarme A21,allarmi
+parameter,1571,1571,0,4,car_pel_sbl_coc,Carico pellet fase sblocco coclea,allarmi
+parameter,1572,1572,0,4,car_pel_allarme_a05,Carico pellet fase allarme A05,allarmi
+parameter,1573,1573,0,4,val_flu_allarme_a05,Valore flusso fase allarme A05,allarmi
+parameter,1574,1574,0,4,scot_coc_a12,Scostamento coclea per A12,allarmi
+parameter,1575,1575,0,11,act_acc,Active in accensione,active
+parameter,1575,1575,1,11,act,Active,active
+parameter,1576,1576,0,4,kp_act,Kp active,active
+parameter,1577,1577,0,4,ti_act,Ti active,active
+parameter,1578,1578,0,17,_free_,free,autoregolazione
+parameter,1578,1578,1,11,autoreg,Autoregolazione,autoregolazione
+parameter,1579,1579,0,4,t_max_lav_pul_mec,Tempo max lavoro pulizia meccanica,airmatic
+parameter,1580,1580,0,4,t_cor_pul,Tempo corsa pulitore,airmatic
+parameter,1581,1581,0,4,s_ven_fumi_pul_mec,Soglia ventilatore fumi pulizia meccanica,airmatic
+parameter,1582,1582,0,2,n_pul_brac,Numero pulizia braciere,airmatic
+parameter,1582,1582,1,2,err_act_pul_mecc,Errore active pulizia meccanica,airmatic
+parameter,1583,1583,0,17,_free_,free,airmatic
+parameter,1583,1583,1,2,pos_rip_brac,Posizione riposo braciere,airmatic
+parameter,1584,1584,0,4,v_ven_fumi_standby,Velocità ventilatore fumi fase standby,undefined
+parameter,1585,1585,0,3,adj_sonda_fumi,Adj sonda fumi,undefined
+parameter,1586,1586,0,4,t_anticon,Tempo fase anticondensa,anticondensa
+parameter,1587,1587,0,4,v_vent_fumi_anticon,Velocità ventilatore fumi fase anticondensa,anticondensa
+parameter,1588,1588,0,4,car_pel_anticon,Carico pellet fase anticondensa,anticondensa
+parameter,1589,1589,0,4,val_flu_anticon,Valore flusso fase anticondensa,anticondensa
+parameter,1590,1590,0,4,t_pre_sp,Tempo fase pre-spegnimento,pre-spegnimento
+parameter,1591,1591,0,4,v_vent_fumi_pre_sp,Velocità ventilatore fumi fase pre-spegnimento,pre-spegnimento
+parameter,1592,1592,0,4,car_pel_pre_sp,Carico pellet fase pre-spegnimento,pre-spegnimento
+parameter,1593,1593,0,4,val_flu_pre_sp,Valore flusso fase pre-spegnimento,pre-spegnimento
+parameter,1594,1594,0,17,_free_,free,pulitore brushless
+parameter,1594,1594,1,1,offset_pos_zero_pul,Offset posizione zero pulitore,pulitore brushless
+parameter,1595,1595,0,1,lim_max_offset_fl,limite max offset flusso,core
+parameter,1595,1595,1,1,lim_min_offset_fl,limite min offset flusso,core
+parameter,1596,1596,0,3,ist_neg_pompa,isteresi negativa pompa,pompa
+parameter,1597,1597,0,3,ist_pos_pompa,isteresi positiva pompa,pompa
+parameter,1598,1598,0,2,max_pompa,max pompa,pompa
+parameter,1598,1598,1,2,min_pompa,min pompa,pompa
+parameter,1599,1599,0,3,lim_temp_acqua,limite temperatura acqua,undefined
+parameter,1600,1600,0,3,ist_lim_temp_acqua,isteresi limite temperatura acqua,undefined
+parameter,1601,1601,0,3,temp_antigelo,temperatura antigelo,antigelo
+parameter,1602,1602,0,3,delta_t_boiler_acc_pompa,delta T boiler accensione pompa,undefined
+parameter,1603,1603,0,3,delta_t_boiler_spe_pompa,delta T boiler spegnimento pompa,undefined
+parameter,1604,1604,0,2,tempo_post_circ,tempo post circolazione,undefined
+parameter,1604,1604,1,2,att_antigelo,attiva antigelo,antigelo
+parameter,1605,1605,0,17,_free_,libero per espansioni,undefined
+parameter,1605,1605,1,2,tempo_post_circ_alarm,tempo post circolazione allarme,undefined
+parameter,1606,1606,0,3,ist_a02_acc,isteresi allarme A02 accensione,allarme a02
+parameter,1607,1607,0,3,temp_a02_lav,temperatura allarme A02 lavoro,allarme a02
+parameter,1608,1608,0,4,val_flux_sogl_A05,Valore flusso soglia A05,undefined
+parameter,1609,1609,0,4,ore_lav_inter_ipercomb,Ore lavoro intervento ipercombustione,ipercombustione
+parameter,1610,1610,0,4,t_fase_ipercomb,Tempo fase ipercombustione,ipercombustione
+parameter,1611,1611,0,4,car_pel_fase_ipercomb,Carico pellet fase ipercombustione,ipercombustione
+parameter,1612,1612,0,4,val_flux_fase_ipercomb,Valore flusso fase ipercombustione,ipercombustione
+parameter,1613,1613,0,4,vel_vent_fumi_fase_ipercomb,Velocità ventilatore fumi fase ipercombustione,ipercombustione
+parameter,1614,1614,0,4,t_interv_act_ada,Tempo intervento active adattivo,active adattivo
+parameter,1615,1615,0,4,t_lim_vel_estr_act_ada,Tempo limite velocità estrattore active adattivo,active adattivo
+parameter,1616,1616,0,2,usa_act_ada,Usa active adattivo,active adattivo
+parameter,1616,1616,1,2,sogl_act_ada,Soglia active adattivo,active adattivo
+parameter,1617,1617,0,4,lim_vel_estr_act_ada,Limite velocità estrattore active adattivo,active adattivo
+parameter,1618,1618,0,3,adj_NTC1,Adj NTC1,adj
+parameter,1619,1619,0,3,adj_NTC5,Adj NTC5,adj
+parameter,1620,1620,0,3,adj_s_radioc,adj Sonda radiocomando,adj
+parameter,1621,1621,0,3,adj_s_rem,adj Sonda remota,adj
+parameter,1622,1622,0,2,tipo_vis_aut_batt_tamp,tipo visualizzazione autonomia batterie tampone,batterie tampone
+parameter,1622,1622,1,2,sogl_batt_tamp_spegn,soglia batterie tampone per spegnimento,batterie tampone
+parameter,1623,1623,0,4,t_max_lav_pul_mec_sp,Tempo max lavoro pulizia meccanica SP,saving mode
+parameter,1624,1624,0,4,t_fase_spegn_sp,Tempo fase spegnimento SP,saving mode
+parameter,1625,1625,0,4,t_fase_pre_spegn_sp,Tempo fase Pre-Spegnimento SP,saving mode
+parameter,1626,1626,0,3,ist_temp_pre_spegn_sp,Isteresi temperatura fumi riaccensione macchina SP,saving mode
+parameter,1627,1698,0,16,_free_,Free,Free
+parameter,1699,1699,0,4,cod_comp_3,Codice compatibilità,compatibilita
+parameter,1700,1700,0,4,tipo_app,Tipo apparecchio,undefined
+parameter,1701,1701,0,13,t_funz_sil,Tempo funzione silent,undefined
+parameter,1702,1702,0,4,ore_serv,Ore service,undefined
+parameter,1703,1703,0,4,t_ult_spegn,Tempo ultimo spegnimento,undefined
+parameter,1704,1704,0,4,s_temp_riavvio_fumi_allarme,Soglia temperatura riavvio fumi in allarme,undefined
+parameter,1705,1705,0,4,t_aut_pellet,Tempo autonomia pellet,undefined
+parameter,1706,1706,0,2,max_pot_mod_DYN,Massima potenza modalità DYNAMIC,undefined
+parameter,1706,1706,1,2,max_pot_mod_MAN,Massima potenza modalità MANUAL,undefined
+parameter,1707,1707,0,2,max_pot_mod_COM,Massima potenza modalità COMFORT,undefined
+parameter,1707,1707,1,2,max_pot_mod_OVE,Massima potenza modalità OVERNIGHT,undefined
+parameter,1708,1708,0,2,mod_ris_pel,Modalità riserva pellet,undefined
+parameter,1708,1708,1,2,pres_pul,Presenza pulitore,undefined
+parameter,1709,1709,0,4,min_v_est,Minima velocità estrattore,estrattore
+parameter,1710,1710,0,4,max_v_est,Massima velocità estrattore,estrattore
+parameter,1711,1711,0,4,est_kp,KP,estrattore
+parameter,1712,1712,0,4,est_ti,Ti,estrattore
+parameter,1713,1713,0,4,est_out_min,Out min,estrattore
+parameter,1714,1714,0,4,min_v_coc,Minima velocità coclea,motoriduttore
+parameter,1715,1715,0,4,max_v_coc,Massima velocità coclea,motoriduttore
+parameter,1716,1716,0,4,t_coc_tot,Tempo coclea totale,motoriduttore
+parameter,1717,1717,0,4,mr_kp,KP,motoriduttore
+parameter,1718,1718,0,4,mr_ti,Ti,motoriduttore
+parameter,1719,1719,0,4,mr_out_min,Out min,motoriduttore
+parameter,1720,1720,0,4,tipo_mr,Tipologia motoriduttore,motoriduttore
+parameter,1721,1721,0,4,t_rampa,Tempo rampa,motoriduttore
+parameter,1722,1722,0,2,autor_min,Autoregolazione min,autoregolazione
+parameter,1722,1722,1,2,autor_plus,Autoregolazione plus,autoregolazione
+parameter,1723,1723,0,17,_free_,free,autoregolazione
+parameter,1723,1723,1,2,t_autor,Tempo autoregolazione,autoregolazione
+parameter,1724,1724,0,2,t_riv_bloc_bru2,Tempo rilevamento blocco brushless 2,sblocco motoriduttore
+parameter,1724,1724,1,2,t_riv_bloc_bru1,Tempo rilevamento blocco brushless 1,sblocco motoriduttore
+parameter,1725,1725,0,2,delta_riv_bloc_bru_1,Delta rilevamento blocco brushless 1,sblocco motoriduttore
+parameter,1725,1725,1,2,t_riv_bloc_bru3,Tempo rilevamento blocco brushless 3,sblocco motoriduttore
+parameter,1726,1726,0,2,vel_bloc_bru2,Velocità soglia bloccco brushless fase sblocco coclea,sblocco motoriduttore
+parameter,1726,1726,1,2,vel_bloc_bru1,Velocità soglia blocco brushless fase test avanti,sblocco motoriduttore
+parameter,1727,1727,0,4,car_pel_test_sbloc_coc,Carico pellet fase test sblocco coclea,sblocco motoriduttore
+parameter,1728,1728,0,3,ist_att_dis_ven1,Isteresi attivazione disattivazione ventola 1,ventilazioni
+parameter,1729,1729,0,3,ist_att_dis_ven2,Isteresi attivazione disattivazione ventola 2,ventilazioni
+parameter,1730,1730,0,3,ist_att_dis_ven3,Isteresi attivazione disattivazione ventola 3,ventilazioni
+parameter,1731,1731,0,3,ist_att_dis_ven5,Isteresi attivazione disattivazione ventola 4,ventilazioni
+parameter,1732,1732,0,2,liv_ven_MAN_v1_p2,Livello ventilazione MANUAL V1 P2,ventilazioni
+parameter,1732,1732,1,2,liv_ven_MAN_v1_p1,Livello ventilazione MANUAL V1 P1,ventilazioni
+parameter,1733,1733,0,2,liv_ven_MAN_v1_p4,Livello ventilazione MANUAL V1 P4,ventilazioni
+parameter,1733,1733,1,2,liv_ven_MAN_v1_p3,Livello ventilazione MANUAL V1 P3,ventilazioni
+parameter,1734,1734,0,2,liv_ven_MAN_v2_p1,Livello ventilazione MANUAL V2 P1,ventilazioni
+parameter,1734,1734,1,2,liv_ven_MAN_v1_p5,Livello ventilazione MANUAL V1 P5,ventilazioni
+parameter,1735,1735,0,2,liv_ven_MAN_v2_p3,Livello ventilazione MANUAL V2 P3,ventilazioni
+parameter,1735,1735,1,2,liv_ven_MAN_v2_p2,Livello ventilazione MANUAL V2 P2,ventilazioni
+parameter,1736,1736,0,2,liv_ven_MAN_v2_p5,Livello ventilazione MANUAL V2 P5,ventilazioni
+parameter,1736,1736,1,2,liv_ven_MAN_v2_p4,Livello ventilazione MANUAL V2 P4,ventilazioni
+parameter,1737,1737,0,2,liv_ven_MAN_v3_p2,Livello ventilazione MANUAL V3 P2,ventilazioni
+parameter,1737,1737,1,2,liv_ven_MAN_v3_p1,Livello ventilazione MANUAL V3 P1,ventilazioni
+parameter,1738,1738,0,2,liv_ven_MAN_v3_p4,Livello ventilazione MANUAL V3 P4,ventilazioni
+parameter,1738,1738,1,2,liv_ven_MAN_v3_p3,Livello ventilazione MANUAL V3 P3,ventilazioni
+parameter,1739,1739,0,2,liv_ven_MAN_v4_p1,Livello ventilazione MANUAL V4 P1,ventilazioni
+parameter,1739,1739,1,2,liv_ven_MAN_v3_p5,Livello ventilazione MANUAL V3 P5,ventilazioni
+parameter,1740,1740,0,2,liv_ven_MAN_v4_p3,Livello ventilazione MANUAL V4 P3,ventilazioni
+parameter,1740,1740,1,2,liv_ven_MAN_v4_p2,Livello ventilazione MANUAL V4 P2,ventilazioni
+parameter,1741,1741,0,2,liv_ven_MAN_v4_p5,Livello ventilazione MANUAL V4 P5,ventilazioni
+parameter,1741,1741,1,2,liv_ven_MAN_v4_p4,Livello ventilazione MANUAL V4 P4,ventilazioni
+parameter,1742,1742,0,2,liv_ven_DYN_v1_p2,Livello ventilazione DYNAMIC V1 P2,ventilazioni
+parameter,1742,1742,1,2,liv_ven_DYN_v1_p1,Livello ventilazione DYNAMIC V1 P1,ventilazioni
+parameter,1743,1743,0,2,liv_ven_DYN_v1_p4,Livello ventilazione DYNAMIC V1 P4,ventilazioni
+parameter,1743,1743,1,2,liv_ven_DYN_v1_p3,Livello ventilazione DYNAMIC V1 P3,ventilazioni
+parameter,1744,1744,0,2,liv_ven_DYN_v2_p1,Livello ventilazione DYNAMIC V2 P1,ventilazioni
+parameter,1744,1744,1,2,liv_ven_DYN_v1_p5,Livello ventilazione DYNAMIC V1 P5,ventilazioni
+parameter,1745,1745,0,2,liv_ven_DYN_v2_p3,Livello ventilazione DYNAMIC V2 P3,ventilazioni
+parameter,1745,1745,1,2,liv_ven_DYN_v2_p2,Livello ventilazione DYNAMIC V2 P2,ventilazioni
+parameter,1746,1746,0,2,liv_ven_DYN_v2_p5,Livello ventilazione DYNAMIC V2 P5,ventilazioni
+parameter,1746,1746,1,2,liv_ven_DYN_v2_p4,Livello ventilazione DYNAMIC V2 P4,ventilazioni
+parameter,1747,1747,0,2,liv_ven_DYN_v3_p2,Livello ventilazione DYNAMIC V3 P2,ventilazioni
+parameter,1747,1747,1,2,liv_ven_DYN_v3_p1,Livello ventilazione DYNAMIC V3 P1,ventilazioni
+parameter,1748,1748,0,2,liv_ven_DYN_v3_p4,Livello ventilazione DYNAMIC V3 P4,ventilazioni
+parameter,1748,1748,1,2,liv_ven_DYN_v3_p3,Livello ventilazione DYNAMIC V3 P3,ventilazioni
+parameter,1749,1749,0,2,liv_ven_DYN_v4_p1,Livello ventilazione DYNAMIC V4 P1,ventilazioni
+parameter,1749,1749,1,2,liv_ven_DYN_v3_p5,Livello ventilazione DYNAMIC V3 P5,ventilazioni
+parameter,1750,1750,0,2,liv_ven_DYN_v4_p3,Livello ventilazione DYNAMIC V4 P3,ventilazioni
+parameter,1750,1750,1,2,liv_ven_DYN_v4_p2,Livello ventilazione DYNAMIC V4 P2,ventilazioni
+parameter,1751,1751,0,2,liv_ven_DYN_v4_p5,Livello ventilazione DYNAMIC V4 P5,ventilazioni
+parameter,1751,1751,1,2,liv_ven_DYN_v4_p4,Livello ventilazione DYNAMIC V4 P4,ventilazioni
+parameter,1752,1752,0,2,liv_ven_OVE_v1_p2,Livello ventilazione OVERNIGHT V1 P2,ventilazioni
+parameter,1752,1752,1,2,liv_ven_OVE_v1_p1,Livello ventilazione OVERNIGHT V1 P1,ventilazioni
+parameter,1753,1753,0,2,liv_ven_OVE_v1_p4,Livello ventilazione OVERNIGHT V1 P4,ventilazioni
+parameter,1753,1753,1,2,liv_ven_OVE_v1_p3,Livello ventilazione OVERNIGHT V1 P3,ventilazioni
+parameter,1754,1754,0,2,liv_ven_OVE_v2_p1,Livello ventilazione OVERNIGHT V2 P1,ventilazioni
+parameter,1754,1754,1,2,liv_ven_OVE_v1_p5,Livello ventilazione OVERNIGHT V1 P5,ventilazioni
+parameter,1755,1755,0,2,liv_ven_OVE_v2_p3,Livello ventilazione OVERNIGHT V2 P3,ventilazioni
+parameter,1755,1755,1,2,liv_ven_OVE_v2_p2,Livello ventilazione OVERNIGHT V2 P2,ventilazioni
+parameter,1756,1756,0,2,liv_ven_OVE_v2_p5,Livello ventilazione OVERNIGHT V2 P5,ventilazioni
+parameter,1756,1756,1,2,liv_ven_OVE_v2_p4,Livello ventilazione OVERNIGHT V2 P4,ventilazioni
+parameter,1757,1757,0,2,liv_ven_OVE_v3_p2,Livello ventilazione OVERNIGHT V3 P2,ventilazioni
+parameter,1757,1757,1,2,liv_ven_OVE_v3_p1,Livello ventilazione OVERNIGHT V3 P1,ventilazioni
+parameter,1758,1758,0,2,liv_ven_OVE_v3_p4,Livello ventilazione OVERNIGHT V3 P4,ventilazioni
+parameter,1758,1758,1,2,liv_ven_OVE_v3_p3,Livello ventilazione OVERNIGHT V3 P3,ventilazioni
+parameter,1759,1759,0,2,liv_ven_OVE_v4_p1,Livello ventilazione OVERNIGHT V4 P1,ventilazioni
+parameter,1759,1759,1,2,liv_ven_OVE_v3_p5,Livello ventilazione OVERNIGHT V3 P5,ventilazioni
+parameter,1760,1760,0,2,liv_ven_OVE_v4_p3,Livello ventilazione OVERNIGHT V4 P3,ventilazioni
+parameter,1760,1760,1,2,liv_ven_OVE_v4_p2,Livello ventilazione OVERNIGHT V4 P2,ventilazioni
+parameter,1761,1761,0,2,liv_ven_OVE_v4_p5,Livello ventilazione OVERNIGHT V4 P5,ventilazioni
+parameter,1761,1761,1,2,liv_ven_OVE_v4_p4,Livello ventilazione OVERNIGHT V4 P4,ventilazioni
+parameter,1762,1762,0,2,liv_ven_COM_v1_p2,Livello ventilazione COMFORT V1 P2,ventilazioni
+parameter,1762,1762,1,2,liv_ven_COM_v1_p1,Livello ventilazione COMFORT V1 P1,ventilazioni
+parameter,1763,1763,0,2,liv_ven_COM_v1_p4,Livello ventilazione COMFORT V1 P4,ventilazioni
+parameter,1763,1763,1,2,liv_ven_COM_v1_p3,Livello ventilazione COMFORT V1 P3,ventilazioni
+parameter,1764,1764,0,2,liv_ven_COM_v2_p1,Livello ventilazione COMFORT V2 P1,ventilazioni
+parameter,1764,1764,1,2,liv_ven_COM_v1_p5,Livello ventilazione COMFORT V1 P5,ventilazioni
+parameter,1765,1765,0,2,liv_ven_COM_v2_p3,Livello ventilazione COMFORT V2 P3,ventilazioni
+parameter,1765,1765,1,2,liv_ven_COM_v2_p2,Livello ventilazione COMFORT V2 P2,ventilazioni
+parameter,1766,1766,0,2,liv_ven_COM_v2_p5,Livello ventilazione COMFORT V2 P5,ventilazioni
+parameter,1766,1766,1,2,liv_ven_COM_v2_p4,Livello ventilazione COMFORT V2 P4,ventilazioni
+parameter,1767,1767,0,2,liv_ven_COM_v3_p2,Livello ventilazione COMFORT V3 P2,ventilazioni
+parameter,1767,1767,1,2,liv_ven_COM_v3_p1,Livello ventilazione COMFORT V3 P1,ventilazioni
+parameter,1768,1768,0,2,liv_ven_COM_v3_p4,Livello ventilazione COMFORT V3 P4,ventilazioni
+parameter,1768,1768,1,2,liv_ven_COM_v3_p3,Livello ventilazione COMFORT V3 P3,ventilazioni
+parameter,1769,1769,0,2,liv_ven_COM_v4_p1,Livello ventilazione COMFORT V4 P1,ventilazioni
+parameter,1769,1769,1,2,liv_ven_COM_v3_p5,Livello ventilazione COMFORT V3 P5,ventilazioni
+parameter,1770,1770,0,2,liv_ven_COM_v4_p3,Livello ventilazione COMFORT V4 P3,ventilazioni
+parameter,1770,1770,1,2,liv_ven_COM_v4_p2,Livello ventilazione COMFORT V4 P2,ventilazioni
+parameter,1771,1771,0,2,liv_ven_COM_v4_p5,Livello ventilazione COMFORT V4 P5,ventilazioni
+parameter,1771,1771,1,2,liv_ven_COM_v4_p4,Livello ventilazione COMFORT V4 P4,ventilazioni
+parameter,1772,1772,0,11,pres_ven2,Presenza ventilatore 2,ventilazioni
+parameter,1772,1772,1,11,pres_ven1,Presenza ventilatore 1,ventilazioni
+parameter,1773,1773,0,11,pres_ven4,Presenza ventilatore 4,ventilazioni
+parameter,1773,1773,1,11,pres_ven3,Presenza ventilatore 3,ventilazioni
+parameter,1774,1774,0,11,abi_off_ven2,Abilitazione off in ventilatore 2,ventilazioni
+parameter,1774,1774,1,11,abi_off_ven1,Abilitazione off in ventilatore 1,ventilazioni
+parameter,1775,1775,0,11,abi_off_ven4,Abilitazione off in ventilatore 4,ventilazioni
+parameter,1775,1775,1,11,abi_off_ven3,Abilitazione off in ventilatore 3,ventilazioni
+parameter,1776,1776,0,11,abi_auto_ven2,Abilitazione auto in ventilatore 2,ventilazioni
+parameter,1776,1776,1,11,abi_auto_ven1,Abilitazione auto in ventilatore 1,ventilazioni
+parameter,1777,1777,0,11,abi_auto_ven4,Abilitazione auto in ventilatore 4,ventilazioni
+parameter,1777,1777,1,11,abi_auto_ven3,Abilitazione auto in ventilatore 3,ventilazioni
+parameter,1778,1778,0,11,vis_ven2_tlc_app,Visualizza ventola 2 su tlc/app,ventilazioni
+parameter,1778,1778,1,11,vis_ven1_tlc_app,Visualizza ventola 1 su tlc/app,ventilazioni
+parameter,1779,1779,0,11,vis_ven4_tlc_app,Visualizza ventola 4 su tlc/app,ventilazioni
+parameter,1779,1779,1,11,vis_ven3_tlc_app,Visualizza ventola 3 su tlc/app,ventilazioni
+parameter,1780,1780,0,11,abi_ven2_tlc_app,Abilita ventola 2 su tlc/app,ventilazioni
+parameter,1780,1780,1,11,abi_ven1_tlc_app,Abilita ventola 1 su tlc/app,ventilazioni
+parameter,1781,1781,0,11,abi_ven4_tlc_app,Abilita ventola 4 su tlc/app,ventilazioni
+parameter,1781,1781,1,11,abi_ven3_tlc_app,Abilita ventola 3 su tlc/app,ventilazioni
+parameter,1782,1782,0,17,_free_,free,ventilazioni
+parameter,1782,1782,1,11,abi_agg_pot_ven,Abilitazione aggancio potenza ventilazione,ventilazioni
+parameter,1783,1783,0,4,rit_riarmo_press,Ritardo riarmo pressostato,riarmo pressostato
+parameter,1784,1784,0,4,n_max_riarmi_press,Numero max riarmi pressostato,riarmo pressostato
+parameter,1785,1785,0,4,colp_coc_pot,Fase colpetto coclea fino alla potenza,colpetto coclea
+parameter,1786,1786,0,4,car_pel_pot,Carico pellet fino alla potenza,colpetto coclea
+parameter,1787,1787,0,4,dur_col_coc,Durata fase colpetto coclea,colpetto coclea
+parameter,1788,1788,0,4,int_col_coc,Intervallo fase colpetto coclea,colpetto coclea
+parameter,1789,1789,0,4,rit_usc_standby,Ritardo uscita fase standby,ecostop
+parameter,1790,1790,0,4,rit_ing_standby,Ritardo ingresso fase standby,ecostop
+parameter,1791,1791,0,4,dur_allarme_1,Durate fase allarme tipo 1,allarmi
+parameter,1792,1792,0,4,dur_allarme_2,Durata fase allarme tipo 2,allarmi
+parameter,1793,1793,0,4,rit_a02,Ritardo fase A02,allarmi
+parameter,1794,1794,0,4,rit_a03,Ritardo fase A03,allarmi
+parameter,1795,1795,0,4,rit_a04,Ritardo fase A04,allarmi
+parameter,1796,1796,0,4,rit_a05,Ritardo fase A05,allarmi
+parameter,1797,1797,0,4,rit_a08,Ritardo fase A08,allarmi
+parameter,1798,1798,0,4,rit_a09,Ritardo fase A09,allarmi
+parameter,1799,1799,0,4,rit_a12,Ritardo fase A12,allarmi
+parameter,1800,1800,0,4,rit_a13,Ritardo fase A13,allarmi
+parameter,1801,1801,0,4,rit_a14,Ritardo fase A14,allarmi
+parameter,1802,1802,0,4,rit_a21,Ritardo fase A21,allarmi
+parameter,1803,1803,0,4,rit_a22,Ritardo fase A22,allarmi
+parameter,1804,1804,0,4,rit_sbloc_coc,Ritardo fase sblocco coclea,allarmi
+parameter,1805,1805,0,4,tout_cic,Timeout cicalino,allarmi
+parameter,1806,1806,0,4,t_bkout,Tempo blackout,allarmi
+parameter,1807,1807,0,4,v_ven_fumi_allarme_1,Velocità ventilatore fumi fase allarme tipo 1,allarmi
+parameter,1808,1808,0,4,v_ven_fumi_allarme_2,Velocità ventilatore fumi fase allarme tipo 2,allarmi
+parameter,1809,1809,0,4,v_ven_fumi_allarme_a08,Velocità ventilatore fumi fase allarme A08,allarmi
+parameter,1810,1810,0,4,v_ven_fumi_allarme_a05,Velocità ventilatore fumi fase allarme A05,allarmi
+parameter,1811,1811,0,4,car_pel_allarme_1,Carico pellet fase allarme tipo 1,allarmi
+parameter,1812,1812,0,4,car_pel_allarme_2,Carico pellet fase allarme tipo 2,allarmi
+parameter,1813,1813,0,4,var_flu_allarme_1,Valore flusso fase allarme tipo 1,allarmi
+parameter,1814,1814,0,4,var_flu_allarme_2,Valore flusso fase allarme tipo 2,allarmi
+parameter,1815,1815,0,4,s_min_val_flu_allarme_a14,Soglia minima valore flusso fase allarme A14,allarmi
+parameter,1816,1816,0,4,s_max_val_flu_allarme_a14,Soglia massima valore flusso fase allarme A14,allarmi
+parameter,1817,1817,0,3,lim_temp_pan,Se il pannello supera queso limite la potenza viene limitata a 3,allarmi
+parameter,1818,1818,0,2,n_ore_pot_el,N° massimo di ore in potenza 4 o 5 per l'intervento del limitatore di potenza,limitatore
+parameter,1818,1818,1,2,pot_lim,Potenza in fase di limitazione,limitatore
+parameter,1819,1819,0,4,dur_lim,Durata della fase di limitazione,limitatore
+parameter,1820,1820,0,2,n_car_rid_sp,Numero carichi ridotti per spegnimento,core
+parameter,1820,1820,1,2,n_cicli_rid_coppia,Numero cicli riduzione di coppia,core
+parameter,1821,1821,0,17,_free_,free,core
+parameter,1821,1821,1,2,n_car_rid_act,Numero carichi ridotti per active,core
+parameter,1822,1822,0,2,inc_val_flu_perc,Incremento valore flusso %,core
+parameter,1822,1822,1,2,inc_val_flu,Incremento valore flusso,core
+parameter,1823,1823,0,4,t_n_c_rid_coppia,Tempo numero cicli riduzione coppia,core
+parameter,1824,1824,0,4,t_car_rid,Tempo carico ridotto,core
+parameter,1825,1825,0,4,dur_colp_coc_car_rid,Durata colpetto coclea carico ridotto,core
+parameter,1826,1826,0,4,int_colp_coc_car_rid,Intervallo colpetto coclea carico ridotto,core
+parameter,1827,1827,0,4,t_n_car_rid_sp,Tempo numero carichi ridotti per spegnimento,core
+parameter,1828,1828,0,4,t_n_car_rid_inc_act,Tempo numero carichi ridotti per incremento active,core
+parameter,1829,1829,0,4,t_buon_funz_dec_act,Tempo buon funzionamento per decremento active,core
+parameter,1830,1830,0,4,car_pel_car_rid,Carico pellet carico ridotto,core
+parameter,1831,1831,0,4,car_pel_colp_coc_car_rid,Carico pellet colpetto coclea carico ridotto,core
+parameter,1832,1832,0,1,pos_ap_pul,posizione apertura pulitore,pulitore brushless
+parameter,1832,1832,1,2,tempo_ril_blocco_mecc,tempo rilevamento blocco meccanico,pulitore brushless
+parameter,1833,1833,0,2,soglia_blocco_mecc,soglia blocco meccanico,pulitore brushless
+parameter,1833,1833,1,11,pres_pul_brush,presenza pulitore brushless,pulitore brushless
+parameter,1834,1834,0,3,temp_max_mand,temperatura massima mandata,undefined
+parameter,1835,1835,0,3,delta_temp_max_mand,delta temperatura massima mandata,undefined
+parameter,1836,1836,0,4,rit_fase_a19,ritardo fase A19,allarmi
+parameter,1837,1837,0,4,rit_fase_a20,ritardo fase A20,allarmi
+parameter,1838,1838,0,3,min_temp_cald_a19,soglia min temperatura sonda caldaia fase allarme A19,allarmi
+parameter,1839,1839,0,3,max_temp_cald_a19,soglia max temperatura sonda caldaia fase allarme A19,allarmi
+parameter,1840,1840,0,3,min_temp_cald_a20,soglia min temperatura sonda caldaia fase allarme A20,allarmi
+parameter,1841,1841,0,3,max_temp_cald_a20,soglia max temperatura sonda caldaia fase allarme A20,allarmi
+parameter,1842,1842,0,17,_free_,libero per espansioni,undefined
+parameter,1842,1842,1,2,log_valv_3vie,logica valvola 3 vie,undefined
+parameter,1843,1843,0,2,vel_pul,velocità pulitore,undefined
+parameter,1843,1843,1,2,delta_usc_blocco_brush,delta uscita blocco brushless,undefined
+parameter,1844,1844,0,4,vel_bloc_bru2_core,velocità soglia blocco brushless fase sblocco coclea CORE,sblocco coclea
+parameter,1845,1845,0,4,temp_bollitore_min,Minima temperatura boiler,undefined
+parameter,1846,1846,0,4,temp_bollitore_max,Massima temperatura boiler,undefined
+parameter,1847,1847,0,4,min_temp_puffer,Minima temperatura puffer,undefined
+parameter,1848,1848,0,4,max_temp_puffer,Minima temperatura puffer,undefined
+parameter,1849,1849,0,2,range_max_stato_pompa_ok,Range max stato pompa Ok,allarmi
+parameter,1849,1849,1,2,range_min_stato_pompa_ok,Range min stato pompa Ok,allarmi
+parameter,1850,1850,0,4,rit_fase_all_A24,Ritardo fase allarme A24,allarmi
+parameter,1851,1851,0,2,int_tx_temp_radio,Intervallo tx temperatura radio,undefined
+parameter,1851,1851,1,10,abil_act_ada,Abilitazione active adattivo,undefined
+parameter,1852,1852,0,4,temp_rit_ris_red,tempo ritardo riserva red,riserva pellet
+parameter,1853,1853,0,4,temp_rit_ris_green,tempo ritardo riserva green,riserva pellet
+parameter,1854,1854,0,2,en_sav_m,Abilitazione funzione saving mode,saving mode
+parameter,1854,1854,1,2,antic_s_act,anticondensa sensore active,undefined
+parameter,1855,1855,0,4,rit_fase_all_A25,ritardo fase allarme A25,allarmi
+parameter,1856,1856,0,4,rit_fase_all_A26,ritardo fase allarme A26,allarmi
+parameter,1857,1857,0,4,rit_fase_all_A27_A28_A29,"ritardo fase allarme A27, A28, A29",allarmi
+parameter,1858,1858,0,4,rit_fase_all_A30,ritardo fase allarme A30,allarmi
+parameter,1859,1859,0,2,delta_temp_clima,Delta temperatura Clima,condizionatore
+parameter,1859,1859,1,10,n_swing_clima,Abilita swing Clima,condizionatore
+parameter,1860,1989,0,16,_free_,Free,Free
+parameter,1990,1990,0,4,rev_banca_dati,Numero progressivo della revisione della banca dati,banca dati
+parameter,1991,1998,0,0,banca_dati,Nome banca dati,banca dati
+parameter,1999,1999,0,4,cod_comp_4,Codice compatibilità,compatibilita
+nvm,1000,1000,0,4,lingua,Lingue,cambio lingua
+nvm,1001,1001,0,4,mod_funz,Modalità di funzionamento,modalita
+nvm,1002,1002,0,4,c_or_f,degCdegF,unita misura temperatura
+nvm,1003,1003,0,4,set_pot_man,Set Potenza Manuale,set potenza
+nvm,1004,1004,0,13,silent,Attivazione silent,silent
+nvm,1005,1005,0,4,att_ora_leg,Attivazione passaggio ora legale,orodatario
+nvm,1006,1006,0,4,coclea_mod_continuo,Coclea in continuo,coclea
+nvm,1007,1007,0,4,am_pm_param,AM/PM,orodatario
+nvm,1008,1008,0,4,lum_disp,Luminosità display,display pannello comandi
+nvm,1009,1009,0,4,t_standby_disp,Tempo standby display,display pannello comandi
+nvm,1010,1010,0,4,toni_buzz,Toni buzzer,display pannello comandi
+nvm,1011,1011,0,3,ist_neg_amb,Isteresi negativa ambiente,set ambiente
+nvm,1012,1012,0,3,ist_pos_amb,Isteresi positiva ambiente,set ambiente
+nvm,1013,1013,0,3,ist_eco_neg_amb,Isteresi negativa ambiente,ecostop
+nvm,1014,1014,0,3,ist_eco_pos_amb,Isteresi positiva ambiente,ecostop
+nvm,1015,1015,0,3,set_amb1,Set Ambiente1,set ambiente
+nvm,1016,1016,0,3,set_amb2,Set Ambiente2,set ambiente
+nvm,1017,1017,0,3,set_amb3,Set Ambiente3,set ambiente
+nvm,1018,1018,0,4,set_vent_v1,Set Ventilazione ventola 1,ventilazione
+nvm,1019,1019,0,4,set_vent_v2,Set Ventilazione ventola 2,ventilazione
+nvm,1020,1020,0,4,set_vent_v3,Set Ventilazione ventola 3,ventilazione
+nvm,1021,1021,0,4,set_vent_v4,Set Ventilazione ventola 4,ventilazione
+nvm,1022,1022,0,13,att_eco,Attivazione Ecostop,ecostop
+nvm,1023,1023,0,4,sens_liv_pellet,Sensore livello pellet,sensore livello pellet
+nvm,1024,1024,0,13,pul_brac,Pulizia braciere,pulizia braciere
+nvm,1025,1025,0,4,ingr_amb,Ingresso ambiente,impostazioni
+nvm,1026,1026,0,4,paral_disp,Parallasse display,display pannello comandi
+nvm,1027,1027,0,3,temp_min_circ_on,Temperatura min circolatore on,pompa
+nvm,1028,1028,0,3,ist_neg_cald,Isteresi negativa caldaia,regolazione potenza
+nvm,1029,1029,0,3,ist_pos_cald,Isteresi positiva caldaia,regolazione potenza
+nvm,1030,1030,0,3,set_cald,set caldaia,regolazione potenza
+nvm,1031,1031,0,3,set_boiler,set boiler,boiler
+nvm,1032,1032,0,3,ist_neg_boiler,isteresi negativa boiler,boiler
+nvm,1033,1033,0,3,ist_pos_boiler,isteresi positiva boiler,boiler
+nvm,1034,1034,0,3,set_san,set sanitario,regolazione potenza
+nvm,1035,1035,0,4,ingr_ntc2,ingresso NTC2,configurazione
+nvm,1036,1036,0,4,ingr_ntc3,ingresso NTC3,configurazione
+nvm,1037,1037,0,4,ingr_fluss,ingresso flussostato,configurazione
+nvm,1038,1038,0,4,est_inv,estate/inverno,configurazione
+nvm,1039,1039,0,4,max_pot_idro,massima potenza idro,regolazione potenza
+nvm,1040,1040,0,3,ist_neg_puffer,Isteresi negativa puffer,puffer
+nvm,1041,1041,0,3,ist_pos_puffer,Isteresi positiva puffer,puffer
+nvm,1042,1042,0,3,set_puffer,set puffer,puffer
+nvm,1043,1043,0,4,conf_imp,configurazione impianto,undefined
+nvm,1044,1044,0,3,delta_cald_boiler,delta caldaia per richiesta boiler,boiler
+nvm,1045,1045,0,3,delta_cald_puffer,delta caldaia per richiesta puffer,boiler
+nvm,1046,1046,0,4,conf_rele_aux,configurazione relè aux,undefined
+nvm,1047,1047,0,3,soglia_temp_cons_cald,soglia temperatura consenso caldaia,undefined
+nvm,1048,1048,0,2,lum_radioc_att,luminosità radiocomando attivo,radiocomando
+nvm,1048,1048,1,10,abil_preall_A21,abilitazione preallarme A21,undefined
+nvm,1049,1049,0,2,t_radioc_att,tempo radiocomando attivo,radiocomando
+nvm,1049,1049,1,2,lum_radioc_standby,luminosità radiocomando standby,radiocomando
+nvm,1050,1050,0,10,suono_buz_manc_rete,suono buzzer mancanza rete,Batterie Tampone
+nvm,1050,1050,1,2,t_radioc_standby,tempo radiocomando standby,radiocomando
+nvm,1051,1051,0,2,mod_clima,Modalità Clima,condizionatore
+nvm,1051,1051,1,10,sav_m,Opzione saving mode attiva,saving mode
+nvm,1052,1052,0,10,acc_swing_clima,Accendi Swing Clima,condizionatore
+nvm,1052,1052,1,2,vel_vent_clima,Velocità ventola Clima,condizionatore
+nvm,1053,1053,0,2,temp_clima_auto,Temperatura set Clima Auto,condizionatore
+nvm,1053,1053,1,10,n_buzz_clima,Abilita buzzer Clima,condizionatore
+nvm,1054,1054,0,17,_free8_,Free,Free
+nvm,1054,1054,1,2,temp_clima_man,Temperatura set Clima Man,condizionatore
+nvm,1055,1198,0,16,_free_,Free,Free
+nvm,1199,1199,0,4,cod_comp_1,Codice compatibilità,compatibilita
+nvm,1200,1398,0,16,_free_,Free,Free
+nvm,1399,1399,0,4,cod_comp_2,Codice compatibilità,compatibilita
+nvm,1400,1400,0,4,pos_ric_asp,Posizione ricetta aspirazione,ricette
+nvm,1401,1401,0,4,pos_ric_pel,Posizione ricetta pellet,ricette
+nvm,1402,1402,0,4,pos_ric_flu,Posizione ricetta flusso,ricette
+nvm,1403,1403,0,1,ric_asp_pos2,Ricetta aspirazione pos 2,ricette
+nvm,1403,1403,1,1,ric_asp_pos1,Ricetta aspirazione pos 1,ricette
+nvm,1404,1404,0,1,ric_asp_pos4,Ricetta aspirazione pos 4,ricette
+nvm,1404,1404,1,1,ric_asp_pos3,Ricetta aspirazione pos 3,ricette
+nvm,1405,1405,0,1,ric_asp_pos6,Ricetta aspirazione pos 6,ricette
+nvm,1405,1405,1,1,ric_asp_pos5,Ricetta aspirazione pos 5,ricette
+nvm,1406,1406,0,1,ric_pel_pos1,Ricetta pellet pos 1,ricette
+nvm,1406,1406,1,1,ric_asp_pos7,Ricetta aspirazione pos 7,ricette
+nvm,1407,1407,0,1,ric_pel_pos3,Ricetta pellet pos 3,ricette
+nvm,1407,1407,1,1,ric_pel_pos2,Ricetta pellet pos 2,ricette
+nvm,1408,1408,0,1,ric_pel_pos5,Ricetta pellet pos 5,ricette
+nvm,1408,1408,1,1,ric_pel_pos4,Ricetta pellet pos 4,ricette
+nvm,1409,1409,0,1,ric_pel_pos7,Ricetta pellet pos 7,ricette
+nvm,1409,1409,1,1,ric_pel_pos6,Ricetta pellet pos 6,ricette
+nvm,1410,1410,0,1,ric_flu_pos2,Ricetta flusso pos 2,ricette
+nvm,1410,1410,1,1,ric_flu_pos1,Ricetta flusso pos 1,ricette
+nvm,1411,1411,0,1,ric_flu_pos4,Ricetta flusso pos 4,ricette
+nvm,1411,1411,1,1,ric_flu_pos3,Ricetta flusso pos 3,ricette
+nvm,1412,1412,0,1,ric_flu_pos6,Ricetta flusso pos 6,ricette
+nvm,1412,1412,1,1,ric_flu_pos5,Ricetta flusso pos 5,ricette
+nvm,1413,1413,0,17,_free8_,Free,free8
+nvm,1413,1413,1,1,ric_flu_pos7,Ricetta flusso pos 7,ricette
+nvm,1414,1414,0,4,t_fase_clean_fr,Tempo fase clean a freddo,pulizia iniziale
+nvm,1415,1415,0,4,t_fase_clean_ca,Tempo fase clean a caldo,pulizia iniziale
+nvm,1416,1416,0,4,v_vent_fumi_clean_fr,Velocità ventilatore fumi fase clean a freddo,pulizia iniziale
+nvm,1417,1417,0,4,v_vent_fumi_clean_ca,Velocità ventilatore fumi fase clean a caldo,pulizia iniziale
+nvm,1418,1418,0,4,t_fase_load_fr,Tempo fase Load a freddo,carico pellet
+nvm,1419,1419,0,4,t_fase_load_ca,Tempo fase Load a caldo,carico pellet
+nvm,1420,1420,0,4,t_car_pel_man,Tempo carico pellet Man,carico pellet
+nvm,1421,1421,0,4,v_vent_fumi_load_fr,Velocità ventilatore fumi Load a freddo,carico pellet
+nvm,1422,1422,0,4,v_vent_fumi_load_ca,Velocità ventilatore fumi Load a caldo,carico pellet
+nvm,1423,1423,0,4,car_pel_load_fr,Carico pellet fase Load a freddo,carico pellet
+nvm,1424,1424,0,4,car_pel_load_ca,Carico pellet fase Load a caldo,carico pellet
+nvm,1425,1425,0,4,val_flu_load_fr,Valore flusso fase Load a freddo,carico pellet
+nvm,1426,1426,0,4,val_flu_load_ca,Valore flusso fase Load a caldo,carico pellet
+nvm,1427,1427,0,3,delta_t_st2_fr,Delta T per Start 2 a freddo,avvio
+nvm,1428,1428,0,3,delta_t_st2_ca,Delta T per Start 2 a caldo,avvio
+nvm,1429,1429,0,3,temp_fumi_acc,Temperatura fumi per stufa accesa,avvio
+nvm,1430,1430,0,4,t_max_st1_fr,Tempo max fase Start 1 a freddo,avvio
+nvm,1431,1431,0,4,t_max_st1_ca,Tempo max fase Start 1 a caldo,avvio
+nvm,1432,1432,0,4,t_max_st2_fr,Tempo max fase Start 2 a freddo,avvio
+nvm,1433,1433,0,4,t_max_st2_ca,Tempo max fase Start 2 a caldo,avvio
+nvm,1434,1434,0,4,v_vent_fumi_st1_fr,Velocità ventilatore fumi fase Start 1 a freddo,avvio
+nvm,1435,1435,0,4,v_vent_fumi_st1_ca,Velocità ventilatore fumi fase Start 1 a caldo,avvio
+nvm,1436,1436,0,4,v_vent_fumi_st2_fr,Velocità ventilatore fumi fase Start 2 a freddo,avvio
+nvm,1437,1437,0,4,v_vent_fumi_st2_ca,Velocità ventilatore fumi fase Start 2 a caldo,avvio
+nvm,1438,1438,0,4,car_pel_st1_fr,Carico pellet fase Start 1 a freddo,avvio
+nvm,1439,1439,0,4,car_pel_st1_ca,Carico pellet fase Start 1 a caldo,avvio
+nvm,1440,1440,0,4,car_pel_st2_fr,Carico pellet fase Start 2 a freddo,avvio
+nvm,1441,1441,0,4,car_pel_st2_ca,Carico pellet fase Start 2 a caldo,avvio
+nvm,1442,1442,0,4,val_flu_st1_fr,Valore flusso fase Start 1 a freddo,avvio
+nvm,1443,1443,0,4,val_flu_st1_ca,Valore flusso fase Start 1 a caldo,avvio
+nvm,1444,1444,0,4,val_flu_st2_fr,Valore flusso fase Start 2 a freddo,avvio
+nvm,1445,1445,0,4,val_flu_st2_ca,Valore flusso fase Start 2 a caldo,avvio
+nvm,1446,1446,0,4,t_stab,Tempo fase stabilizzazione,stabilizzatore
+nvm,1447,1447,0,4,v_ven_fumi_stab,Velocità ventilatore fumi fase stabilizzazione,stabilizzatore
+nvm,1448,1448,0,4,car_pel_stab,Carico pellet fase stabilizzazione,stabilizzatore
+nvm,1449,1449,0,4,val_flu_stab,Valore flusso fase stabilizzazione,stabilizzatore
+nvm,1450,1450,0,4,dur_pul_h,Durata fase pulizia high,pulizia
+nvm,1451,1451,0,4,dur_pul_l,Durata fase pulizia low,pulizia
+nvm,1452,1452,0,4,dur_pul_l_ada,Durata fase pulizia low adaptive,pulizia
+nvm,1453,1453,0,4,dur_pul_h_ada,Durata fase pulizia high adaptive,pulizia
+nvm,1454,1454,0,4,v_ven_fumi_pul_h,Velocità ventilatore fumi fase pulizia high,pulizia
+nvm,1455,1455,0,4,v_ven_fumi_pul_l,Velocità ventilatore fumi fase pulizia low,pulizia
+nvm,1456,1456,0,4,v_ven_fumi_pul_h_ada,Velocità ventilatore fumi fase pulizia high adaptive,pulizia
+nvm,1457,1457,0,4,v_ven_fumi_pul_l_ada,Velocità ventilatore fumi fase pulizia low adaptive,pulizia
+nvm,1458,1458,0,4,car_pel_pul_h,Carico pellet fase pulizia high,pulizia
+nvm,1459,1459,0,4,car_pel_pul_l,Carico pellet fase pulizia low,pulizia
+nvm,1460,1460,0,4,car_pel_pul_h_ada,Carico pellet fase pulizia high adaptive,pulizia
+nvm,1461,1461,0,4,car_pel_pul_l_ada,Carico pellet fase pulizia low adaptive,pulizia
+nvm,1462,1462,0,4,va_flu_pul_h,Valore flusso fase pulizia high,pulizia
+nvm,1463,1463,0,4,va_flu_pul_l,Valore flusso fase pulizia low,pulizia
+nvm,1464,1464,0,4,va_flu_pul_h_ada,Valore flusso fase pulizia high adaptive,pulizia
+nvm,1465,1465,0,4,va_flu_pul_l_ada,Valore flusso fase pulizia low adaptive,pulizia
+nvm,1466,1466,0,4,t_spegn,Tempo fase spegnimento,spegnimento
+nvm,1467,1467,0,4,v_ven_fumi_spegn,Velocità ventilatore fumi fase spegnimento,spegnimento
+nvm,1468,1468,0,4,car_pel_spegn,Carico pellet fase spegnimento,spegnimento
+nvm,1469,1469,0,4,val_flu_spegn,Valore flusso fase spegnimento,spegnimento
+nvm,1470,1470,0,3,temp_fumi_st_spenta,Temperatura fumi per stufa spenta,raffreddamento
+nvm,1471,1471,0,4,v_ven_fumi_raff,Velocità ventilatore fumi fase raffreddamento,raffreddamento
+nvm,1472,1472,0,4,car_pel_raff,Carico pellet fase raffreddamento,raffreddamento
+nvm,1473,1473,0,4,val_flu_raff,Valore flusso fase raffreddamento,raffreddamento
+nvm,1474,1474,0,3,temp_fumi_pot1,Temperatura fumi fase potenza 1,potenze
+nvm,1475,1475,0,3,temp_fumi_pot2,Temperatura fumi fase potenza 2,potenze
+nvm,1476,1476,0,3,temp_fumi_pot3,Temperatura fumi fase potenza 3,potenze
+nvm,1477,1477,0,3,temp_fumi_pot4,Temperatura fumi fase potenza 4,potenze
+nvm,1478,1478,0,3,temp_fumi_pot5,Temperatura fumi fase potenza 5,potenze
+nvm,1479,1479,0,3,temp_fumi_pot1_ada,Temperatura fumi fase potenza 1 adaptive,potenze
+nvm,1480,1480,0,3,temp_fumi_pot2_ada,Temperatura fumi fase potenza 2 adaptive,potenze
+nvm,1481,1481,0,3,temp_fumi_pot3_ada,Temperatura fumi fase potenza 3 adaptive,potenze
+nvm,1482,1482,0,3,temp_fumi_pot4_ada,Temperatura fumi fase potenza 4 adaptive,potenze
+nvm,1483,1483,0,3,temp_fumi_pot5_ada,Temperatura fumi fase potenza 5 adaptive,potenze
+nvm,1484,1484,0,4,int_pul_pot1,Intervallo tra pulizia in potenza 1,potenze
+nvm,1485,1485,0,4,int_pul_pot2,Intervallo tra pulizia in potenza 2,potenze
+nvm,1486,1486,0,4,int_pul_pot3,Intervallo tra pulizia in potenza 3,potenze
+nvm,1487,1487,0,4,int_pul_pot4,Intervallo tra pulizia in potenza 4,potenze
+nvm,1488,1488,0,4,int_pul_pot5,Intervallo tra pulizia in potenza 5,potenze
+nvm,1489,1489,0,4,int_pul_pot1_ada,Intervallo tra pulizia in potenza 1 adaptive,potenze
+nvm,1490,1490,0,4,int_pul_pot2_ada,Intervallo tra pulizia in potenza 2 adaptive,potenze
+nvm,1491,1491,0,4,int_pul_pot3_ada,Intervallo tra pulizia in potenza 3 adaptive,potenze
+nvm,1492,1492,0,4,int_pul_pot4_ada,Intervallo tra pulizia in potenza 4 adaptive,potenze
+nvm,1493,1493,0,4,int_pul_pot5_ada,Intervallo tra pulizia in potenza 5 adaptive,potenze
+nvm,1494,1494,0,4,int_t_cam_pot,Intervallo tempo cambio potenza,potenze
+nvm,1495,1495,0,4,v_ven_fumi_pot1,Velocità ventilatore fumi fase potenza 1,potenze
+nvm,1496,1496,0,4,v_ven_fumi_pot2,Velocità ventilatore fumi fase potenza 2,potenze
+nvm,1497,1497,0,4,v_ven_fumi_pot3,Velocità ventilatore fumi fase potenza 3,potenze
+nvm,1498,1498,0,4,v_ven_fumi_pot4,Velocità ventilatore fumi fase potenza 4,potenze
+nvm,1499,1499,0,4,v_ven_fumi_pot5,Velocità ventilatore fumi fase potenza 5,potenze
+nvm,1500,1500,0,4,v_ven_fumi_pot1_ada,Velocità ventilatore fumi fase potenza 1 adaptive,potenze
+nvm,1501,1501,0,4,v_ven_fumi_pot2_ada,Velocità ventilatore fumi fase potenza 2 adaptive,potenze
+nvm,1502,1502,0,4,v_ven_fumi_pot3_ada,Velocità ventilatore fumi fase potenza 3 adaptive,potenze
+nvm,1503,1503,0,4,v_ven_fumi_pot4_ada,Velocità ventilatore fumi fase potenza 4 adaptive,potenze
+nvm,1504,1504,0,4,v_ven_fumi_pot5_ada,Velocità ventilatore fumi fase potenza 5 adaptive,potenze
+nvm,1505,1505,0,4,car_pel_pot1,Carico pellet fase potenza 1,potenze
+nvm,1506,1506,0,4,car_pel_pot2,Carico pellet fase potenza 2,potenze
+nvm,1507,1507,0,4,car_pel_pot3,Carico pellet fase potenza 3,potenze
+nvm,1508,1508,0,4,car_pel_pot4,Carico pellet fase potenza 4,potenze
+nvm,1509,1509,0,4,car_pel_pot5,Carico pellet fase potenza 5,potenze
+nvm,1510,1510,0,4,car_pel_pot1_ada,Carico pellet fase potenza 1 adaptive,potenze
+nvm,1511,1511,0,4,car_pel_pot2_ada,Carico pellet fase potenza 2 adaptive,potenze
+nvm,1512,1512,0,4,car_pel_pot3_ada,Carico pellet fase potenza 3 adaptive,potenze
+nvm,1513,1513,0,4,car_pel_pot4_ada,Carico pellet fase potenza 4 adaptive,potenze
+nvm,1514,1514,0,4,car_pel_pot5_ada,Carico pellet fase potenza 5 adaptive,potenze
+nvm,1515,1515,0,4,val_flu_pot1,Valore flusso fase potenza 1,potenze
+nvm,1516,1516,0,4,val_flu_pot2,Valore flusso fase potenza 2,potenze
+nvm,1517,1517,0,4,val_flu_pot3,Valore flusso fase potenza 3,potenze
+nvm,1518,1518,0,4,val_flu_pot4,Valore flusso fase potenza 4,potenze
+nvm,1519,1519,0,4,val_flu_pot5,Valore flusso fase potenza 5,potenze
+nvm,1520,1520,0,4,val_flu_pot1_ada,Valore flusso fase potenza 1 adaptive,potenze
+nvm,1521,1521,0,4,val_flu_pot2_ada,Valore flusso fase potenza 2 adaptive,potenze
+nvm,1522,1522,0,4,val_flu_pot3_ada,Valore flusso fase potenza 3 adaptive,potenze
+nvm,1523,1523,0,4,val_flu_pot4_ada,Valore flusso fase potenza 4 adaptive,potenze
+nvm,1524,1524,0,4,val_flu_pot5_ada,Valore flusso fase potenza 5 adaptive,potenze
+nvm,1525,1525,0,2,tipo_pul_pot2,Tipo pulizia potenza 2,potenze
+nvm,1525,1525,1,2,tipo_pul_pot1,Tipo pulizia potenza 1,potenze
+nvm,1526,1526,0,2,tipo_pul_pot4,Tipo pulizia potenza 4,potenze
+nvm,1526,1526,1,2,tipo_pul_pot3,Tipo pulizia potenza 3,potenze
+nvm,1527,1527,0,11,mod_ada_on,Modalità adaptive on,potenze
+nvm,1527,1527,1,2,tipo_pul_pot5,Tipo pulizia potenza 5,potenze
+nvm,1528,1528,0,3,sogl_az_ven1,Soglia azionamento ventola 1,ventilazioni
+nvm,1529,1529,0,3,sogl_az_ven2,Soglia azionamento ventola 2,ventilazioni
+nvm,1530,1530,0,3,sogl_az_ven3,Soglia azionamento ventola 3,ventilazioni
+nvm,1531,1531,0,3,sogl_az_ven4,Soglia azionamento ventola 4,ventilazioni
+nvm,1532,1532,0,4,val_k_calc_pot_max,Valore K per calcolo potenza max,ventilazioni
+nvm,1533,1533,0,2,v_ven1_v1,Velocità ventilatore 1 V1,ventilazioni
+nvm,1533,1533,1,2,v_ven1_v0,Velocità ventilatore 1 V0,ventilazioni
+nvm,1534,1534,0,2,v_ven1_v3,Velocità ventilatore 1 V3,ventilazioni
+nvm,1534,1534,1,2,v_ven1_v2,Velocità ventilatore 1 V2,ventilazioni
+nvm,1535,1535,0,2,v_ven1_v5,Velocità ventilatore 1 V5,ventilazioni
+nvm,1535,1535,1,2,v_ven1_v4,Velocità ventilatore 1 V4,ventilazioni
+nvm,1536,1536,0,2,v_ven2_v1,Velocità ventilatore 2 V1,ventilazioni
+nvm,1536,1536,1,2,v_ven2_v0,Velocità ventilatore 2 V0,ventilazioni
+nvm,1537,1537,0,2,v_ven2_v3,Velocità ventilatore 2 V3,ventilazioni
+nvm,1537,1537,1,2,v_ven2_v2,Velocità ventilatore 2 V2,ventilazioni
+nvm,1538,1538,0,2,v_ven2_v5,Velocità ventilatore 2 V5,ventilazioni
+nvm,1538,1538,1,2,v_ven2_v4,Velocità ventilatore 2 V4,ventilazioni
+nvm,1539,1539,0,2,v_ven3_v1,Velocità ventilatore 3 V1,ventilazioni
+nvm,1539,1539,1,2,v_ven3_v0,Velocità ventilatore 3 V0,ventilazioni
+nvm,1540,1540,0,2,v_ven3_v3,Velocità ventilatore 3 V3,ventilazioni
+nvm,1540,1540,1,2,v_ven3_v2,Velocità ventilatore 3 V2,ventilazioni
+nvm,1541,1541,0,2,v_ven3_v5,Velocità ventilatore 3 V5,ventilazioni
+nvm,1541,1541,1,2,v_ven3_v4,Velocità ventilatore 3 V4,ventilazioni
+nvm,1542,1542,0,2,v_ven4_v1,Velocità ventilatore 4 V1,ventilazioni
+nvm,1542,1542,1,2,v_ven4_v0,Velocità ventilatore 4 V0,ventilazioni
+nvm,1543,1543,0,2,v_ven4_v3,Velocità ventilatore 4 V3,ventilazioni
+nvm,1543,1543,1,2,v_ven4_v2,Velocità ventilatore 4 V2,ventilazioni
+nvm,1544,1544,0,2,v_ven4_v5,Velocità ventilatore 4 V5,ventilazioni
+nvm,1544,1544,1,2,v_ven4_v4,Velocità ventilatore 4 V4,ventilazioni
+nvm,1545,1545,0,2,v_ven1_v1_ada,Velocità ventilatore 1 V1 adaptive,ventilazioni
+nvm,1545,1545,1,2,v_ven1_v0_ada,Velocità ventilatore 1 V0 adaptive,ventilazioni
+nvm,1546,1546,0,2,v_ven1_v3_ada,Velocità ventilatore 1 V3 adaptive,ventilazioni
+nvm,1546,1546,1,2,v_ven1_v2_ada,Velocità ventilatore 1 V2 adaptive,ventilazioni
+nvm,1547,1547,0,2,v_ven1_v5_ada,Velocità ventilatore 1 V5 adaptive,ventilazioni
+nvm,1547,1547,1,2,v_ven1_v4_ada,Velocità ventilatore 1 V4 adaptive,ventilazioni
+nvm,1548,1548,0,2,v_ven2_v1_ada,Velocità ventilatore 2 V1 adaptive,ventilazioni
+nvm,1548,1548,1,2,v_ven2_v0_ada,Velocità ventilatore 2 V0 adaptive,ventilazioni
+nvm,1549,1549,0,2,v_ven2_v3_ada,Velocità ventilatore 2 V3 adaptive,ventilazioni
+nvm,1549,1549,1,2,v_ven2_v2_ada,Velocità ventilatore 2 V2 adaptive,ventilazioni
+nvm,1550,1550,0,2,v_ven2_v5_ada,Velocità ventilatore 2 V5 adaptive,ventilazioni
+nvm,1550,1550,1,2,v_ven2_v4_ada,Velocità ventilatore 2 V4 adaptive,ventilazioni
+nvm,1551,1551,0,2,v_ven3_v1_ada,Velocità ventilatore 3 V1 adaptive,ventilazioni
+nvm,1551,1551,1,2,v_ven3_v0_ada,Velocità ventilatore 3 V0 adaptive,ventilazioni
+nvm,1552,1552,0,2,v_ven3_v3_ada,Velocità ventilatore 3 V3 adaptive,ventilazioni
+nvm,1552,1552,1,2,v_ven3_v2_ada,Velocità ventilatore 3 V2 adaptive,ventilazioni
+nvm,1553,1553,0,2,v_ven3_v5_ada,Velocità ventilatore 3 V5 adaptive,ventilazioni
+nvm,1553,1553,1,2,v_ven3_v4_ada,Velocità ventilatore 3 V4 adaptive,ventilazioni
+nvm,1554,1554,0,2,v_ven4_v1_ada,Velocità ventilatore 4 V1 adaptive,ventilazioni
+nvm,1554,1554,1,2,v_ven4_v0_ada,Velocità ventilatore 4 V0 adaptive,ventilazioni
+nvm,1555,1555,0,2,v_ven4_v3_ada,Velocità ventilatore 4 V3 adaptive,ventilazioni
+nvm,1555,1555,1,2,v_ven4_v2_ada,Velocità ventilatore 4 V2 adaptive,ventilazioni
+nvm,1556,1556,0,2,v_ven4_v5_ada,Velocità ventilatore 4 V5 adaptive,ventilazioni
+nvm,1556,1556,1,2,v_ven4_v4_ada,Velocità ventilatore 4 V4 adaptive,ventilazioni
+nvm,1557,1557,0,2,ven_sta_ven2,Ventilazione standard ventilatore 2,ventilazioni
+nvm,1557,1557,1,2,ven_sta_ven1,Ventilazione standard ventilatore 1,ventilazioni
+nvm,1558,1558,0,2,ven_sta_ven4,Ventilazione standard ventilatore 4,ventilazioni
+nvm,1558,1558,1,2,ven_sta_ven3,Ventilazione standard ventilatore 3,ventilazioni
+nvm,1559,1559,0,2,ven_sta_allarmi_ven2,Ventilazione standard allarmi ventilatore 2,ventilazioni
+nvm,1559,1559,1,2,ven_sta_allarmi_ven1,Ventilazione standard allarmi ventilatore 1,ventilazioni
+nvm,1560,1560,0,2,ven_sta_allarmi_ven4,Ventilazione standard allarmi ventilatore 4,ventilazioni
+nvm,1560,1560,1,2,ven_sta_allarmi_ven3,Ventilazione standard allarmi ventilatore 3,ventilazioni
+nvm,1561,1561,0,17,_free8_,free8,ventilazioni
+nvm,1561,1561,1,2,ven_mod_pow,Ventilazione modalità Power,ventilazioni
+nvm,1562,1562,0,3,temp_fumi_pre_allarme_a04,Temperatura fumi pre allarme A04,allarmi
+nvm,1563,1563,0,3,temp_fumi_allarme_a04,Temperatura fumi allarme A04,allarmi
+nvm,1564,1564,0,3,ist_fumi_pre_allarme_a04,Isteresi temperatura fumi pre allarme A04,allarmi
+nvm,1565,1565,0,3,temp_fumi_allarme_a09,Temperatura fumi allarme A09,allarmi
+nvm,1566,1566,0,3,temp_sch_pre_allarme_a13,Temperatura scheda pre allarme A13,allarmi
+nvm,1567,1567,0,3,temp_sch_allarme_a13,Temperatura scheda allarme A13,allarmi
+nvm,1568,1568,0,3,s_min_temp_amb_allarme_a22,Soglia min temperatura sonda ambiente fase allarme A22,allarmi
+nvm,1569,1569,0,3,s_max_temp_amb_allarme_a22,Soglia max temperatura sonda ambiente fase allarme A22,allarmi
+nvm,1570,1570,0,4,v_ven_fumi_riarmo_allarme_a21,Velocità ventilatore fumi per riarmo fase allarme A21,allarmi
+nvm,1571,1571,0,4,car_pel_sbl_coc,Carico pellet fase sblocco coclea,allarmi
+nvm,1572,1572,0,4,car_pel_allarme_a05,Carico pellet fase allarme A05,allarmi
+nvm,1573,1573,0,4,val_flu_allarme_a05,Valore flusso fase allarme A05,allarmi
+nvm,1574,1574,0,4,scot_coc_a12,Scostamento coclea per A12,allarmi
+nvm,1575,1575,0,11,act_acc,Active in accensione,active
+nvm,1575,1575,1,11,act,Active,active
+nvm,1576,1576,0,4,kp_act,Kp active,active
+nvm,1577,1577,0,4,ti_act,Ti active,active
+nvm,1578,1578,0,17,_free_,free,autoregolazione
+nvm,1578,1578,1,11,autoreg,Autoregolazione,autoregolazione
+nvm,1579,1579,0,4,t_max_lav_pul_mec,Tempo max lavoro pulizia meccanica,airmatic
+nvm,1580,1580,0,4,t_cor_pul,Tempo corsa pulitore,airmatic
+nvm,1581,1581,0,4,s_ven_fumi_pul_mec,Soglia ventilatore fumi pulizia meccanica,airmatic
+nvm,1582,1582,0,2,n_pul_brac,Numero pulizia braciere,airmatic
+nvm,1582,1582,1,2,err_act_pul_mecc,Errore active pulizia meccanica,airmatic
+nvm,1583,1583,0,17,_free_,free,airmatic
+nvm,1583,1583,1,2,pos_rip_brac,Posizione riposo braciere,airmatic
+nvm,1584,1584,0,4,v_ven_fumi_standby,Velocità ventilatore fumi fase standby,undefined
+nvm,1585,1585,0,3,adj_sonda_fumi,Adj sonda fumi,undefined
+nvm,1586,1586,0,4,t_anticon,Tempo fase anticondensa,anticondensa
+nvm,1587,1587,0,4,v_vent_fumi_anticon,Velocità ventilatore fumi fase anticondensa,anticondensa
+nvm,1588,1588,0,4,car_pel_anticon,Carico pellet fase anticondensa,anticondensa
+nvm,1589,1589,0,4,val_flu_anticon,Valore flusso fase anticondensa,anticondensa
+nvm,1590,1590,0,4,t_pre_sp,Tempo fase pre-spegnimento,pre-spegnimento
+nvm,1591,1591,0,4,v_vent_fumi_pre_sp,Velocità ventilatore fumi fase pre-spegnimento,pre-spegnimento
+nvm,1592,1592,0,4,car_pel_pre_sp,Carico pellet fase pre-spegnimento,pre-spegnimento
+nvm,1593,1593,0,4,val_flu_pre_sp,Valore flusso fase pre-spegnimento,pre-spegnimento
+nvm,1594,1594,0,17,_free_,free,pulitore brushless
+nvm,1594,1594,1,1,offset_pos_zero_pul,Offset posizione zero pulitore,pulitore brushless
+nvm,1595,1595,0,1,lim_max_offset_fl,limite max offset flusso,core
+nvm,1595,1595,1,1,lim_min_offset_fl,limite min offset flusso,core
+nvm,1596,1596,0,3,ist_neg_pompa,isteresi negativa pompa,pompa
+nvm,1597,1597,0,3,ist_pos_pompa,isteresi positiva pompa,pompa
+nvm,1598,1598,0,2,max_pompa,max pompa,pompa
+nvm,1598,1598,1,2,min_pompa,min pompa,pompa
+nvm,1599,1599,0,3,lim_temp_acqua,limite temperatura acqua,undefined
+nvm,1600,1600,0,3,ist_lim_temp_acqua,isteresi limite temperatura acqua,undefined
+nvm,1601,1601,0,3,temp_antigelo,temperatura antigelo,antigelo
+nvm,1602,1602,0,3,delta_t_boiler_acc_pompa,delta T boiler accensione pompa,undefined
+nvm,1603,1603,0,3,delta_t_boiler_spe_pompa,delta T boiler spegnimento pompa,undefined
+nvm,1604,1604,0,2,tempo_post_circ,tempo post circolazione,undefined
+nvm,1604,1604,1,2,att_antigelo,attiva antigelo,antigelo
+nvm,1605,1605,0,17,_free_,libero per espansioni,undefined
+nvm,1605,1605,1,2,tempo_post_circ_alarm,tempo post circolazione allarme,undefined
+nvm,1606,1606,0,3,ist_a02_acc,isteresi allarme A02 accensione,allarme a02
+nvm,1607,1607,0,3,temp_a02_lav,temperatura allarme A02 lavoro,allarme a02
+nvm,1608,1608,0,4,val_flux_sogl_A05,Valore flusso soglia A05,undefined
+nvm,1609,1609,0,4,ore_lav_inter_ipercomb,Ore lavoro intervento ipercombustione,ipercombustione
+nvm,1610,1610,0,4,t_fase_ipercomb,Tempo fase ipercombustione,ipercombustione
+nvm,1611,1611,0,4,car_pel_fase_ipercomb,Carico pellet fase ipercombustione,ipercombustione
+nvm,1612,1612,0,4,val_flux_fase_ipercomb,Valore flusso fase ipercombustione,ipercombustione
+nvm,1613,1613,0,4,vel_vent_fumi_fase_ipercomb,Velocità ventilatore fumi fase ipercombustione,ipercombustione
+nvm,1614,1614,0,4,t_interv_act_ada,Tempo intervento active adattivo,active adattivo
+nvm,1615,1615,0,4,t_lim_vel_estr_act_ada,Tempo limite velocità estrattore active adattivo,active adattivo
+nvm,1616,1616,0,2,usa_act_ada,Usa active adattivo,active adattivo
+nvm,1616,1616,1,2,sogl_act_ada,Soglia active adattivo,active adattivo
+nvm,1617,1617,0,4,lim_vel_estr_act_ada,Limite velocità estrattore active adattivo,active adattivo
+nvm,1618,1618,0,3,adj_NTC1,Adj NTC1,adj
+nvm,1619,1619,0,3,adj_NTC5,Adj NTC5,adj
+nvm,1620,1620,0,3,adj_s_radioc,adj Sonda radiocomando,adj
+nvm,1621,1621,0,3,adj_s_rem,adj Sonda remota,adj
+nvm,1622,1622,0,2,tipo_vis_aut_batt_tamp,tipo visualizzazione autonomia batterie tampone,batterie tampone
+nvm,1622,1622,1,2,sogl_batt_tamp_spegn,soglia batterie tampone per spegnimento,batterie tampone
+nvm,1623,1623,0,4,t_max_lav_pul_mec_sp,Tempo max lavoro pulizia meccanica SP,saving mode
+nvm,1624,1624,0,4,t_fase_spegn_sp,Tempo fase spegnimento SP,saving mode
+nvm,1625,1625,0,4,t_fase_pre_spegn_sp,Tempo fase Pre-Spegnimento SP,saving mode
+nvm,1626,1626,0,3,ist_temp_pre_spegn_sp,Isteresi temperatura fumi riaccensione macchina SP,saving mode
+nvm,1627,1698,0,16,_free_,Free,Free
+nvm,1699,1699,0,4,cod_comp_3,Codice compatibilità,compatibilita
+nvm,1700,1700,0,4,tipo_app,Tipo apparecchio,undefined
+nvm,1701,1701,0,13,t_funz_sil,Tempo funzione silent,undefined
+nvm,1702,1702,0,4,ore_serv,Ore service,undefined
+nvm,1703,1703,0,4,t_ult_spegn,Tempo ultimo spegnimento,undefined
+nvm,1704,1704,0,4,s_temp_riavvio_fumi_allarme,Soglia temperatura riavvio fumi in allarme,undefined
+nvm,1705,1705,0,4,t_aut_pellet,Tempo autonomia pellet,undefined
+nvm,1706,1706,0,2,max_pot_mod_DYN,Massima potenza modalità DYNAMIC,undefined
+nvm,1706,1706,1,2,max_pot_mod_MAN,Massima potenza modalità MANUAL,undefined
+nvm,1707,1707,0,2,max_pot_mod_COM,Massima potenza modalità COMFORT,undefined
+nvm,1707,1707,1,2,max_pot_mod_OVE,Massima potenza modalità OVERNIGHT,undefined
+nvm,1708,1708,0,2,mod_ris_pel,Modalità riserva pellet,undefined
+nvm,1708,1708,1,2,pres_pul,Presenza pulitore,undefined
+nvm,1709,1709,0,4,min_v_est,Minima velocità estrattore,estrattore
+nvm,1710,1710,0,4,max_v_est,Massima velocità estrattore,estrattore
+nvm,1711,1711,0,4,est_kp,KP,estrattore
+nvm,1712,1712,0,4,est_ti,Ti,estrattore
+nvm,1713,1713,0,4,est_out_min,Out min,estrattore
+nvm,1714,1714,0,4,min_v_coc,Minima velocità coclea,motoriduttore
+nvm,1715,1715,0,4,max_v_coc,Massima velocità coclea,motoriduttore
+nvm,1716,1716,0,4,t_coc_tot,Tempo coclea totale,motoriduttore
+nvm,1717,1717,0,4,mr_kp,KP,motoriduttore
+nvm,1718,1718,0,4,mr_ti,Ti,motoriduttore
+nvm,1719,1719,0,4,mr_out_min,Out min,motoriduttore
+nvm,1720,1720,0,4,tipo_mr,Tipologia motoriduttore,motoriduttore
+nvm,1721,1721,0,4,t_rampa,Tempo rampa,motoriduttore
+nvm,1722,1722,0,2,autor_min,Autoregolazione min,autoregolazione
+nvm,1722,1722,1,2,autor_plus,Autoregolazione plus,autoregolazione
+nvm,1723,1723,0,17,_free_,free,autoregolazione
+nvm,1723,1723,1,2,t_autor,Tempo autoregolazione,autoregolazione
+nvm,1724,1724,0,2,t_riv_bloc_bru2,Tempo rilevamento blocco brushless 2,sblocco motoriduttore
+nvm,1724,1724,1,2,t_riv_bloc_bru1,Tempo rilevamento blocco brushless 1,sblocco motoriduttore
+nvm,1725,1725,0,2,delta_riv_bloc_bru_1,Delta rilevamento blocco brushless 1,sblocco motoriduttore
+nvm,1725,1725,1,2,t_riv_bloc_bru3,Tempo rilevamento blocco brushless 3,sblocco motoriduttore
+nvm,1726,1726,0,2,vel_bloc_bru2,Velocità soglia bloccco brushless fase sblocco coclea,sblocco motoriduttore
+nvm,1726,1726,1,2,vel_bloc_bru1,Velocità soglia blocco brushless fase test avanti,sblocco motoriduttore
+nvm,1727,1727,0,4,car_pel_test_sbloc_coc,Carico pellet fase test sblocco coclea,sblocco motoriduttore
+nvm,1728,1728,0,3,ist_att_dis_ven1,Isteresi attivazione disattivazione ventola 1,ventilazioni
+nvm,1729,1729,0,3,ist_att_dis_ven2,Isteresi attivazione disattivazione ventola 2,ventilazioni
+nvm,1730,1730,0,3,ist_att_dis_ven3,Isteresi attivazione disattivazione ventola 3,ventilazioni
+nvm,1731,1731,0,3,ist_att_dis_ven5,Isteresi attivazione disattivazione ventola 4,ventilazioni
+nvm,1732,1732,0,2,liv_ven_MAN_v1_p2,Livello ventilazione MANUAL V1 P2,ventilazioni
+nvm,1732,1732,1,2,liv_ven_MAN_v1_p1,Livello ventilazione MANUAL V1 P1,ventilazioni
+nvm,1733,1733,0,2,liv_ven_MAN_v1_p4,Livello ventilazione MANUAL V1 P4,ventilazioni
+nvm,1733,1733,1,2,liv_ven_MAN_v1_p3,Livello ventilazione MANUAL V1 P3,ventilazioni
+nvm,1734,1734,0,2,liv_ven_MAN_v2_p1,Livello ventilazione MANUAL V2 P1,ventilazioni
+nvm,1734,1734,1,2,liv_ven_MAN_v1_p5,Livello ventilazione MANUAL V1 P5,ventilazioni
+nvm,1735,1735,0,2,liv_ven_MAN_v2_p3,Livello ventilazione MANUAL V2 P3,ventilazioni
+nvm,1735,1735,1,2,liv_ven_MAN_v2_p2,Livello ventilazione MANUAL V2 P2,ventilazioni
+nvm,1736,1736,0,2,liv_ven_MAN_v2_p5,Livello ventilazione MANUAL V2 P5,ventilazioni
+nvm,1736,1736,1,2,liv_ven_MAN_v2_p4,Livello ventilazione MANUAL V2 P4,ventilazioni
+nvm,1737,1737,0,2,liv_ven_MAN_v3_p2,Livello ventilazione MANUAL V3 P2,ventilazioni
+nvm,1737,1737,1,2,liv_ven_MAN_v3_p1,Livello ventilazione MANUAL V3 P1,ventilazioni
+nvm,1738,1738,0,2,liv_ven_MAN_v3_p4,Livello ventilazione MANUAL V3 P4,ventilazioni
+nvm,1738,1738,1,2,liv_ven_MAN_v3_p3,Livello ventilazione MANUAL V3 P3,ventilazioni
+nvm,1739,1739,0,2,liv_ven_MAN_v4_p1,Livello ventilazione MANUAL V4 P1,ventilazioni
+nvm,1739,1739,1,2,liv_ven_MAN_v3_p5,Livello ventilazione MANUAL V3 P5,ventilazioni
+nvm,1740,1740,0,2,liv_ven_MAN_v4_p3,Livello ventilazione MANUAL V4 P3,ventilazioni
+nvm,1740,1740,1,2,liv_ven_MAN_v4_p2,Livello ventilazione MANUAL V4 P2,ventilazioni
+nvm,1741,1741,0,2,liv_ven_MAN_v4_p5,Livello ventilazione MANUAL V4 P5,ventilazioni
+nvm,1741,1741,1,2,liv_ven_MAN_v4_p4,Livello ventilazione MANUAL V4 P4,ventilazioni
+nvm,1742,1742,0,2,liv_ven_DYN_v1_p2,Livello ventilazione DYNAMIC V1 P2,ventilazioni
+nvm,1742,1742,1,2,liv_ven_DYN_v1_p1,Livello ventilazione DYNAMIC V1 P1,ventilazioni
+nvm,1743,1743,0,2,liv_ven_DYN_v1_p4,Livello ventilazione DYNAMIC V1 P4,ventilazioni
+nvm,1743,1743,1,2,liv_ven_DYN_v1_p3,Livello ventilazione DYNAMIC V1 P3,ventilazioni
+nvm,1744,1744,0,2,liv_ven_DYN_v2_p1,Livello ventilazione DYNAMIC V2 P1,ventilazioni
+nvm,1744,1744,1,2,liv_ven_DYN_v1_p5,Livello ventilazione DYNAMIC V1 P5,ventilazioni
+nvm,1745,1745,0,2,liv_ven_DYN_v2_p3,Livello ventilazione DYNAMIC V2 P3,ventilazioni
+nvm,1745,1745,1,2,liv_ven_DYN_v2_p2,Livello ventilazione DYNAMIC V2 P2,ventilazioni
+nvm,1746,1746,0,2,liv_ven_DYN_v2_p5,Livello ventilazione DYNAMIC V2 P5,ventilazioni
+nvm,1746,1746,1,2,liv_ven_DYN_v2_p4,Livello ventilazione DYNAMIC V2 P4,ventilazioni
+nvm,1747,1747,0,2,liv_ven_DYN_v3_p2,Livello ventilazione DYNAMIC V3 P2,ventilazioni
+nvm,1747,1747,1,2,liv_ven_DYN_v3_p1,Livello ventilazione DYNAMIC V3 P1,ventilazioni
+nvm,1748,1748,0,2,liv_ven_DYN_v3_p4,Livello ventilazione DYNAMIC V3 P4,ventilazioni
+nvm,1748,1748,1,2,liv_ven_DYN_v3_p3,Livello ventilazione DYNAMIC V3 P3,ventilazioni
+nvm,1749,1749,0,2,liv_ven_DYN_v4_p1,Livello ventilazione DYNAMIC V4 P1,ventilazioni
+nvm,1749,1749,1,2,liv_ven_DYN_v3_p5,Livello ventilazione DYNAMIC V3 P5,ventilazioni
+nvm,1750,1750,0,2,liv_ven_DYN_v4_p3,Livello ventilazione DYNAMIC V4 P3,ventilazioni
+nvm,1750,1750,1,2,liv_ven_DYN_v4_p2,Livello ventilazione DYNAMIC V4 P2,ventilazioni
+nvm,1751,1751,0,2,liv_ven_DYN_v4_p5,Livello ventilazione DYNAMIC V4 P5,ventilazioni
+nvm,1751,1751,1,2,liv_ven_DYN_v4_p4,Livello ventilazione DYNAMIC V4 P4,ventilazioni
+nvm,1752,1752,0,2,liv_ven_OVE_v1_p2,Livello ventilazione OVERNIGHT V1 P2,ventilazioni
+nvm,1752,1752,1,2,liv_ven_OVE_v1_p1,Livello ventilazione OVERNIGHT V1 P1,ventilazioni
+nvm,1753,1753,0,2,liv_ven_OVE_v1_p4,Livello ventilazione OVERNIGHT V1 P4,ventilazioni
+nvm,1753,1753,1,2,liv_ven_OVE_v1_p3,Livello ventilazione OVERNIGHT V1 P3,ventilazioni
+nvm,1754,1754,0,2,liv_ven_OVE_v2_p1,Livello ventilazione OVERNIGHT V2 P1,ventilazioni
+nvm,1754,1754,1,2,liv_ven_OVE_v1_p5,Livello ventilazione OVERNIGHT V1 P5,ventilazioni
+nvm,1755,1755,0,2,liv_ven_OVE_v2_p3,Livello ventilazione OVERNIGHT V2 P3,ventilazioni
+nvm,1755,1755,1,2,liv_ven_OVE_v2_p2,Livello ventilazione OVERNIGHT V2 P2,ventilazioni
+nvm,1756,1756,0,2,liv_ven_OVE_v2_p5,Livello ventilazione OVERNIGHT V2 P5,ventilazioni
+nvm,1756,1756,1,2,liv_ven_OVE_v2_p4,Livello ventilazione OVERNIGHT V2 P4,ventilazioni
+nvm,1757,1757,0,2,liv_ven_OVE_v3_p2,Livello ventilazione OVERNIGHT V3 P2,ventilazioni
+nvm,1757,1757,1,2,liv_ven_OVE_v3_p1,Livello ventilazione OVERNIGHT V3 P1,ventilazioni
+nvm,1758,1758,0,2,liv_ven_OVE_v3_p4,Livello ventilazione OVERNIGHT V3 P4,ventilazioni
+nvm,1758,1758,1,2,liv_ven_OVE_v3_p3,Livello ventilazione OVERNIGHT V3 P3,ventilazioni
+nvm,1759,1759,0,2,liv_ven_OVE_v4_p1,Livello ventilazione OVERNIGHT V4 P1,ventilazioni
+nvm,1759,1759,1,2,liv_ven_OVE_v3_p5,Livello ventilazione OVERNIGHT V3 P5,ventilazioni
+nvm,1760,1760,0,2,liv_ven_OVE_v4_p3,Livello ventilazione OVERNIGHT V4 P3,ventilazioni
+nvm,1760,1760,1,2,liv_ven_OVE_v4_p2,Livello ventilazione OVERNIGHT V4 P2,ventilazioni
+nvm,1761,1761,0,2,liv_ven_OVE_v4_p5,Livello ventilazione OVERNIGHT V4 P5,ventilazioni
+nvm,1761,1761,1,2,liv_ven_OVE_v4_p4,Livello ventilazione OVERNIGHT V4 P4,ventilazioni
+nvm,1762,1762,0,2,liv_ven_COM_v1_p2,Livello ventilazione COMFORT V1 P2,ventilazioni
+nvm,1762,1762,1,2,liv_ven_COM_v1_p1,Livello ventilazione COMFORT V1 P1,ventilazioni
+nvm,1763,1763,0,2,liv_ven_COM_v1_p4,Livello ventilazione COMFORT V1 P4,ventilazioni
+nvm,1763,1763,1,2,liv_ven_COM_v1_p3,Livello ventilazione COMFORT V1 P3,ventilazioni
+nvm,1764,1764,0,2,liv_ven_COM_v2_p1,Livello ventilazione COMFORT V2 P1,ventilazioni
+nvm,1764,1764,1,2,liv_ven_COM_v1_p5,Livello ventilazione COMFORT V1 P5,ventilazioni
+nvm,1765,1765,0,2,liv_ven_COM_v2_p3,Livello ventilazione COMFORT V2 P3,ventilazioni
+nvm,1765,1765,1,2,liv_ven_COM_v2_p2,Livello ventilazione COMFORT V2 P2,ventilazioni
+nvm,1766,1766,0,2,liv_ven_COM_v2_p5,Livello ventilazione COMFORT V2 P5,ventilazioni
+nvm,1766,1766,1,2,liv_ven_COM_v2_p4,Livello ventilazione COMFORT V2 P4,ventilazioni
+nvm,1767,1767,0,2,liv_ven_COM_v3_p2,Livello ventilazione COMFORT V3 P2,ventilazioni
+nvm,1767,1767,1,2,liv_ven_COM_v3_p1,Livello ventilazione COMFORT V3 P1,ventilazioni
+nvm,1768,1768,0,2,liv_ven_COM_v3_p4,Livello ventilazione COMFORT V3 P4,ventilazioni
+nvm,1768,1768,1,2,liv_ven_COM_v3_p3,Livello ventilazione COMFORT V3 P3,ventilazioni
+nvm,1769,1769,0,2,liv_ven_COM_v4_p1,Livello ventilazione COMFORT V4 P1,ventilazioni
+nvm,1769,1769,1,2,liv_ven_COM_v3_p5,Livello ventilazione COMFORT V3 P5,ventilazioni
+nvm,1770,1770,0,2,liv_ven_COM_v4_p3,Livello ventilazione COMFORT V4 P3,ventilazioni
+nvm,1770,1770,1,2,liv_ven_COM_v4_p2,Livello ventilazione COMFORT V4 P2,ventilazioni
+nvm,1771,1771,0,2,liv_ven_COM_v4_p5,Livello ventilazione COMFORT V4 P5,ventilazioni
+nvm,1771,1771,1,2,liv_ven_COM_v4_p4,Livello ventilazione COMFORT V4 P4,ventilazioni
+nvm,1772,1772,0,11,pres_ven2,Presenza ventilatore 2,ventilazioni
+nvm,1772,1772,1,11,pres_ven1,Presenza ventilatore 1,ventilazioni
+nvm,1773,1773,0,11,pres_ven4,Presenza ventilatore 4,ventilazioni
+nvm,1773,1773,1,11,pres_ven3,Presenza ventilatore 3,ventilazioni
+nvm,1774,1774,0,11,abi_off_ven2,Abilitazione off in ventilatore 2,ventilazioni
+nvm,1774,1774,1,11,abi_off_ven1,Abilitazione off in ventilatore 1,ventilazioni
+nvm,1775,1775,0,11,abi_off_ven4,Abilitazione off in ventilatore 4,ventilazioni
+nvm,1775,1775,1,11,abi_off_ven3,Abilitazione off in ventilatore 3,ventilazioni
+nvm,1776,1776,0,11,abi_auto_ven2,Abilitazione auto in ventilatore 2,ventilazioni
+nvm,1776,1776,1,11,abi_auto_ven1,Abilitazione auto in ventilatore 1,ventilazioni
+nvm,1777,1777,0,11,abi_auto_ven4,Abilitazione auto in ventilatore 4,ventilazioni
+nvm,1777,1777,1,11,abi_auto_ven3,Abilitazione auto in ventilatore 3,ventilazioni
+nvm,1778,1778,0,11,vis_ven2_tlc_app,Visualizza ventola 2 su tlc/app,ventilazioni
+nvm,1778,1778,1,11,vis_ven1_tlc_app,Visualizza ventola 1 su tlc/app,ventilazioni
+nvm,1779,1779,0,11,vis_ven4_tlc_app,Visualizza ventola 4 su tlc/app,ventilazioni
+nvm,1779,1779,1,11,vis_ven3_tlc_app,Visualizza ventola 3 su tlc/app,ventilazioni
+nvm,1780,1780,0,11,abi_ven2_tlc_app,Abilita ventola 2 su tlc/app,ventilazioni
+nvm,1780,1780,1,11,abi_ven1_tlc_app,Abilita ventola 1 su tlc/app,ventilazioni
+nvm,1781,1781,0,11,abi_ven4_tlc_app,Abilita ventola 4 su tlc/app,ventilazioni
+nvm,1781,1781,1,11,abi_ven3_tlc_app,Abilita ventola 3 su tlc/app,ventilazioni
+nvm,1782,1782,0,17,_free_,free,ventilazioni
+nvm,1782,1782,1,11,abi_agg_pot_ven,Abilitazione aggancio potenza ventilazione,ventilazioni
+nvm,1783,1783,0,4,rit_riarmo_press,Ritardo riarmo pressostato,riarmo pressostato
+nvm,1784,1784,0,4,n_max_riarmi_press,Numero max riarmi pressostato,riarmo pressostato
+nvm,1785,1785,0,4,colp_coc_pot,Fase colpetto coclea fino alla potenza,colpetto coclea
+nvm,1786,1786,0,4,car_pel_pot,Carico pellet fino alla potenza,colpetto coclea
+nvm,1787,1787,0,4,dur_col_coc,Durata fase colpetto coclea,colpetto coclea
+nvm,1788,1788,0,4,int_col_coc,Intervallo fase colpetto coclea,colpetto coclea
+nvm,1789,1789,0,4,rit_usc_standby,Ritardo uscita fase standby,ecostop
+nvm,1790,1790,0,4,rit_ing_standby,Ritardo ingresso fase standby,ecostop
+nvm,1791,1791,0,4,dur_allarme_1,Durate fase allarme tipo 1,allarmi
+nvm,1792,1792,0,4,dur_allarme_2,Durata fase allarme tipo 2,allarmi
+nvm,1793,1793,0,4,rit_a02,Ritardo fase A02,allarmi
+nvm,1794,1794,0,4,rit_a03,Ritardo fase A03,allarmi
+nvm,1795,1795,0,4,rit_a04,Ritardo fase A04,allarmi
+nvm,1796,1796,0,4,rit_a05,Ritardo fase A05,allarmi
+nvm,1797,1797,0,4,rit_a08,Ritardo fase A08,allarmi
+nvm,1798,1798,0,4,rit_a09,Ritardo fase A09,allarmi
+nvm,1799,1799,0,4,rit_a12,Ritardo fase A12,allarmi
+nvm,1800,1800,0,4,rit_a13,Ritardo fase A13,allarmi
+nvm,1801,1801,0,4,rit_a14,Ritardo fase A14,allarmi
+nvm,1802,1802,0,4,rit_a21,Ritardo fase A21,allarmi
+nvm,1803,1803,0,4,rit_a22,Ritardo fase A22,allarmi
+nvm,1804,1804,0,4,rit_sbloc_coc,Ritardo fase sblocco coclea,allarmi
+nvm,1805,1805,0,4,tout_cic,Timeout cicalino,allarmi
+nvm,1806,1806,0,4,t_bkout,Tempo blackout,allarmi
+nvm,1807,1807,0,4,v_ven_fumi_allarme_1,Velocità ventilatore fumi fase allarme tipo 1,allarmi
+nvm,1808,1808,0,4,v_ven_fumi_allarme_2,Velocità ventilatore fumi fase allarme tipo 2,allarmi
+nvm,1809,1809,0,4,v_ven_fumi_allarme_a08,Velocità ventilatore fumi fase allarme A08,allarmi
+nvm,1810,1810,0,4,v_ven_fumi_allarme_a05,Velocità ventilatore fumi fase allarme A05,allarmi
+nvm,1811,1811,0,4,car_pel_allarme_1,Carico pellet fase allarme tipo 1,allarmi
+nvm,1812,1812,0,4,car_pel_allarme_2,Carico pellet fase allarme tipo 2,allarmi
+nvm,1813,1813,0,4,var_flu_allarme_1,Valore flusso fase allarme tipo 1,allarmi
+nvm,1814,1814,0,4,var_flu_allarme_2,Valore flusso fase allarme tipo 2,allarmi
+nvm,1815,1815,0,4,s_min_val_flu_allarme_a14,Soglia minima valore flusso fase allarme A14,allarmi
+nvm,1816,1816,0,4,s_max_val_flu_allarme_a14,Soglia massima valore flusso fase allarme A14,allarmi
+nvm,1817,1817,0,3,lim_temp_pan,Se il pannello supera queso limite la potenza viene limitata a 3,allarmi
+nvm,1818,1818,0,2,n_ore_pot_el,N° massimo di ore in potenza 4 o 5 per l'intervento del limitatore di potenza,limitatore
+nvm,1818,1818,1,2,pot_lim,Potenza in fase di limitazione,limitatore
+nvm,1819,1819,0,4,dur_lim,Durata della fase di limitazione,limitatore
+nvm,1820,1820,0,2,n_car_rid_sp,Numero carichi ridotti per spegnimento,core
+nvm,1820,1820,1,2,n_cicli_rid_coppia,Numero cicli riduzione di coppia,core
+nvm,1821,1821,0,17,_free_,free,core
+nvm,1821,1821,1,2,n_car_rid_act,Numero carichi ridotti per active,core
+nvm,1822,1822,0,2,inc_val_flu_perc,Incremento valore flusso %,core
+nvm,1822,1822,1,2,inc_val_flu,Incremento valore flusso,core
+nvm,1823,1823,0,4,t_n_c_rid_coppia,Tempo numero cicli riduzione coppia,core
+nvm,1824,1824,0,4,t_car_rid,Tempo carico ridotto,core
+nvm,1825,1825,0,4,dur_colp_coc_car_rid,Durata colpetto coclea carico ridotto,core
+nvm,1826,1826,0,4,int_colp_coc_car_rid,Intervallo colpetto coclea carico ridotto,core
+nvm,1827,1827,0,4,t_n_car_rid_sp,Tempo numero carichi ridotti per spegnimento,core
+nvm,1828,1828,0,4,t_n_car_rid_inc_act,Tempo numero carichi ridotti per incremento active,core
+nvm,1829,1829,0,4,t_buon_funz_dec_act,Tempo buon funzionamento per decremento active,core
+nvm,1830,1830,0,4,car_pel_car_rid,Carico pellet carico ridotto,core
+nvm,1831,1831,0,4,car_pel_colp_coc_car_rid,Carico pellet colpetto coclea carico ridotto,core
+nvm,1832,1832,0,1,pos_ap_pul,posizione apertura pulitore,pulitore brushless
+nvm,1832,1832,1,2,tempo_ril_blocco_mecc,tempo rilevamento blocco meccanico,pulitore brushless
+nvm,1833,1833,0,2,soglia_blocco_mecc,soglia blocco meccanico,pulitore brushless
+nvm,1833,1833,1,11,pres_pul_brush,presenza pulitore brushless,pulitore brushless
+nvm,1834,1834,0,3,temp_max_mand,temperatura massima mandata,undefined
+nvm,1835,1835,0,3,delta_temp_max_mand,delta temperatura massima mandata,undefined
+nvm,1836,1836,0,4,rit_fase_a19,ritardo fase A19,allarmi
+nvm,1837,1837,0,4,rit_fase_a20,ritardo fase A20,allarmi
+nvm,1838,1838,0,3,min_temp_cald_a19,soglia min temperatura sonda caldaia fase allarme A19,allarmi
+nvm,1839,1839,0,3,max_temp_cald_a19,soglia max temperatura sonda caldaia fase allarme A19,allarmi
+nvm,1840,1840,0,3,min_temp_cald_a20,soglia min temperatura sonda caldaia fase allarme A20,allarmi
+nvm,1841,1841,0,3,max_temp_cald_a20,soglia max temperatura sonda caldaia fase allarme A20,allarmi
+nvm,1842,1842,0,17,_free_,libero per espansioni,undefined
+nvm,1842,1842,1,2,log_valv_3vie,logica valvola 3 vie,undefined
+nvm,1843,1843,0,2,vel_pul,velocità pulitore,undefined
+nvm,1843,1843,1,2,delta_usc_blocco_brush,delta uscita blocco brushless,undefined
+nvm,1844,1844,0,4,vel_bloc_bru2_core,velocità soglia blocco brushless fase sblocco coclea CORE,sblocco coclea
+nvm,1845,1845,0,4,temp_bollitore_min,Minima temperatura boiler,undefined
+nvm,1846,1846,0,4,temp_bollitore_max,Massima temperatura boiler,undefined
+nvm,1847,1847,0,4,min_temp_puffer,Minima temperatura puffer,undefined
+nvm,1848,1848,0,4,max_temp_puffer,Minima temperatura puffer,undefined
+nvm,1849,1849,0,2,range_max_stato_pompa_ok,Range max stato pompa Ok,allarmi
+nvm,1849,1849,1,2,range_min_stato_pompa_ok,Range min stato pompa Ok,allarmi
+nvm,1850,1850,0,4,rit_fase_all_A24,Ritardo fase allarme A24,allarmi
+nvm,1851,1851,0,2,int_tx_temp_radio,Intervallo tx temperatura radio,undefined
+nvm,1851,1851,1,10,abil_act_ada,Abilitazione active adattivo,undefined
+nvm,1852,1852,0,4,temp_rit_ris_red,tempo ritardo riserva red,riserva pellet
+nvm,1853,1853,0,4,temp_rit_ris_green,tempo ritardo riserva green,riserva pellet
+nvm,1854,1854,0,2,en_sav_m,Abilitazione funzione saving mode,saving mode
+nvm,1854,1854,1,2,antic_s_act,anticondensa sensore active,undefined
+nvm,1855,1855,0,4,rit_fase_all_A25,ritardo fase allarme A25,allarmi
+nvm,1856,1856,0,4,rit_fase_all_A26,ritardo fase allarme A26,allarmi
+nvm,1857,1857,0,4,rit_fase_all_A27_A28_A29,"ritardo fase allarme A27, A28, A29",allarmi
+nvm,1858,1858,0,4,rit_fase_all_A30,ritardo fase allarme A30,allarmi
+nvm,1859,1859,0,2,delta_temp_clima,Delta temperatura Clima,condizionatore
+nvm,1859,1859,1,10,n_swing_clima,Abilita swing Clima,condizionatore
+nvm,1860,1989,0,16,_free_,Free,Free
+nvm,1990,1990,0,4,rev_banca_dati,Numero progressivo della revisione della banca dati,banca dati
+nvm,1991,1998,0,0,banca_dati,Nome banca dati,banca dati
+nvm,1999,1999,0,4,cod_comp_4,Codice compatibilità,compatibilita
+nvm,2000,2001,0,6,num_accensioni,Numero accensioni,contatori totali
+nvm,2002,2003,0,6,cnt_tot_tempo_lav_p1,Tempo lavoro in P1,contatori totali
+nvm,2004,2005,0,6,cnt_tot_tempo_lav_p2,Tempo lavoro in P2,contatori totali
+nvm,2006,2007,0,6,cnt_tot_tempo_lav_p3,Tempo lavoro in P3,contatori totali
+nvm,2008,2009,0,6,cnt_tot_tempo_lav_p4,Tempo lavoro in P4,contatori totali
+nvm,2010,2011,0,6,cnt_tot_tempo_lav_p5,Tempo lavoro in P5,contatori totali
+nvm,2012,2013,0,6,cnt_tot_tempo_lav_tot,Tempo lavoro in P5,contatori totali
+nvm,2014,2015,0,6,cnt_serv_tempo_lav_p1,Tempo lavoro in P1,contatori service
+nvm,2016,2017,0,6,cnt_serv_tempo_lav_p2,Tempo lavoro in P2,contatori service
+nvm,2018,2019,0,6,cnt_serv_tempo_lav_p3,Tempo lavoro in P3,contatori service
+nvm,2020,2021,0,6,cnt_serv_tempo_lav_p4,Tempo lavoro in P4,contatori service
+nvm,2022,2023,0,6,cnt_serv_tempo_lav_p5,Tempo lavoro in P5,contatori service
+nvm,2024,2025,0,6,cnt_serv_tempo_lav_tot,Tempo lavoro in P5,contatori service
+nvm,2026,2026,0,2,index_allarme,Indice allarme,log allarmi
+nvm,2026,2026,1,2,num_allarmi,Numero allarmi,log allarmi
+nvm,2027,2027,0,16,_log_allarmi_free_,Free log allarmi,log allarmi
+nvm,2028,2029,0,6,ts_allarme_0,timestamp allarme 0,log allarmi
+nvm,2030,2030,0,4,tipo_allarme_allarme_0,tipo allarme allarme 0,log allarmi
+nvm,2031,2031,0,16,_free_allarme_0,free allarme 0,log allarmi
+nvm,2032,2033,0,6,ts_allarme_1,timestamp allarme 1,log allarmi
+nvm,2034,2034,0,4,tipo_allarme_allarme_1,tipo allarme allarme 1,log allarmi
+nvm,2035,2035,0,16,_free_allarme_1,free allarme 1,log allarmi
+nvm,2036,2037,0,6,ts_allarme_2,timestamp allarme 2,log allarmi
+nvm,2038,2038,0,4,tipo_allarme_allarme_2,tipo allarme allarme 2,log allarmi
+nvm,2039,2039,0,16,_free_allarme_2,free allarme 2,log allarmi
+nvm,2040,2041,0,6,ts_allarme_3,timestamp allarme 3,log allarmi
+nvm,2042,2042,0,4,tipo_allarme_allarme_3,tipo allarme allarme 3,log allarmi
+nvm,2043,2043,0,16,_free_allarme_3,free allarme 3,log allarmi
+nvm,2044,2045,0,6,ts_allarme_4,timestamp allarme 4,log allarmi
+nvm,2046,2046,0,4,tipo_allarme_allarme_4,tipo allarme allarme 4,log allarmi
+nvm,2047,2047,0,16,_free_allarme_4,free allarme 4,log allarmi
+nvm,2048,2049,0,6,ts_allarme_5,timestamp allarme 5,log allarmi
+nvm,2050,2050,0,4,tipo_allarme_allarme_5,tipo allarme allarme 5,log allarmi
+nvm,2051,2051,0,16,_free_allarme_5,free allarme 5,log allarmi
+nvm,2052,2053,0,6,ts_allarme_6,timestamp allarme 6,log allarmi
+nvm,2054,2054,0,4,tipo_allarme_allarme_6,tipo allarme allarme 6,log allarmi
+nvm,2055,2055,0,16,_free_allarme_6,free allarme 6,log allarmi
+nvm,2056,2057,0,6,ts_allarme_7,timestamp allarme 7,log allarmi
+nvm,2058,2058,0,4,tipo_allarme_allarme_7,tipo allarme allarme 7,log allarmi
+nvm,2059,2059,0,16,_free_allarme_7,free allarme 7,log allarmi
+nvm,2060,2061,0,6,ts_allarme_8,timestamp allarme 8,log allarmi
+nvm,2062,2062,0,4,tipo_allarme_allarme_8,tipo allarme allarme 8,log allarmi
+nvm,2063,2063,0,16,_free_allarme_8,free allarme 8,log allarmi
+nvm,2064,2065,0,6,ts_allarme_9,timestamp allarme 9,log allarmi
+nvm,2066,2066,0,4,tipo_allarme_allarme_9,tipo allarme allarme 9,log allarmi
+nvm,2067,2067,0,16,_free_allarme_9,free allarme 9,log allarmi
+nvm,2068,2069,0,6,ts_allarme_10,timestamp allarme 10,log allarmi
+nvm,2070,2070,0,4,tipo_allarme_allarme_10,tipo allarme allarme 10,log allarmi
+nvm,2071,2071,0,16,_free_allarme_10,free allarme 10,log allarmi
+nvm,2072,2073,0,6,ts_allarme_11,timestamp allarme 11,log allarmi
+nvm,2074,2074,0,4,tipo_allarme_allarme_11,tipo allarme allarme 11,log allarmi
+nvm,2075,2075,0,16,_free_allarme_11,free allarme 11,log allarmi
+nvm,2076,2077,0,6,ts_allarme_12,timestamp allarme 12,log allarmi
+nvm,2078,2078,0,4,tipo_allarme_allarme_12,tipo allarme allarme 12,log allarmi
+nvm,2079,2079,0,16,_free_allarme_12,free allarme 12,log allarmi
+nvm,2080,2081,0,6,ts_allarme_13,timestamp allarme 13,log allarmi
+nvm,2082,2082,0,4,tipo_allarme_allarme_13,tipo allarme allarme 13,log allarmi
+nvm,2083,2083,0,16,_free_allarme_13,free allarme 13,log allarmi
+nvm,2084,2085,0,6,ts_allarme_14,timestamp allarme 14,log allarmi
+nvm,2086,2086,0,4,tipo_allarme_allarme_14,tipo allarme allarme 14,log allarmi
+nvm,2087,2087,0,16,_free_allarme_14,free allarme 14,log allarmi
+nvm,2088,2089,0,6,ts_allarme_15,timestamp allarme 15,log allarmi
+nvm,2090,2090,0,4,tipo_allarme_allarme_15,tipo allarme allarme 15,log allarmi
+nvm,2091,2091,0,16,_free_allarme_15,free allarme 15,log allarmi
+nvm,2092,2093,0,6,ts_allarme_16,timestamp allarme 16,log allarmi
+nvm,2094,2094,0,4,tipo_allarme_allarme_16,tipo allarme allarme 16,log allarmi
+nvm,2095,2095,0,16,_free_allarme_16,free allarme 16,log allarmi
+nvm,2096,2097,0,6,ts_allarme_17,timestamp allarme 17,log allarmi
+nvm,2098,2098,0,4,tipo_allarme_allarme_17,tipo allarme allarme 17,log allarmi
+nvm,2099,2099,0,16,_free_allarme_17,free allarme 17,log allarmi
+nvm,2100,2101,0,6,ts_allarme_18,timestamp allarme 18,log allarmi
+nvm,2102,2102,0,4,tipo_allarme_allarme_18,tipo allarme allarme 18,log allarmi
+nvm,2103,2103,0,16,_free_allarme_18,free allarme 18,log allarmi
+nvm,2104,2105,0,6,ts_allarme_19,timestamp allarme 19,log allarmi
+nvm,2106,2106,0,4,tipo_allarme_allarme_19,tipo allarme allarme 19,log allarmi
+nvm,2107,2107,0,16,_free_allarme_19,free allarme 19,log allarmi
+nvm,2108,2109,0,6,ts_allarme_20,timestamp allarme 20,log allarmi
+nvm,2110,2110,0,4,tipo_allarme_allarme_20,tipo allarme allarme 20,log allarmi
+nvm,2111,2111,0,16,_free_allarme_20,free allarme 20,log allarmi
+nvm,2112,2113,0,6,ts_allarme_21,timestamp allarme 21,log allarmi
+nvm,2114,2114,0,4,tipo_allarme_allarme_21,tipo allarme allarme 21,log allarmi
+nvm,2115,2115,0,16,_free_allarme_21,free allarme 21,log allarmi
+nvm,2116,2117,0,6,ts_allarme_22,timestamp allarme 22,log allarmi
+nvm,2118,2118,0,4,tipo_allarme_allarme_22,tipo allarme allarme 22,log allarmi
+nvm,2119,2119,0,16,_free_allarme_22,free allarme 22,log allarmi
+nvm,2120,2121,0,6,ts_allarme_23,timestamp allarme 23,log allarmi
+nvm,2122,2122,0,4,tipo_allarme_allarme_23,tipo allarme allarme 23,log allarmi
+nvm,2123,2123,0,16,_free_allarme_23,free allarme 23,log allarmi
+nvm,2124,2125,0,6,ts_allarme_24,timestamp allarme 24,log allarmi
+nvm,2126,2126,0,4,tipo_allarme_allarme_24,tipo allarme allarme 24,log allarmi
+nvm,2127,2127,0,16,_free_allarme_24,free allarme 24,log allarmi
+nvm,2128,2129,0,6,ts_allarme_25,timestamp allarme 25,log allarmi
+nvm,2130,2130,0,4,tipo_allarme_allarme_25,tipo allarme allarme 25,log allarmi
+nvm,2131,2131,0,16,_free_allarme_25,free allarme 25,log allarmi
+nvm,2132,2133,0,6,ts_allarme_26,timestamp allarme 26,log allarmi
+nvm,2134,2134,0,4,tipo_allarme_allarme_26,tipo allarme allarme 26,log allarmi
+nvm,2135,2135,0,16,_free_allarme_26,free allarme 26,log allarmi
+nvm,2136,2137,0,6,ts_allarme_27,timestamp allarme 27,log allarmi
+nvm,2138,2138,0,4,tipo_allarme_allarme_27,tipo allarme allarme 27,log allarmi
+nvm,2139,2139,0,16,_free_allarme_27,free allarme 27,log allarmi
+nvm,2140,2141,0,6,ts_allarme_28,timestamp allarme 28,log allarmi
+nvm,2142,2142,0,4,tipo_allarme_allarme_28,tipo allarme allarme 28,log allarmi
+nvm,2143,2143,0,16,_free_allarme_28,free allarme 28,log allarmi
+nvm,2144,2145,0,6,ts_allarme_29,timestamp allarme 29,log allarmi
+nvm,2146,2146,0,4,tipo_allarme_allarme_29,tipo allarme allarme 29,log allarmi
+nvm,2147,2147,0,16,_free_allarme_29,free allarme 29,log allarmi
+nvm,2148,2149,0,6,ts_allarme_30,timestamp allarme 30,log allarmi
+nvm,2150,2150,0,4,tipo_allarme_allarme_30,tipo allarme allarme 30,log allarmi
+nvm,2151,2151,0,16,_free_allarme_30,free allarme 30,log allarmi
+nvm,2152,2153,0,6,ts_allarme_31,timestamp allarme 31,log allarmi
+nvm,2154,2154,0,4,tipo_allarme_allarme_31,tipo allarme allarme 31,log allarmi
+nvm,2155,2155,0,16,_free_allarme_31,free allarme 31,log allarmi
+nvm,2156,2157,0,6,ts_allarme_32,timestamp allarme 32,log allarmi
+nvm,2158,2158,0,4,tipo_allarme_allarme_32,tipo allarme allarme 32,log allarmi
+nvm,2159,2159,0,16,_free_allarme_32,free allarme 32,log allarmi
+nvm,2160,2161,0,6,ts_allarme_33,timestamp allarme 33,log allarmi
+nvm,2162,2162,0,4,tipo_allarme_allarme_33,tipo allarme allarme 33,log allarmi
+nvm,2163,2163,0,16,_free_allarme_33,free allarme 33,log allarmi
+nvm,2164,2165,0,6,ts_allarme_34,timestamp allarme 34,log allarmi
+nvm,2166,2166,0,4,tipo_allarme_allarme_34,tipo allarme allarme 34,log allarmi
+nvm,2167,2167,0,16,_free_allarme_34,free allarme 34,log allarmi
+nvm,2168,2169,0,6,ts_allarme_35,timestamp allarme 35,log allarmi
+nvm,2170,2170,0,4,tipo_allarme_allarme_35,tipo allarme allarme 35,log allarmi
+nvm,2171,2171,0,16,_free_allarme_35,free allarme 35,log allarmi
+nvm,2172,2173,0,6,ts_allarme_36,timestamp allarme 36,log allarmi
+nvm,2174,2174,0,4,tipo_allarme_allarme_36,tipo allarme allarme 36,log allarmi
+nvm,2175,2175,0,16,_free_allarme_36,free allarme 36,log allarmi
+nvm,2176,2177,0,6,ts_allarme_37,timestamp allarme 37,log allarmi
+nvm,2178,2178,0,4,tipo_allarme_allarme_37,tipo allarme allarme 37,log allarmi
+nvm,2179,2179,0,16,_free_allarme_37,free allarme 37,log allarmi
+nvm,2180,2181,0,6,ts_allarme_38,timestamp allarme 38,log allarmi
+nvm,2182,2182,0,4,tipo_allarme_allarme_38,tipo allarme allarme 38,log allarmi
+nvm,2183,2183,0,16,_free_allarme_38,free allarme 38,log allarmi
+nvm,2184,2185,0,6,ts_allarme_39,timestamp allarme 39,log allarmi
+nvm,2186,2186,0,4,tipo_allarme_allarme_39,tipo allarme allarme 39,log allarmi
+nvm,2187,2187,0,16,_free_allarme_39,free allarme 39,log allarmi
+nvm,2188,2189,0,6,ts_allarme_40,timestamp allarme 40,log allarmi
+nvm,2190,2190,0,4,tipo_allarme_allarme_40,tipo allarme allarme 40,log allarmi
+nvm,2191,2191,0,16,_free_allarme_40,free allarme 40,log allarmi
+nvm,2192,2193,0,6,ts_allarme_41,timestamp allarme 41,log allarmi
+nvm,2194,2194,0,4,tipo_allarme_allarme_41,tipo allarme allarme 41,log allarmi
+nvm,2195,2195,0,16,_free_allarme_41,free allarme 41,log allarmi
+nvm,2196,2197,0,6,ts_allarme_42,timestamp allarme 42,log allarmi
+nvm,2198,2198,0,4,tipo_allarme_allarme_42,tipo allarme allarme 42,log allarmi
+nvm,2199,2199,0,16,_free_allarme_42,free allarme 42,log allarmi
+nvm,2200,2201,0,6,ts_allarme_43,timestamp allarme 43,log allarmi
+nvm,2202,2202,0,4,tipo_allarme_allarme_43,tipo allarme allarme 43,log allarmi
+nvm,2203,2203,0,16,_free_allarme_43,free allarme 43,log allarmi
+nvm,2204,2205,0,6,ts_allarme_44,timestamp allarme 44,log allarmi
+nvm,2206,2206,0,4,tipo_allarme_allarme_44,tipo allarme allarme 44,log allarmi
+nvm,2207,2207,0,16,_free_allarme_44,free allarme 44,log allarmi
+nvm,2208,2209,0,6,ts_allarme_45,timestamp allarme 45,log allarmi
+nvm,2210,2210,0,4,tipo_allarme_allarme_45,tipo allarme allarme 45,log allarmi
+nvm,2211,2211,0,16,_free_allarme_45,free allarme 45,log allarmi
+nvm,2212,2213,0,6,ts_allarme_46,timestamp allarme 46,log allarmi
+nvm,2214,2214,0,4,tipo_allarme_allarme_46,tipo allarme allarme 46,log allarmi
+nvm,2215,2215,0,16,_free_allarme_46,free allarme 46,log allarmi
+nvm,2216,2217,0,6,ts_allarme_47,timestamp allarme 47,log allarmi
+nvm,2218,2218,0,4,tipo_allarme_allarme_47,tipo allarme allarme 47,log allarmi
+nvm,2219,2219,0,16,_free_allarme_47,free allarme 47,log allarmi
+nvm,2220,2221,0,6,ts_allarme_48,timestamp allarme 48,log allarmi
+nvm,2222,2222,0,4,tipo_allarme_allarme_48,tipo allarme allarme 48,log allarmi
+nvm,2223,2223,0,16,_free_allarme_48,free allarme 48,log allarmi
+nvm,2224,2225,0,6,ts_allarme_49,timestamp allarme 49,log allarmi
+nvm,2226,2226,0,4,tipo_allarme_allarme_49,tipo allarme allarme 49,log allarmi
+nvm,2227,2227,0,16,_free_allarme_49,free allarme 49,log allarmi
+nvm,2228,2229,0,6,ts_allarme_50,timestamp allarme 50,log allarmi
+nvm,2230,2230,0,4,tipo_allarme_allarme_50,tipo allarme allarme 50,log allarmi
+nvm,2231,2231,0,16,_free_allarme_50,free allarme 50,log allarmi
+nvm,2232,2233,0,6,ts_allarme_51,timestamp allarme 51,log allarmi
+nvm,2234,2234,0,4,tipo_allarme_allarme_51,tipo allarme allarme 51,log allarmi
+nvm,2235,2235,0,16,_free_allarme_51,free allarme 51,log allarmi
+nvm,2236,2237,0,6,ts_allarme_52,timestamp allarme 52,log allarmi
+nvm,2238,2238,0,4,tipo_allarme_allarme_52,tipo allarme allarme 52,log allarmi
+nvm,2239,2239,0,16,_free_allarme_52,free allarme 52,log allarmi
+nvm,2240,2241,0,6,ts_allarme_53,timestamp allarme 53,log allarmi
+nvm,2242,2242,0,4,tipo_allarme_allarme_53,tipo allarme allarme 53,log allarmi
+nvm,2243,2243,0,16,_free_allarme_53,free allarme 53,log allarmi
+nvm,2244,2245,0,6,ts_allarme_54,timestamp allarme 54,log allarmi
+nvm,2246,2246,0,4,tipo_allarme_allarme_54,tipo allarme allarme 54,log allarmi
+nvm,2247,2247,0,16,_free_allarme_54,free allarme 54,log allarmi
+nvm,2248,2249,0,6,ts_allarme_55,timestamp allarme 55,log allarmi
+nvm,2250,2250,0,4,tipo_allarme_allarme_55,tipo allarme allarme 55,log allarmi
+nvm,2251,2251,0,16,_free_allarme_55,free allarme 55,log allarmi
+nvm,2252,2253,0,6,ts_allarme_56,timestamp allarme 56,log allarmi
+nvm,2254,2254,0,4,tipo_allarme_allarme_56,tipo allarme allarme 56,log allarmi
+nvm,2255,2255,0,16,_free_allarme_56,free allarme 56,log allarmi
+nvm,2256,2257,0,6,ts_allarme_57,timestamp allarme 57,log allarmi
+nvm,2258,2258,0,4,tipo_allarme_allarme_57,tipo allarme allarme 57,log allarmi
+nvm,2259,2259,0,16,_free_allarme_57,free allarme 57,log allarmi
+nvm,2260,2261,0,6,ts_allarme_58,timestamp allarme 58,log allarmi
+nvm,2262,2262,0,4,tipo_allarme_allarme_58,tipo allarme allarme 58,log allarmi
+nvm,2263,2263,0,16,_free_allarme_58,free allarme 58,log allarmi
+nvm,2264,2265,0,6,ts_allarme_59,timestamp allarme 59,log allarmi
+nvm,2266,2266,0,4,tipo_allarme_allarme_59,tipo allarme allarme 59,log allarmi
+nvm,2267,2267,0,16,_free_allarme_59,free allarme 59,log allarmi
+nvm,2268,2269,0,6,ts_allarme_60,timestamp allarme 60,log allarmi
+nvm,2270,2270,0,4,tipo_allarme_allarme_60,tipo allarme allarme 60,log allarmi
+nvm,2271,2271,0,16,_free_allarme_60,free allarme 60,log allarmi
+nvm,2272,2273,0,6,ts_allarme_61,timestamp allarme 61,log allarmi
+nvm,2274,2274,0,4,tipo_allarme_allarme_61,tipo allarme allarme 61,log allarmi
+nvm,2275,2275,0,16,_free_allarme_61,free allarme 61,log allarmi
+nvm,2276,2277,0,6,ts_allarme_62,timestamp allarme 62,log allarmi
+nvm,2278,2278,0,4,tipo_allarme_allarme_62,tipo allarme allarme 62,log allarmi
+nvm,2279,2279,0,16,_free_allarme_62,free allarme 62,log allarmi
+nvm,2280,2281,0,6,ts_allarme_63,timestamp allarme 63,log allarmi
+nvm,2282,2282,0,4,tipo_allarme_allarme_63,tipo allarme allarme 63,log allarmi
+nvm,2283,2283,0,16,_free_allarme_63,free allarme 63,log allarmi
+nvm,2284,2285,0,6,ts_allarme_64,timestamp allarme 64,log allarmi
+nvm,2286,2286,0,4,tipo_allarme_allarme_64,tipo allarme allarme 64,log allarmi
+nvm,2287,2287,0,16,_free_allarme_64,free allarme 64,log allarmi
+nvm,2288,2289,0,6,ts_allarme_65,timestamp allarme 65,log allarmi
+nvm,2290,2290,0,4,tipo_allarme_allarme_65,tipo allarme allarme 65,log allarmi
+nvm,2291,2291,0,16,_free_allarme_65,free allarme 65,log allarmi
+nvm,2292,2293,0,6,ts_allarme_66,timestamp allarme 66,log allarmi
+nvm,2294,2294,0,4,tipo_allarme_allarme_66,tipo allarme allarme 66,log allarmi
+nvm,2295,2295,0,16,_free_allarme_66,free allarme 66,log allarmi
+nvm,2296,2297,0,6,ts_allarme_67,timestamp allarme 67,log allarmi
+nvm,2298,2298,0,4,tipo_allarme_allarme_67,tipo allarme allarme 67,log allarmi
+nvm,2299,2299,0,16,_free_allarme_67,free allarme 67,log allarmi
+nvm,2300,2301,0,6,ts_allarme_68,timestamp allarme 68,log allarmi
+nvm,2302,2302,0,4,tipo_allarme_allarme_68,tipo allarme allarme 68,log allarmi
+nvm,2303,2303,0,16,_free_allarme_68,free allarme 68,log allarmi
+nvm,2304,2305,0,6,ts_allarme_69,timestamp allarme 69,log allarmi
+nvm,2306,2306,0,4,tipo_allarme_allarme_69,tipo allarme allarme 69,log allarmi
+nvm,2307,2307,0,16,_free_allarme_69,free allarme 69,log allarmi
+nvm,2308,2309,0,6,ts_allarme_70,timestamp allarme 70,log allarmi
+nvm,2310,2310,0,4,tipo_allarme_allarme_70,tipo allarme allarme 70,log allarmi
+nvm,2311,2311,0,16,_free_allarme_70,free allarme 70,log allarmi
+nvm,2312,2313,0,6,ts_allarme_71,timestamp allarme 71,log allarmi
+nvm,2314,2314,0,4,tipo_allarme_allarme_71,tipo allarme allarme 71,log allarmi
+nvm,2315,2315,0,16,_free_allarme_71,free allarme 71,log allarmi
+nvm,2316,2317,0,6,ts_allarme_72,timestamp allarme 72,log allarmi
+nvm,2318,2318,0,4,tipo_allarme_allarme_72,tipo allarme allarme 72,log allarmi
+nvm,2319,2319,0,16,_free_allarme_72,free allarme 72,log allarmi
+nvm,2320,2321,0,6,ts_allarme_73,timestamp allarme 73,log allarmi
+nvm,2322,2322,0,4,tipo_allarme_allarme_73,tipo allarme allarme 73,log allarmi
+nvm,2323,2323,0,16,_free_allarme_73,free allarme 73,log allarmi
+nvm,2324,2325,0,6,ts_allarme_74,timestamp allarme 74,log allarmi
+nvm,2326,2326,0,4,tipo_allarme_allarme_74,tipo allarme allarme 74,log allarmi
+nvm,2327,2327,0,16,_free_allarme_74,free allarme 74,log allarmi
+nvm,2328,2329,0,6,ts_allarme_75,timestamp allarme 75,log allarmi
+nvm,2330,2330,0,4,tipo_allarme_allarme_75,tipo allarme allarme 75,log allarmi
+nvm,2331,2331,0,16,_free_allarme_75,free allarme 75,log allarmi
+nvm,2332,2333,0,6,ts_allarme_76,timestamp allarme 76,log allarmi
+nvm,2334,2334,0,4,tipo_allarme_allarme_76,tipo allarme allarme 76,log allarmi
+nvm,2335,2335,0,16,_free_allarme_76,free allarme 76,log allarmi
+nvm,2336,2337,0,6,ts_allarme_77,timestamp allarme 77,log allarmi
+nvm,2338,2338,0,4,tipo_allarme_allarme_77,tipo allarme allarme 77,log allarmi
+nvm,2339,2339,0,16,_free_allarme_77,free allarme 77,log allarmi
+nvm,2340,2341,0,6,ts_allarme_78,timestamp allarme 78,log allarmi
+nvm,2342,2342,0,4,tipo_allarme_allarme_78,tipo allarme allarme 78,log allarmi
+nvm,2343,2343,0,16,_free_allarme_78,free allarme 78,log allarmi
+nvm,2344,2345,0,6,ts_allarme_79,timestamp allarme 79,log allarmi
+nvm,2346,2346,0,4,tipo_allarme_allarme_79,tipo allarme allarme 79,log allarmi
+nvm,2347,2347,0,16,_free_allarme_79,free allarme 79,log allarmi
+nvm,2348,2349,0,6,ts_allarme_80,timestamp allarme 80,log allarmi
+nvm,2350,2350,0,4,tipo_allarme_allarme_80,tipo allarme allarme 80,log allarmi
+nvm,2351,2351,0,16,_free_allarme_80,free allarme 80,log allarmi
+nvm,2352,2353,0,6,ts_allarme_81,timestamp allarme 81,log allarmi
+nvm,2354,2354,0,4,tipo_allarme_allarme_81,tipo allarme allarme 81,log allarmi
+nvm,2355,2355,0,16,_free_allarme_81,free allarme 81,log allarmi
+nvm,2356,2357,0,6,ts_allarme_82,timestamp allarme 82,log allarmi
+nvm,2358,2358,0,4,tipo_allarme_allarme_82,tipo allarme allarme 82,log allarmi
+nvm,2359,2359,0,16,_free_allarme_82,free allarme 82,log allarmi
+nvm,2360,2361,0,6,ts_allarme_83,timestamp allarme 83,log allarmi
+nvm,2362,2362,0,4,tipo_allarme_allarme_83,tipo allarme allarme 83,log allarmi
+nvm,2363,2363,0,16,_free_allarme_83,free allarme 83,log allarmi
+nvm,2364,2365,0,6,ts_allarme_84,timestamp allarme 84,log allarmi
+nvm,2366,2366,0,4,tipo_allarme_allarme_84,tipo allarme allarme 84,log allarmi
+nvm,2367,2367,0,16,_free_allarme_84,free allarme 84,log allarmi
+nvm,2368,2369,0,6,ts_allarme_85,timestamp allarme 85,log allarmi
+nvm,2370,2370,0,4,tipo_allarme_allarme_85,tipo allarme allarme 85,log allarmi
+nvm,2371,2371,0,16,_free_allarme_85,free allarme 85,log allarmi
+nvm,2372,2373,0,6,ts_allarme_86,timestamp allarme 86,log allarmi
+nvm,2374,2374,0,4,tipo_allarme_allarme_86,tipo allarme allarme 86,log allarmi
+nvm,2375,2375,0,16,_free_allarme_86,free allarme 86,log allarmi
+nvm,2376,2377,0,6,ts_allarme_87,timestamp allarme 87,log allarmi
+nvm,2378,2378,0,4,tipo_allarme_allarme_87,tipo allarme allarme 87,log allarmi
+nvm,2379,2379,0,16,_free_allarme_87,free allarme 87,log allarmi
+nvm,2380,2381,0,6,ts_allarme_88,timestamp allarme 88,log allarmi
+nvm,2382,2382,0,4,tipo_allarme_allarme_88,tipo allarme allarme 88,log allarmi
+nvm,2383,2383,0,16,_free_allarme_88,free allarme 88,log allarmi
+nvm,2384,2385,0,6,ts_allarme_89,timestamp allarme 89,log allarmi
+nvm,2386,2386,0,4,tipo_allarme_allarme_89,tipo allarme allarme 89,log allarmi
+nvm,2387,2387,0,16,_free_allarme_89,free allarme 89,log allarmi
+nvm,2388,2389,0,6,ts_allarme_90,timestamp allarme 90,log allarmi
+nvm,2390,2390,0,4,tipo_allarme_allarme_90,tipo allarme allarme 90,log allarmi
+nvm,2391,2391,0,16,_free_allarme_90,free allarme 90,log allarmi
+nvm,2392,2393,0,6,ts_allarme_91,timestamp allarme 91,log allarmi
+nvm,2394,2394,0,4,tipo_allarme_allarme_91,tipo allarme allarme 91,log allarmi
+nvm,2395,2395,0,16,_free_allarme_91,free allarme 91,log allarmi
+nvm,2396,2397,0,6,ts_allarme_92,timestamp allarme 92,log allarmi
+nvm,2398,2398,0,4,tipo_allarme_allarme_92,tipo allarme allarme 92,log allarmi
+nvm,2399,2399,0,16,_free_allarme_92,free allarme 92,log allarmi
+nvm,2400,2401,0,6,ts_allarme_93,timestamp allarme 93,log allarmi
+nvm,2402,2402,0,4,tipo_allarme_allarme_93,tipo allarme allarme 93,log allarmi
+nvm,2403,2403,0,16,_free_allarme_93,free allarme 93,log allarmi
+nvm,2404,2405,0,6,ts_allarme_94,timestamp allarme 94,log allarmi
+nvm,2406,2406,0,4,tipo_allarme_allarme_94,tipo allarme allarme 94,log allarmi
+nvm,2407,2407,0,16,_free_allarme_94,free allarme 94,log allarmi
+nvm,2408,2409,0,6,ts_allarme_95,timestamp allarme 95,log allarmi
+nvm,2410,2410,0,4,tipo_allarme_allarme_95,tipo allarme allarme 95,log allarmi
+nvm,2411,2411,0,16,_free_allarme_95,free allarme 95,log allarmi
+nvm,2412,2413,0,6,ts_allarme_96,timestamp allarme 96,log allarmi
+nvm,2414,2414,0,4,tipo_allarme_allarme_96,tipo allarme allarme 96,log allarmi
+nvm,2415,2415,0,16,_free_allarme_96,free allarme 96,log allarmi
+nvm,2416,2417,0,6,ts_allarme_97,timestamp allarme 97,log allarmi
+nvm,2418,2418,0,4,tipo_allarme_allarme_97,tipo allarme allarme 97,log allarmi
+nvm,2419,2419,0,16,_free_allarme_97,free allarme 97,log allarmi
+nvm,2420,2421,0,6,ts_allarme_98,timestamp allarme 98,log allarmi
+nvm,2422,2422,0,4,tipo_allarme_allarme_98,tipo allarme allarme 98,log allarmi
+nvm,2423,2423,0,16,_free_allarme_98,free allarme 98,log allarmi
+nvm,2424,2425,0,6,ts_allarme_99,timestamp allarme 99,log allarmi
+nvm,2426,2426,0,4,tipo_allarme_allarme_99,tipo allarme allarme 99,log allarmi
+nvm,2427,2427,0,16,_free_allarme_99,free allarme 99,log allarmi
+nvm,2428,2428,0,3,temp_eco,Temperatura ambiente economy impostata,cronotermostato
+nvm,2429,2429,0,3,temp_comfort,Temperatura ambiente comfort impostata ARIA,cronotermostato
+nvm,2430,2430,0,4,program_g1_int1,Programma crono giorno 1 intervallo 1,cronotermostato
+nvm,2431,2431,0,4,program_g1_int2,Programma crono giorno 1 intervallo 2,cronotermostato
+nvm,2432,2432,0,4,program_g1_int3,Programma crono giorno 1 intervallo 3,cronotermostato
+nvm,2433,2433,0,4,program_g1_int4,Programma crono giorno 1 intervallo 4,cronotermostato
+nvm,2434,2434,0,4,program_g1_int5,Programma crono giorno 1 intervallo 5,cronotermostato
+nvm,2435,2435,0,4,program_g1_int6,Programma crono giorno 1 intervallo 6,cronotermostato
+nvm,2436,2436,0,4,program_g1_int7,Programma crono giorno 1 intervallo 7,cronotermostato
+nvm,2437,2437,0,4,program_g1_int8,Programma crono giorno 1 intervallo 8,cronotermostato
+nvm,2438,2438,0,4,program_g1_int9,Programma crono giorno 1 intervallo 9,cronotermostato
+nvm,2439,2439,0,4,program_g1_int10,Programma crono giorno 1 intervallo 10,cronotermostato
+nvm,2440,2440,0,4,program_g1_int11,Programma crono giorno 1 intervallo 11,cronotermostato
+nvm,2441,2441,0,4,program_g1_int12,Programma crono giorno 1 intervallo 12,cronotermostato
+nvm,2442,2442,0,4,program_g1_int13,Programma crono giorno 1 intervallo 13,cronotermostato
+nvm,2443,2443,0,4,program_g1_int14,Programma crono giorno 1 intervallo 14,cronotermostato
+nvm,2444,2444,0,4,program_g1_int15,Programma crono giorno 1 intervallo 15,cronotermostato
+nvm,2445,2445,0,4,program_g1_int16,Programma crono giorno 1 intervallo 16,cronotermostato
+nvm,2446,2446,0,4,program_g1_int17,Programma crono giorno 1 intervallo 17,cronotermostato
+nvm,2447,2447,0,4,program_g1_int18,Programma crono giorno 1 intervallo 18,cronotermostato
+nvm,2448,2448,0,4,program_g1_int19,Programma crono giorno 1 intervallo 19,cronotermostato
+nvm,2449,2449,0,4,program_g1_int20,Programma crono giorno 1 intervallo 20,cronotermostato
+nvm,2450,2450,0,4,program_g1_int21,Programma crono giorno 1 intervallo 21,cronotermostato
+nvm,2451,2451,0,4,program_g1_int22,Programma crono giorno 1 intervallo 22,cronotermostato
+nvm,2452,2452,0,4,program_g1_int23,Programma crono giorno 1 intervallo 23,cronotermostato
+nvm,2453,2453,0,4,program_g1_int24,Programma crono giorno 1 intervallo 24,cronotermostato
+nvm,2454,2454,0,4,program_g1_int25,Programma crono giorno 1 intervallo 25,cronotermostato
+nvm,2455,2455,0,4,program_g1_int26,Programma crono giorno 1 intervallo 26,cronotermostato
+nvm,2456,2456,0,4,program_g1_int27,Programma crono giorno 1 intervallo 27,cronotermostato
+nvm,2457,2457,0,4,program_g1_int28,Programma crono giorno 1 intervallo 28,cronotermostato
+nvm,2458,2458,0,4,program_g1_int29,Programma crono giorno 1 intervallo 29,cronotermostato
+nvm,2459,2459,0,4,program_g1_int30,Programma crono giorno 1 intervallo 30,cronotermostato
+nvm,2460,2460,0,4,program_g1_int31,Programma crono giorno 1 intervallo 31,cronotermostato
+nvm,2461,2461,0,4,program_g1_int32,Programma crono giorno 1 intervallo 32,cronotermostato
+nvm,2462,2462,0,4,program_g1_int33,Programma crono giorno 1 intervallo 33,cronotermostato
+nvm,2463,2463,0,4,program_g1_int34,Programma crono giorno 1 intervallo 34,cronotermostato
+nvm,2464,2464,0,4,program_g1_int35,Programma crono giorno 1 intervallo 35,cronotermostato
+nvm,2465,2465,0,4,program_g1_int36,Programma crono giorno 1 intervallo 36,cronotermostato
+nvm,2466,2466,0,4,program_g1_int37,Programma crono giorno 1 intervallo 37,cronotermostato
+nvm,2467,2467,0,4,program_g1_int38,Programma crono giorno 1 intervallo 38,cronotermostato
+nvm,2468,2468,0,4,program_g1_int39,Programma crono giorno 1 intervallo 39,cronotermostato
+nvm,2469,2469,0,4,program_g1_int40,Programma crono giorno 1 intervallo 40,cronotermostato
+nvm,2470,2470,0,4,program_g1_int41,Programma crono giorno 1 intervallo 41,cronotermostato
+nvm,2471,2471,0,4,program_g1_int42,Programma crono giorno 1 intervallo 42,cronotermostato
+nvm,2472,2472,0,4,program_g1_int43,Programma crono giorno 1 intervallo 43,cronotermostato
+nvm,2473,2473,0,4,program_g1_int44,Programma crono giorno 1 intervallo 44,cronotermostato
+nvm,2474,2474,0,4,program_g1_int45,Programma crono giorno 1 intervallo 45,cronotermostato
+nvm,2475,2475,0,4,program_g1_int46,Programma crono giorno 1 intervallo 46,cronotermostato
+nvm,2476,2476,0,4,program_g1_int47,Programma crono giorno 1 intervallo 47,cronotermostato
+nvm,2477,2477,0,4,program_g1_int48,Programma crono giorno 1 intervallo 48,cronotermostato
+nvm,2478,2478,0,4,program_g2_int1,Programma crono giorno 2 intervallo 1,cronotermostato
+nvm,2479,2479,0,4,program_g2_int2,Programma crono giorno 2 intervallo 2,cronotermostato
+nvm,2480,2480,0,4,program_g2_int3,Programma crono giorno 2 intervallo 3,cronotermostato
+nvm,2481,2481,0,4,program_g2_int4,Programma crono giorno 2 intervallo 4,cronotermostato
+nvm,2482,2482,0,4,program_g2_int5,Programma crono giorno 2 intervallo 5,cronotermostato
+nvm,2483,2483,0,4,program_g2_int6,Programma crono giorno 2 intervallo 6,cronotermostato
+nvm,2484,2484,0,4,program_g2_int7,Programma crono giorno 2 intervallo 7,cronotermostato
+nvm,2485,2485,0,4,program_g2_int8,Programma crono giorno 2 intervallo 8,cronotermostato
+nvm,2486,2486,0,4,program_g2_int9,Programma crono giorno 2 intervallo 9,cronotermostato
+nvm,2487,2487,0,4,program_g2_int10,Programma crono giorno 2 intervallo 10,cronotermostato
+nvm,2488,2488,0,4,program_g2_int11,Programma crono giorno 2 intervallo 11,cronotermostato
+nvm,2489,2489,0,4,program_g2_int12,Programma crono giorno 2 intervallo 12,cronotermostato
+nvm,2490,2490,0,4,program_g2_int13,Programma crono giorno 2 intervallo 13,cronotermostato
+nvm,2491,2491,0,4,program_g2_int14,Programma crono giorno 2 intervallo 14,cronotermostato
+nvm,2492,2492,0,4,program_g2_int15,Programma crono giorno 2 intervallo 15,cronotermostato
+nvm,2493,2493,0,4,program_g2_int16,Programma crono giorno 2 intervallo 16,cronotermostato
+nvm,2494,2494,0,4,program_g2_int17,Programma crono giorno 2 intervallo 17,cronotermostato
+nvm,2495,2495,0,4,program_g2_int18,Programma crono giorno 2 intervallo 18,cronotermostato
+nvm,2496,2496,0,4,program_g2_int19,Programma crono giorno 2 intervallo 19,cronotermostato
+nvm,2497,2497,0,4,program_g2_int20,Programma crono giorno 2 intervallo 20,cronotermostato
+nvm,2498,2498,0,4,program_g2_int21,Programma crono giorno 2 intervallo 21,cronotermostato
+nvm,2499,2499,0,4,program_g2_int22,Programma crono giorno 2 intervallo 22,cronotermostato
+nvm,2500,2500,0,4,program_g2_int23,Programma crono giorno 2 intervallo 23,cronotermostato
+nvm,2501,2501,0,4,program_g2_int24,Programma crono giorno 2 intervallo 24,cronotermostato
+nvm,2502,2502,0,4,program_g2_int25,Programma crono giorno 2 intervallo 25,cronotermostato
+nvm,2503,2503,0,4,program_g2_int26,Programma crono giorno 2 intervallo 26,cronotermostato
+nvm,2504,2504,0,4,program_g2_int27,Programma crono giorno 2 intervallo 27,cronotermostato
+nvm,2505,2505,0,4,program_g2_int28,Programma crono giorno 2 intervallo 28,cronotermostato
+nvm,2506,2506,0,4,program_g2_int29,Programma crono giorno 2 intervallo 29,cronotermostato
+nvm,2507,2507,0,4,program_g2_int30,Programma crono giorno 2 intervallo 30,cronotermostato
+nvm,2508,2508,0,4,program_g2_int31,Programma crono giorno 2 intervallo 31,cronotermostato
+nvm,2509,2509,0,4,program_g2_int32,Programma crono giorno 2 intervallo 32,cronotermostato
+nvm,2510,2510,0,4,program_g2_int33,Programma crono giorno 2 intervallo 33,cronotermostato
+nvm,2511,2511,0,4,program_g2_int34,Programma crono giorno 2 intervallo 34,cronotermostato
+nvm,2512,2512,0,4,program_g2_int35,Programma crono giorno 2 intervallo 35,cronotermostato
+nvm,2513,2513,0,4,program_g2_int36,Programma crono giorno 2 intervallo 36,cronotermostato
+nvm,2514,2514,0,4,program_g2_int37,Programma crono giorno 2 intervallo 37,cronotermostato
+nvm,2515,2515,0,4,program_g2_int38,Programma crono giorno 2 intervallo 38,cronotermostato
+nvm,2516,2516,0,4,program_g2_int39,Programma crono giorno 2 intervallo 39,cronotermostato
+nvm,2517,2517,0,4,program_g2_int40,Programma crono giorno 2 intervallo 40,cronotermostato
+nvm,2518,2518,0,4,program_g2_int41,Programma crono giorno 2 intervallo 41,cronotermostato
+nvm,2519,2519,0,4,program_g2_int42,Programma crono giorno 2 intervallo 42,cronotermostato
+nvm,2520,2520,0,4,program_g2_int43,Programma crono giorno 2 intervallo 43,cronotermostato
+nvm,2521,2521,0,4,program_g2_int44,Programma crono giorno 2 intervallo 44,cronotermostato
+nvm,2522,2522,0,4,program_g2_int45,Programma crono giorno 2 intervallo 45,cronotermostato
+nvm,2523,2523,0,4,program_g2_int46,Programma crono giorno 2 intervallo 46,cronotermostato
+nvm,2524,2524,0,4,program_g2_int47,Programma crono giorno 2 intervallo 47,cronotermostato
+nvm,2525,2525,0,4,program_g2_int48,Programma crono giorno 2 intervallo 48,cronotermostato
+nvm,2526,2526,0,4,program_g3_int1,Programma crono giorno 3 intervallo 1,cronotermostato
+nvm,2527,2527,0,4,program_g3_int2,Programma crono giorno 3 intervallo 2,cronotermostato
+nvm,2528,2528,0,4,program_g3_int3,Programma crono giorno 3 intervallo 3,cronotermostato
+nvm,2529,2529,0,4,program_g3_int4,Programma crono giorno 3 intervallo 4,cronotermostato
+nvm,2530,2530,0,4,program_g3_int5,Programma crono giorno 3 intervallo 5,cronotermostato
+nvm,2531,2531,0,4,program_g3_int6,Programma crono giorno 3 intervallo 6,cronotermostato
+nvm,2532,2532,0,4,program_g3_int7,Programma crono giorno 3 intervallo 7,cronotermostato
+nvm,2533,2533,0,4,program_g3_int8,Programma crono giorno 3 intervallo 8,cronotermostato
+nvm,2534,2534,0,4,program_g3_int9,Programma crono giorno 3 intervallo 9,cronotermostato
+nvm,2535,2535,0,4,program_g3_int10,Programma crono giorno 3 intervallo 10,cronotermostato
+nvm,2536,2536,0,4,program_g3_int11,Programma crono giorno 3 intervallo 11,cronotermostato
+nvm,2537,2537,0,4,program_g3_int12,Programma crono giorno 3 intervallo 12,cronotermostato
+nvm,2538,2538,0,4,program_g3_int13,Programma crono giorno 3 intervallo 13,cronotermostato
+nvm,2539,2539,0,4,program_g3_int14,Programma crono giorno 3 intervallo 14,cronotermostato
+nvm,2540,2540,0,4,program_g3_int15,Programma crono giorno 3 intervallo 15,cronotermostato
+nvm,2541,2541,0,4,program_g3_int16,Programma crono giorno 3 intervallo 16,cronotermostato
+nvm,2542,2542,0,4,program_g3_int17,Programma crono giorno 3 intervallo 17,cronotermostato
+nvm,2543,2543,0,4,program_g3_int18,Programma crono giorno 3 intervallo 18,cronotermostato
+nvm,2544,2544,0,4,program_g3_int19,Programma crono giorno 3 intervallo 19,cronotermostato
+nvm,2545,2545,0,4,program_g3_int20,Programma crono giorno 3 intervallo 20,cronotermostato
+nvm,2546,2546,0,4,program_g3_int21,Programma crono giorno 3 intervallo 21,cronotermostato
+nvm,2547,2547,0,4,program_g3_int22,Programma crono giorno 3 intervallo 22,cronotermostato
+nvm,2548,2548,0,4,program_g3_int23,Programma crono giorno 3 intervallo 23,cronotermostato
+nvm,2549,2549,0,4,program_g3_int24,Programma crono giorno 3 intervallo 24,cronotermostato
+nvm,2550,2550,0,4,program_g3_int25,Programma crono giorno 3 intervallo 25,cronotermostato
+nvm,2551,2551,0,4,program_g3_int26,Programma crono giorno 3 intervallo 26,cronotermostato
+nvm,2552,2552,0,4,program_g3_int27,Programma crono giorno 3 intervallo 27,cronotermostato
+nvm,2553,2553,0,4,program_g3_int28,Programma crono giorno 3 intervallo 28,cronotermostato
+nvm,2554,2554,0,4,program_g3_int29,Programma crono giorno 3 intervallo 29,cronotermostato
+nvm,2555,2555,0,4,program_g3_int30,Programma crono giorno 3 intervallo 30,cronotermostato
+nvm,2556,2556,0,4,program_g3_int31,Programma crono giorno 3 intervallo 31,cronotermostato
+nvm,2557,2557,0,4,program_g3_int32,Programma crono giorno 3 intervallo 32,cronotermostato
+nvm,2558,2558,0,4,program_g3_int33,Programma crono giorno 3 intervallo 33,cronotermostato
+nvm,2559,2559,0,4,program_g3_int34,Programma crono giorno 3 intervallo 34,cronotermostato
+nvm,2560,2560,0,4,program_g3_int35,Programma crono giorno 3 intervallo 35,cronotermostato
+nvm,2561,2561,0,4,program_g3_int36,Programma crono giorno 3 intervallo 36,cronotermostato
+nvm,2562,2562,0,4,program_g3_int37,Programma crono giorno 3 intervallo 37,cronotermostato
+nvm,2563,2563,0,4,program_g3_int38,Programma crono giorno 3 intervallo 38,cronotermostato
+nvm,2564,2564,0,4,program_g3_int39,Programma crono giorno 3 intervallo 39,cronotermostato
+nvm,2565,2565,0,4,program_g3_int40,Programma crono giorno 3 intervallo 40,cronotermostato
+nvm,2566,2566,0,4,program_g3_int41,Programma crono giorno 3 intervallo 41,cronotermostato
+nvm,2567,2567,0,4,program_g3_int42,Programma crono giorno 3 intervallo 42,cronotermostato
+nvm,2568,2568,0,4,program_g3_int43,Programma crono giorno 3 intervallo 43,cronotermostato
+nvm,2569,2569,0,4,program_g3_int44,Programma crono giorno 3 intervallo 44,cronotermostato
+nvm,2570,2570,0,4,program_g3_int45,Programma crono giorno 3 intervallo 45,cronotermostato
+nvm,2571,2571,0,4,program_g3_int46,Programma crono giorno 3 intervallo 46,cronotermostato
+nvm,2572,2572,0,4,program_g3_int47,Programma crono giorno 3 intervallo 47,cronotermostato
+nvm,2573,2573,0,4,program_g3_int48,Programma crono giorno 3 intervallo 48,cronotermostato
+nvm,2574,2574,0,4,program_g4_int1,Programma crono giorno 4 intervallo 1,cronotermostato
+nvm,2575,2575,0,4,program_g4_int2,Programma crono giorno 4 intervallo 2,cronotermostato
+nvm,2576,2576,0,4,program_g4_int3,Programma crono giorno 4 intervallo 3,cronotermostato
+nvm,2577,2577,0,4,program_g4_int4,Programma crono giorno 4 intervallo 4,cronotermostato
+nvm,2578,2578,0,4,program_g4_int5,Programma crono giorno 4 intervallo 5,cronotermostato
+nvm,2579,2579,0,4,program_g4_int6,Programma crono giorno 4 intervallo 6,cronotermostato
+nvm,2580,2580,0,4,program_g4_int7,Programma crono giorno 4 intervallo 7,cronotermostato
+nvm,2581,2581,0,4,program_g4_int8,Programma crono giorno 4 intervallo 8,cronotermostato
+nvm,2582,2582,0,4,program_g4_int9,Programma crono giorno 4 intervallo 9,cronotermostato
+nvm,2583,2583,0,4,program_g4_int10,Programma crono giorno 4 intervallo 10,cronotermostato
+nvm,2584,2584,0,4,program_g4_int11,Programma crono giorno 4 intervallo 11,cronotermostato
+nvm,2585,2585,0,4,program_g4_int12,Programma crono giorno 4 intervallo 12,cronotermostato
+nvm,2586,2586,0,4,program_g4_int13,Programma crono giorno 4 intervallo 13,cronotermostato
+nvm,2587,2587,0,4,program_g4_int14,Programma crono giorno 4 intervallo 14,cronotermostato
+nvm,2588,2588,0,4,program_g4_int15,Programma crono giorno 4 intervallo 15,cronotermostato
+nvm,2589,2589,0,4,program_g4_int16,Programma crono giorno 4 intervallo 16,cronotermostato
+nvm,2590,2590,0,4,program_g4_int17,Programma crono giorno 4 intervallo 17,cronotermostato
+nvm,2591,2591,0,4,program_g4_int18,Programma crono giorno 4 intervallo 18,cronotermostato
+nvm,2592,2592,0,4,program_g4_int19,Programma crono giorno 4 intervallo 19,cronotermostato
+nvm,2593,2593,0,4,program_g4_int20,Programma crono giorno 4 intervallo 20,cronotermostato
+nvm,2594,2594,0,4,program_g4_int21,Programma crono giorno 4 intervallo 21,cronotermostato
+nvm,2595,2595,0,4,program_g4_int22,Programma crono giorno 4 intervallo 22,cronotermostato
+nvm,2596,2596,0,4,program_g4_int23,Programma crono giorno 4 intervallo 23,cronotermostato
+nvm,2597,2597,0,4,program_g4_int24,Programma crono giorno 4 intervallo 24,cronotermostato
+nvm,2598,2598,0,4,program_g4_int25,Programma crono giorno 4 intervallo 25,cronotermostato
+nvm,2599,2599,0,4,program_g4_int26,Programma crono giorno 4 intervallo 26,cronotermostato
+nvm,2600,2600,0,4,program_g4_int27,Programma crono giorno 4 intervallo 27,cronotermostato
+nvm,2601,2601,0,4,program_g4_int28,Programma crono giorno 4 intervallo 28,cronotermostato
+nvm,2602,2602,0,4,program_g4_int29,Programma crono giorno 4 intervallo 29,cronotermostato
+nvm,2603,2603,0,4,program_g4_int30,Programma crono giorno 4 intervallo 30,cronotermostato
+nvm,2604,2604,0,4,program_g4_int31,Programma crono giorno 4 intervallo 31,cronotermostato
+nvm,2605,2605,0,4,program_g4_int32,Programma crono giorno 4 intervallo 32,cronotermostato
+nvm,2606,2606,0,4,program_g4_int33,Programma crono giorno 4 intervallo 33,cronotermostato
+nvm,2607,2607,0,4,program_g4_int34,Programma crono giorno 4 intervallo 34,cronotermostato
+nvm,2608,2608,0,4,program_g4_int35,Programma crono giorno 4 intervallo 35,cronotermostato
+nvm,2609,2609,0,4,program_g4_int36,Programma crono giorno 4 intervallo 36,cronotermostato
+nvm,2610,2610,0,4,program_g4_int37,Programma crono giorno 4 intervallo 37,cronotermostato
+nvm,2611,2611,0,4,program_g4_int38,Programma crono giorno 4 intervallo 38,cronotermostato
+nvm,2612,2612,0,4,program_g4_int39,Programma crono giorno 4 intervallo 39,cronotermostato
+nvm,2613,2613,0,4,program_g4_int40,Programma crono giorno 4 intervallo 40,cronotermostato
+nvm,2614,2614,0,4,program_g4_int41,Programma crono giorno 4 intervallo 41,cronotermostato
+nvm,2615,2615,0,4,program_g4_int42,Programma crono giorno 4 intervallo 42,cronotermostato
+nvm,2616,2616,0,4,program_g4_int43,Programma crono giorno 4 intervallo 43,cronotermostato
+nvm,2617,2617,0,4,program_g4_int44,Programma crono giorno 4 intervallo 44,cronotermostato
+nvm,2618,2618,0,4,program_g4_int45,Programma crono giorno 4 intervallo 45,cronotermostato
+nvm,2619,2619,0,4,program_g4_int46,Programma crono giorno 4 intervallo 46,cronotermostato
+nvm,2620,2620,0,4,program_g4_int47,Programma crono giorno 4 intervallo 47,cronotermostato
+nvm,2621,2621,0,4,program_g4_int48,Programma crono giorno 4 intervallo 48,cronotermostato
+nvm,2622,2622,0,4,program_g5_int1,Programma crono giorno 5 intervallo 1,cronotermostato
+nvm,2623,2623,0,4,program_g5_int2,Programma crono giorno 5 intervallo 2,cronotermostato
+nvm,2624,2624,0,4,program_g5_int3,Programma crono giorno 5 intervallo 3,cronotermostato
+nvm,2625,2625,0,4,program_g5_int4,Programma crono giorno 5 intervallo 4,cronotermostato
+nvm,2626,2626,0,4,program_g5_int5,Programma crono giorno 5 intervallo 5,cronotermostato
+nvm,2627,2627,0,4,program_g5_int6,Programma crono giorno 5 intervallo 6,cronotermostato
+nvm,2628,2628,0,4,program_g5_int7,Programma crono giorno 5 intervallo 7,cronotermostato
+nvm,2629,2629,0,4,program_g5_int8,Programma crono giorno 5 intervallo 8,cronotermostato
+nvm,2630,2630,0,4,program_g5_int9,Programma crono giorno 5 intervallo 9,cronotermostato
+nvm,2631,2631,0,4,program_g5_int10,Programma crono giorno 5 intervallo 10,cronotermostato
+nvm,2632,2632,0,4,program_g5_int11,Programma crono giorno 5 intervallo 11,cronotermostato
+nvm,2633,2633,0,4,program_g5_int12,Programma crono giorno 5 intervallo 12,cronotermostato
+nvm,2634,2634,0,4,program_g5_int13,Programma crono giorno 5 intervallo 13,cronotermostato
+nvm,2635,2635,0,4,program_g5_int14,Programma crono giorno 5 intervallo 14,cronotermostato
+nvm,2636,2636,0,4,program_g5_int15,Programma crono giorno 5 intervallo 15,cronotermostato
+nvm,2637,2637,0,4,program_g5_int16,Programma crono giorno 5 intervallo 16,cronotermostato
+nvm,2638,2638,0,4,program_g5_int17,Programma crono giorno 5 intervallo 17,cronotermostato
+nvm,2639,2639,0,4,program_g5_int18,Programma crono giorno 5 intervallo 18,cronotermostato
+nvm,2640,2640,0,4,program_g5_int19,Programma crono giorno 5 intervallo 19,cronotermostato
+nvm,2641,2641,0,4,program_g5_int20,Programma crono giorno 5 intervallo 20,cronotermostato
+nvm,2642,2642,0,4,program_g5_int21,Programma crono giorno 5 intervallo 21,cronotermostato
+nvm,2643,2643,0,4,program_g5_int22,Programma crono giorno 5 intervallo 22,cronotermostato
+nvm,2644,2644,0,4,program_g5_int23,Programma crono giorno 5 intervallo 23,cronotermostato
+nvm,2645,2645,0,4,program_g5_int24,Programma crono giorno 5 intervallo 24,cronotermostato
+nvm,2646,2646,0,4,program_g5_int25,Programma crono giorno 5 intervallo 25,cronotermostato
+nvm,2647,2647,0,4,program_g5_int26,Programma crono giorno 5 intervallo 26,cronotermostato
+nvm,2648,2648,0,4,program_g5_int27,Programma crono giorno 5 intervallo 27,cronotermostato
+nvm,2649,2649,0,4,program_g5_int28,Programma crono giorno 5 intervallo 28,cronotermostato
+nvm,2650,2650,0,4,program_g5_int29,Programma crono giorno 5 intervallo 29,cronotermostato
+nvm,2651,2651,0,4,program_g5_int30,Programma crono giorno 5 intervallo 30,cronotermostato
+nvm,2652,2652,0,4,program_g5_int31,Programma crono giorno 5 intervallo 31,cronotermostato
+nvm,2653,2653,0,4,program_g5_int32,Programma crono giorno 5 intervallo 32,cronotermostato
+nvm,2654,2654,0,4,program_g5_int33,Programma crono giorno 5 intervallo 33,cronotermostato
+nvm,2655,2655,0,4,program_g5_int34,Programma crono giorno 5 intervallo 34,cronotermostato
+nvm,2656,2656,0,4,program_g5_int35,Programma crono giorno 5 intervallo 35,cronotermostato
+nvm,2657,2657,0,4,program_g5_int36,Programma crono giorno 5 intervallo 36,cronotermostato
+nvm,2658,2658,0,4,program_g5_int37,Programma crono giorno 5 intervallo 37,cronotermostato
+nvm,2659,2659,0,4,program_g5_int38,Programma crono giorno 5 intervallo 38,cronotermostato
+nvm,2660,2660,0,4,program_g5_int39,Programma crono giorno 5 intervallo 39,cronotermostato
+nvm,2661,2661,0,4,program_g5_int40,Programma crono giorno 5 intervallo 40,cronotermostato
+nvm,2662,2662,0,4,program_g5_int41,Programma crono giorno 5 intervallo 41,cronotermostato
+nvm,2663,2663,0,4,program_g5_int42,Programma crono giorno 5 intervallo 42,cronotermostato
+nvm,2664,2664,0,4,program_g5_int43,Programma crono giorno 5 intervallo 43,cronotermostato
+nvm,2665,2665,0,4,program_g5_int44,Programma crono giorno 5 intervallo 44,cronotermostato
+nvm,2666,2666,0,4,program_g5_int45,Programma crono giorno 5 intervallo 45,cronotermostato
+nvm,2667,2667,0,4,program_g5_int46,Programma crono giorno 5 intervallo 46,cronotermostato
+nvm,2668,2668,0,4,program_g5_int47,Programma crono giorno 5 intervallo 47,cronotermostato
+nvm,2669,2669,0,4,program_g5_int48,Programma crono giorno 5 intervallo 48,cronotermostato
+nvm,2670,2670,0,4,program_g6_int1,Programma crono giorno 6 intervallo 1,cronotermostato
+nvm,2671,2671,0,4,program_g6_int2,Programma crono giorno 6 intervallo 2,cronotermostato
+nvm,2672,2672,0,4,program_g6_int3,Programma crono giorno 6 intervallo 3,cronotermostato
+nvm,2673,2673,0,4,program_g6_int4,Programma crono giorno 6 intervallo 4,cronotermostato
+nvm,2674,2674,0,4,program_g6_int5,Programma crono giorno 6 intervallo 5,cronotermostato
+nvm,2675,2675,0,4,program_g6_int6,Programma crono giorno 6 intervallo 6,cronotermostato
+nvm,2676,2676,0,4,program_g6_int7,Programma crono giorno 6 intervallo 7,cronotermostato
+nvm,2677,2677,0,4,program_g6_int8,Programma crono giorno 6 intervallo 8,cronotermostato
+nvm,2678,2678,0,4,program_g6_int9,Programma crono giorno 6 intervallo 9,cronotermostato
+nvm,2679,2679,0,4,program_g6_int10,Programma crono giorno 6 intervallo 10,cronotermostato
+nvm,2680,2680,0,4,program_g6_int11,Programma crono giorno 6 intervallo 11,cronotermostato
+nvm,2681,2681,0,4,program_g6_int12,Programma crono giorno 6 intervallo 12,cronotermostato
+nvm,2682,2682,0,4,program_g6_int13,Programma crono giorno 6 intervallo 13,cronotermostato
+nvm,2683,2683,0,4,program_g6_int14,Programma crono giorno 6 intervallo 14,cronotermostato
+nvm,2684,2684,0,4,program_g6_int15,Programma crono giorno 6 intervallo 15,cronotermostato
+nvm,2685,2685,0,4,program_g6_int16,Programma crono giorno 6 intervallo 16,cronotermostato
+nvm,2686,2686,0,4,program_g6_int17,Programma crono giorno 6 intervallo 17,cronotermostato
+nvm,2687,2687,0,4,program_g6_int18,Programma crono giorno 6 intervallo 18,cronotermostato
+nvm,2688,2688,0,4,program_g6_int19,Programma crono giorno 6 intervallo 19,cronotermostato
+nvm,2689,2689,0,4,program_g6_int20,Programma crono giorno 6 intervallo 20,cronotermostato
+nvm,2690,2690,0,4,program_g6_int21,Programma crono giorno 6 intervallo 21,cronotermostato
+nvm,2691,2691,0,4,program_g6_int22,Programma crono giorno 6 intervallo 22,cronotermostato
+nvm,2692,2692,0,4,program_g6_int23,Programma crono giorno 6 intervallo 23,cronotermostato
+nvm,2693,2693,0,4,program_g6_int24,Programma crono giorno 6 intervallo 24,cronotermostato
+nvm,2694,2694,0,4,program_g6_int25,Programma crono giorno 6 intervallo 25,cronotermostato
+nvm,2695,2695,0,4,program_g6_int26,Programma crono giorno 6 intervallo 26,cronotermostato
+nvm,2696,2696,0,4,program_g6_int27,Programma crono giorno 6 intervallo 27,cronotermostato
+nvm,2697,2697,0,4,program_g6_int28,Programma crono giorno 6 intervallo 28,cronotermostato
+nvm,2698,2698,0,4,program_g6_int29,Programma crono giorno 6 intervallo 29,cronotermostato
+nvm,2699,2699,0,4,program_g6_int30,Programma crono giorno 6 intervallo 30,cronotermostato
+nvm,2700,2700,0,4,program_g6_int31,Programma crono giorno 6 intervallo 31,cronotermostato
+nvm,2701,2701,0,4,program_g6_int32,Programma crono giorno 6 intervallo 32,cronotermostato
+nvm,2702,2702,0,4,program_g6_int33,Programma crono giorno 6 intervallo 33,cronotermostato
+nvm,2703,2703,0,4,program_g6_int34,Programma crono giorno 6 intervallo 34,cronotermostato
+nvm,2704,2704,0,4,program_g6_int35,Programma crono giorno 6 intervallo 35,cronotermostato
+nvm,2705,2705,0,4,program_g6_int36,Programma crono giorno 6 intervallo 36,cronotermostato
+nvm,2706,2706,0,4,program_g6_int37,Programma crono giorno 6 intervallo 37,cronotermostato
+nvm,2707,2707,0,4,program_g6_int38,Programma crono giorno 6 intervallo 38,cronotermostato
+nvm,2708,2708,0,4,program_g6_int39,Programma crono giorno 6 intervallo 39,cronotermostato
+nvm,2709,2709,0,4,program_g6_int40,Programma crono giorno 6 intervallo 40,cronotermostato
+nvm,2710,2710,0,4,program_g6_int41,Programma crono giorno 6 intervallo 41,cronotermostato
+nvm,2711,2711,0,4,program_g6_int42,Programma crono giorno 6 intervallo 42,cronotermostato
+nvm,2712,2712,0,4,program_g6_int43,Programma crono giorno 6 intervallo 43,cronotermostato
+nvm,2713,2713,0,4,program_g6_int44,Programma crono giorno 6 intervallo 44,cronotermostato
+nvm,2714,2714,0,4,program_g6_int45,Programma crono giorno 6 intervallo 45,cronotermostato
+nvm,2715,2715,0,4,program_g6_int46,Programma crono giorno 6 intervallo 46,cronotermostato
+nvm,2716,2716,0,4,program_g6_int47,Programma crono giorno 6 intervallo 47,cronotermostato
+nvm,2717,2717,0,4,program_g6_int48,Programma crono giorno 6 intervallo 48,cronotermostato
+nvm,2718,2718,0,4,program_g7_int1,Programma crono giorno 7 intervallo 1,cronotermostato
+nvm,2719,2719,0,4,program_g7_int2,Programma crono giorno 7 intervallo 2,cronotermostato
+nvm,2720,2720,0,4,program_g7_int3,Programma crono giorno 7 intervallo 3,cronotermostato
+nvm,2721,2721,0,4,program_g7_int4,Programma crono giorno 7 intervallo 4,cronotermostato
+nvm,2722,2722,0,4,program_g7_int5,Programma crono giorno 7 intervallo 5,cronotermostato
+nvm,2723,2723,0,4,program_g7_int6,Programma crono giorno 7 intervallo 6,cronotermostato
+nvm,2724,2724,0,4,program_g7_int7,Programma crono giorno 7 intervallo 7,cronotermostato
+nvm,2725,2725,0,4,program_g7_int8,Programma crono giorno 7 intervallo 8,cronotermostato
+nvm,2726,2726,0,4,program_g7_int9,Programma crono giorno 7 intervallo 9,cronotermostato
+nvm,2727,2727,0,4,program_g7_int10,Programma crono giorno 7 intervallo 10,cronotermostato
+nvm,2728,2728,0,4,program_g7_int11,Programma crono giorno 7 intervallo 11,cronotermostato
+nvm,2729,2729,0,4,program_g7_int12,Programma crono giorno 7 intervallo 12,cronotermostato
+nvm,2730,2730,0,4,program_g7_int13,Programma crono giorno 7 intervallo 13,cronotermostato
+nvm,2731,2731,0,4,program_g7_int14,Programma crono giorno 7 intervallo 14,cronotermostato
+nvm,2732,2732,0,4,program_g7_int15,Programma crono giorno 7 intervallo 15,cronotermostato
+nvm,2733,2733,0,4,program_g7_int16,Programma crono giorno 7 intervallo 16,cronotermostato
+nvm,2734,2734,0,4,program_g7_int17,Programma crono giorno 7 intervallo 17,cronotermostato
+nvm,2735,2735,0,4,program_g7_int18,Programma crono giorno 7 intervallo 18,cronotermostato
+nvm,2736,2736,0,4,program_g7_int19,Programma crono giorno 7 intervallo 19,cronotermostato
+nvm,2737,2737,0,4,program_g7_int20,Programma crono giorno 7 intervallo 20,cronotermostato
+nvm,2738,2738,0,4,program_g7_int21,Programma crono giorno 7 intervallo 21,cronotermostato
+nvm,2739,2739,0,4,program_g7_int22,Programma crono giorno 7 intervallo 22,cronotermostato
+nvm,2740,2740,0,4,program_g7_int23,Programma crono giorno 7 intervallo 23,cronotermostato
+nvm,2741,2741,0,4,program_g7_int24,Programma crono giorno 7 intervallo 24,cronotermostato
+nvm,2742,2742,0,4,program_g7_int25,Programma crono giorno 7 intervallo 25,cronotermostato
+nvm,2743,2743,0,4,program_g7_int26,Programma crono giorno 7 intervallo 26,cronotermostato
+nvm,2744,2744,0,4,program_g7_int27,Programma crono giorno 7 intervallo 27,cronotermostato
+nvm,2745,2745,0,4,program_g7_int28,Programma crono giorno 7 intervallo 28,cronotermostato
+nvm,2746,2746,0,4,program_g7_int29,Programma crono giorno 7 intervallo 29,cronotermostato
+nvm,2747,2747,0,4,program_g7_int30,Programma crono giorno 7 intervallo 30,cronotermostato
+nvm,2748,2748,0,4,program_g7_int31,Programma crono giorno 7 intervallo 31,cronotermostato
+nvm,2749,2749,0,4,program_g7_int32,Programma crono giorno 7 intervallo 32,cronotermostato
+nvm,2750,2750,0,4,program_g7_int33,Programma crono giorno 7 intervallo 33,cronotermostato
+nvm,2751,2751,0,4,program_g7_int34,Programma crono giorno 7 intervallo 34,cronotermostato
+nvm,2752,2752,0,4,program_g7_int35,Programma crono giorno 7 intervallo 35,cronotermostato
+nvm,2753,2753,0,4,program_g7_int36,Programma crono giorno 7 intervallo 36,cronotermostato
+nvm,2754,2754,0,4,program_g7_int37,Programma crono giorno 7 intervallo 37,cronotermostato
+nvm,2755,2755,0,4,program_g7_int38,Programma crono giorno 7 intervallo 38,cronotermostato
+nvm,2756,2756,0,4,program_g7_int39,Programma crono giorno 7 intervallo 39,cronotermostato
+nvm,2757,2757,0,4,program_g7_int40,Programma crono giorno 7 intervallo 40,cronotermostato
+nvm,2758,2758,0,4,program_g7_int41,Programma crono giorno 7 intervallo 41,cronotermostato
+nvm,2759,2759,0,4,program_g7_int42,Programma crono giorno 7 intervallo 42,cronotermostato
+nvm,2760,2760,0,4,program_g7_int43,Programma crono giorno 7 intervallo 43,cronotermostato
+nvm,2761,2761,0,4,program_g7_int44,Programma crono giorno 7 intervallo 44,cronotermostato
+nvm,2762,2762,0,4,program_g7_int45,Programma crono giorno 7 intervallo 45,cronotermostato
+nvm,2763,2763,0,4,program_g7_int46,Programma crono giorno 7 intervallo 46,cronotermostato
+nvm,2764,2764,0,4,program_g7_int47,Programma crono giorno 7 intervallo 47,cronotermostato
+nvm,2765,2765,0,4,program_g7_int48,Programma crono giorno 7 intervallo 48,cronotermostato
+nvm,2766,2766,0,12,att,Attivazione,cronotermostato
+nvm,2767,2767,0,16,Free,_free_,cronotermostato
+nvm,2768,2768,0,2,sub_ope_salv,sub - fase operativa salvata,salvataggi
+nvm,2768,2768,1,2,ope_salv,fase operativa salvata,salvataggi
+nvm,2769,2769,0,2,tipo_allarme_salv,tipo allarme salvato,salvataggi
+nvm,2769,2769,1,2,funz_salv,stato funzionamento salvato,salvataggi
+nvm,2770,2770,0,4,cod_banca_dati,Codice banca dati,banca dati
+nvm,2771,2771,0,3,off_sens_pres,Off sensore pressione,sensore pressione
+nvm,2772,2779,0,0,seed_mqtt,SEED comunicazioni MQTT,dati di riconoscimento
+nvm,2780,2787,0,0,sn_stufa,Serial number stufa,dati di riconoscimento
+nvm,2788,2788,0,2,primo_avvio_scheda,Primo avvio scheda,avvio scheda
+nvm,2788,2788,1,2,flag_ora_leg,flag Ora legale,ora legale
+nvm,2789,2789,0,16,_free_,Libero,Free
+nvm,2790,2791,0,6,n_lim,numero limitazioni,contatori totali
+nvm,2792,2792,0,4,offs_act,Offset active,gestione core
+nvm,2793,2793,0,4,offs_act_perc,Offset active %,gestione core
+nvm,2794,2794,0,3,temp_eco_idro,Temperatura acqua economy impostata,cronotermostato idro
+nvm,2795,2795,0,3,temp_comfort_idro,Temperatura acqua comfort impostata ARIA,cronotermostato idro
+nvm,2796,2796,0,3,calib_RTC,Calibrazione RTC,undefined
+nvm,2797,2797,0,4,sb03_auto,SB03 in AUTO,undefined
+nvm,2798,2798,0,3,automatic_offset_cleaner,offset automatico pulitore,pulizia crogiolo meccanica
+nvm,2799,2799,0,2,battery_installation_timestamp_number,numero timestamp installazione batterie,Batterie tampone
+nvm,2799,2799,1,2,battery_installation_timestamp_index,indice timestamp installazione batterie,Batterie tampone
+nvm,2800,2801,0,6,log_ts_inst_batt1,LOG - timestamp installazione batterie 1,Batterie tampone
+nvm,2802,2803,0,6,log_ts_inst_batt2,LOG - timestamp installazione batterie 2,Batterie tampone
+nvm,2804,2805,0,6,log_ts_inst_batt3,LOG - timestamp installazione batterie 3,Batterie tampone
+nvm,2806,2807,0,6,log_ts_inst_batt4,LOG - timestamp installazione batterie 4,Batterie tampone
+nvm,2808,2809,0,6,log_ts_inst_batt5,LOG - timestamp installazione batterie 5,Batterie tampone
+nvm,2810,2831,0,16,_free_,Free,Free
+nvm,2832,2832,0,2,index_al_clima,Indice allarme Clima,log allarmi clima
+nvm,2832,2832,1,2,n_al_clima,Numero allarmi Clima,log allarmi clima
+nvm,2833,2833,0,16,_log_al_clima_free_,Free log allarmi Clima,log allarmi clima
+nvm,2834,2835,0,6,ts_al_clima_0,timestamp allarme clima 0,log allarmi clima
+nvm,2836,2836,0,4,tipo_al_clima_0,tipo allarme clima 0,log allarmi clima
+nvm,2837,2837,0,16,_free_allarme_0,free allarme clima 0,log allarmi clima
+nvm,2838,2839,0,6,ts_al_clima_1,timestamp allarme clima 1,log allarmi clima
+nvm,2840,2840,0,4,tipo_al_clima_1,tipo allarme clima 1,log allarmi clima
+nvm,2841,2841,0,16,_free_allarme_1,free allarme clima 1,log allarmi clima
+nvm,2842,2843,0,6,ts_al_clima_2,timestamp allarme clima 2,log allarmi clima
+nvm,2844,2844,0,4,tipo_al_clima_2,tipo allarme clima 2,log allarmi clima
+nvm,2845,2845,0,16,_free_allarme_2,free allarme clima 2,log allarmi clima
+nvm,2846,2847,0,6,ts_al_clima_3,timestamp allarme clima 3,log allarmi clima
+nvm,2848,2848,0,4,tipo_al_clima_3,tipo allarme clima 3,log allarmi clima
+nvm,2849,2849,0,16,_free_allarme_3,free allarme clima 3,log allarmi clima
+nvm,2850,2851,0,6,ts_al_clima_4,timestamp allarme clima 4,log allarmi clima
+nvm,2852,2852,0,4,tipo_al_clima_4,tipo allarme clima 4,log allarmi clima
+nvm,2853,2853,0,16,_free_allarme_4,free allarme clima 4,log allarmi clima
+nvm,2854,2854,0,4,att_clima,Attivazione,cronotermostato clima
+nvm,2855,2855,0,2,temp_comfort_clima,Temperatura comfort,cronotermostato clima
+nvm,2855,2855,1,2,temp_eco_clima,Temperatura economy,cronotermostato clima
+nvm,2856,2856,0,4,p_clima_g1_int1,Programma crono giorno 1 intervallo 1,cronotermostato clima
+nvm,2857,2857,0,4,p_clima_g1_int2,Programma crono giorno 1 intervallo 2,cronotermostato clima
+nvm,2858,2858,0,4,p_clima_g1_int3,Programma crono giorno 1 intervallo 3,cronotermostato clima
+nvm,2859,2859,0,4,p_clima_g1_int4,Programma crono giorno 1 intervallo 4,cronotermostato clima
+nvm,2860,2860,0,4,p_clima_g1_int5,Programma crono giorno 1 intervallo 5,cronotermostato clima
+nvm,2861,2861,0,4,p_clima_g1_int6,Programma crono giorno 1 intervallo 6,cronotermostato clima
+nvm,2862,2862,0,4,p_clima_g2_int1,Programma crono giorno 2 intervallo 1,cronotermostato clima
+nvm,2863,2863,0,4,p_clima_g2_int2,Programma crono giorno 2 intervallo 2,cronotermostato clima
+nvm,2864,2864,0,4,p_clima_g2_int3,Programma crono giorno 2 intervallo 3,cronotermostato clima
+nvm,2865,2865,0,4,p_clima_g2_int4,Programma crono giorno 2 intervallo 4,cronotermostato clima
+nvm,2866,2866,0,4,p_clima_g2_int5,Programma crono giorno 2 intervallo 5,cronotermostato clima
+nvm,2867,2867,0,4,p_clima_g2_int6,Programma crono giorno 2 intervallo 6,cronotermostato clima
+nvm,2868,2868,0,4,p_clima_g3_int1,Programma crono giorno 3 intervallo 1,cronotermostato clima
+nvm,2869,2869,0,4,p_clima_g3_int2,Programma crono giorno 3 intervallo 2,cronotermostato clima
+nvm,2870,2870,0,4,p_clima_g3_int3,Programma crono giorno 3 intervallo 3,cronotermostato clima
+nvm,2871,2871,0,4,p_clima_g3_int4,Programma crono giorno 3 intervallo 4,cronotermostato clima
+nvm,2872,2872,0,4,p_clima_g3_int5,Programma crono giorno 3 intervallo 5,cronotermostato clima
+nvm,2873,2873,0,4,p_clima_g3_int6,Programma crono giorno 3 intervallo 6,cronotermostato clima
+nvm,2874,2874,0,4,p_clima_g4_int1,Programma crono giorno 4 intervallo 1,cronotermostato clima
+nvm,2875,2875,0,4,p_clima_g4_int2,Programma crono giorno 4 intervallo 2,cronotermostato clima
+nvm,2876,2876,0,4,p_clima_g4_int3,Programma crono giorno 4 intervallo 3,cronotermostato clima
+nvm,2877,2877,0,4,p_clima_g4_int4,Programma crono giorno 4 intervallo 4,cronotermostato clima
+nvm,2878,2878,0,4,p_clima_g4_int5,Programma crono giorno 4 intervallo 5,cronotermostato clima
+nvm,2879,2879,0,4,p_clima_g4_int6,Programma crono giorno 4 intervallo 6,cronotermostato clima
+nvm,2880,2880,0,4,p_clima_g5_int1,Programma crono giorno 5 intervallo 1,cronotermostato clima
+nvm,2881,2881,0,4,p_clima_g5_int2,Programma crono giorno 5 intervallo 2,cronotermostato clima
+nvm,2882,2882,0,4,p_clima_g5_int3,Programma crono giorno 5 intervallo 3,cronotermostato clima
+nvm,2883,2883,0,4,p_clima_g5_int4,Programma crono giorno 5 intervallo 4,cronotermostato clima
+nvm,2884,2884,0,4,p_clima_g5_int5,Programma crono giorno 5 intervallo 5,cronotermostato clima
+nvm,2885,2885,0,4,p_clima_g5_int6,Programma crono giorno 5 intervallo 6,cronotermostato clima
+nvm,2886,2886,0,4,p_clima_g6_int1,Programma crono giorno 6 intervallo 1,cronotermostato clima
+nvm,2887,2887,0,4,p_clima_g6_int2,Programma crono giorno 6 intervallo 2,cronotermostato clima
+nvm,2888,2888,0,4,p_clima_g6_int3,Programma crono giorno 6 intervallo 3,cronotermostato clima
+nvm,2889,2889,0,4,p_clima_g6_int4,Programma crono giorno 6 intervallo 4,cronotermostato clima
+nvm,2890,2890,0,4,p_clima_g6_int5,Programma crono giorno 6 intervallo 5,cronotermostato clima
+nvm,2891,2891,0,4,p_clima_g6_int6,Programma crono giorno 6 intervallo 6,cronotermostato clima
+nvm,2892,2892,0,4,p_clima_g7_int1,Programma crono giorno 7 intervallo 1,cronotermostato clima
+nvm,2893,2893,0,4,p_clima_g7_int2,Programma crono giorno 7 intervallo 2,cronotermostato clima
+nvm,2894,2894,0,4,p_clima_g7_int3,Programma crono giorno 7 intervallo 3,cronotermostato clima
+nvm,2895,2895,0,4,p_clima_g7_int4,Programma crono giorno 7 intervallo 4,cronotermostato clima
+nvm,2896,2896,0,4,p_clima_g7_int5,Programma crono giorno 7 intervallo 5,cronotermostato clima
+nvm,2897,2897,0,4,p_clima_g7_int6,Programma crono giorno 7 intervallo 6,cronotermostato clima
+nvm,2898,2899,0,6,ts_primo_lav,Timestamp prima volta in lavoro,Prima volta in lavoro
+nvm,2900,2965,0,16,_free_,Free,Free
+nvm,2966,2981,0,0,SSID_wifi,SSID connessione Wi-Fi,wifi data
+nvm,2982,2997,0,0,pwd_wifi,Password connessione Wi-Fi,wifi data
+nvm,2998,2998,0,4,cod_compatibilita,Codice compatibilità,undefined
+nvm,2999,2999,0,4,CRC16_eeprom,CRC16 dati eeprom,undefined
