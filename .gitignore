@@ -1,0 +1,5 @@
+.pio/
+.esphome/
+src/config.h
+secrets.yaml
+__pycache__/
