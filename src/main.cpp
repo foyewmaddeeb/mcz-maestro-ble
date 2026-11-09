@@ -43,12 +43,10 @@
 #endif
 
 
-// ---- Crypto constants (firmware-verified) ----------------------------------
-static const uint8_t KEY1[16] = {0x6e,0x29,0x6b,0x0b,0xbb,0x1d,0x43,0xf3,0x6e,0x47,0xf7,0x2e,0x7b,0x6f,0x2e,0x77};
-static const uint8_t IV0 [16] = {0xda,0x1a,0x55,0x73,0x49,0xf2,0x5c,0x64,0x1b,0x1a,0x36,0x8a,0xf5,0xb2,0x18,0xa7};
-static const uint8_t TOKEN[16]= {0x31,0xdd,0x34,0x51,0x26,0x39,0x37,0x7b,0x05,0xa2,0x51,0x0d,0xe7,0x25,0xfc,0x75};
+// ---- Crypto constants: shared protocol core (components/mcz_maestro_ble/mcz_proto.h)
+static const uint8_t (&TOKEN)[16] = mcz::TOKEN;
 
-static uint32_t g_counter = 0x6A418000;   // start value; incremented per frame
+static uint32_t g_counter = mcz::COUNTER_START;   // start value; incremented per frame
 
 static const char *TARGET_PREFIX = "MCZ_EP";
 #define SCAN_SECONDS 8
@@ -80,47 +78,17 @@ static volatile int  g_rawGot = -1;
 static bool     g_logRaw = true;        // verbose Modbus dumps (quieter via 'log off')
 static const uint32_t POLL_INTERVAL_MS = 2500;  // auto-poll rate per status block
 
-// ---- Modbus CRC16 ----------------------------------------------------------
-static uint16_t modbusCRC(const uint8_t *d, size_t n) {
-  uint16_t crc = 0xFFFF;
-  for (size_t i=0;i<n;i++){ crc ^= d[i];
-    for (int b=0;b<8;b++) crc = (crc&1) ? (crc>>1)^0xA001 : (crc>>1); }
-  return crc;
-}
-
-// ---- AES-128-CBC (mbedtls), IV is copied (not destroyed) -------------------
-static void aesEnc(const uint8_t *in, uint8_t *out, size_t len) {
-  mbedtls_aes_context a; mbedtls_aes_init(&a); mbedtls_aes_setkey_enc(&a, KEY1, 128);
-  uint8_t iv[16]; memcpy(iv, IV0, 16);
-  mbedtls_aes_crypt_cbc(&a, MBEDTLS_AES_ENCRYPT, len, iv, in, out);
-  mbedtls_aes_free(&a);
-}
-static void aesDec(const uint8_t *in, uint8_t *out, size_t len) {
-  mbedtls_aes_context a; mbedtls_aes_init(&a); mbedtls_aes_setkey_dec(&a, KEY1, 128);
-  uint8_t iv[16]; memcpy(iv, IV0, 16);
-  mbedtls_aes_crypt_cbc(&a, MBEDTLS_AES_DECRYPT, len, iv, in, out);
-  mbedtls_aes_free(&a);
-}
-
-// ---- Build frame: Modbus PDU (without CRC) -> encrypted BLE frame ----------
-// pdu: e.g. {01,03,reg_hi,reg_lo,cnt_hi,cnt_lo}; CRC is appended here.
+// ---- CRC / AES / framing: shared protocol core ---------------------------------
+static uint16_t modbusCRC(const uint8_t *d, size_t n) { return mcz::crc16(d, n); }
+static void aesDec(const uint8_t *in, uint8_t *out, size_t len) { mcz::aes_decrypt(in, out, len); }
 static size_t buildFrame(const uint8_t *pdu, size_t pduLen, uint8_t *outCipher) {
-  uint8_t plain[64]; size_t p=0;
-  uint32_t c = g_counter++;
-  plain[p++]=c&0xFF; plain[p++]=(c>>8)&0xFF; plain[p++]=(c>>16)&0xFF; plain[p++]=(c>>24)&0xFF;
-  memcpy(plain+p, TOKEN, 16); p+=16;
-  memcpy(plain+p, pdu, pduLen); p+=pduLen;
-  uint16_t crc = modbusCRC(pdu, pduLen);
-  plain[p++]=crc&0xFF; plain[p++]=crc>>8;
-  size_t pad = 16 - (p % 16); if (pad==0) pad=16;
-  for (size_t i=0;i<pad;i++) plain[p++]=(uint8_t)pad;   // PKCS#7
-  aesEnc(plain, outCipher, p);
-  return p;
+  return mcz::build_frame(g_counter++, pdu, pduLen, outCipher);
 }
 
 static void writeFrame(const uint8_t *pdu, size_t pduLen) {
   if (!g_abf1) { Serial.println("!! abf1 not available"); return; }
-  uint8_t ct[64]; size_t n = buildFrame(pdu, pduLen, ct);
+  uint8_t ct[mcz::MAX_FRAME]; size_t n = buildFrame(pdu, pduLen, ct);
+  if (!n) { Serial.println("!! frame too long"); return; }
   Serial.print(">> abf1 <- "); for(size_t i=0;i<n;i++) Serial.printf("%02X",ct[i]); Serial.println();
   g_abf1->writeValue(ct, n, false);   // WriteNoResponse
 }
@@ -329,7 +297,6 @@ bool ovenSetClock(){
 }
 
 // ---- ##-broadcast: reassembly + decoded status store -----------------------
-static const uint16_t STATUS_BASE = 0x02BA;
 static uint8_t  g_bcBuf[1024];        // reassembly buffer (ciphertext frag01+frag02)
 static size_t   g_bcLen = 0;
 static bool     g_bcHave01 = false;

@@ -1,0 +1,118 @@
+# ESPHome build of the MCZ Maestro+ BLE bridge: a classic ESP32 next to the
+# stove talks to the display over BLE and exposes it through the native HA API.
+# Pair: put the display in pairing mode (+ and - together, or power-cycle the
+# stove) when the ESP32 first connects.
+substitutions:
+  name: mcz-stove
+  friendly_name: MCZ Stove
+  # The stove's BLE MAC (display name MCZ_EP...). Find it with any BLE scanner.
+  stove_mac: "00:00:00:00:00:00"
+
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+
+external_components:
+  - source: github://muka/mcz-maestro-ble@main
+    components: [mcz_maestro_ble]
+  # local checkout instead:
+  # - source: { type: local, path: ../components }
+
+logger:
+api:
+  encryption:
+    key: !secret api_encryption_key
+ota:
+  - platform: esphome
+    password: !secret ota_password
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+time:
+  - platform: homeassistant
+    id: ha_time
+
+esp32_ble_tracker:
+  scan_parameters:
+    active: true
+
+ble_client:
+  - mac_address: ${stove_mac}
+    id: stove_ble
+
+mcz_maestro_ble:
+  id: stove
+  ble_client_id: stove_ble
+  time_id: ha_time      # sets the stove clock after connect and daily
+
+climate:
+  - platform: mcz_maestro_ble
+    name: Stove
+
+select:
+  - platform: mcz_maestro_ble
+    power:
+      name: Power
+    mode:
+      name: Mode
+    fan:
+      name: Fan
+
+switch:
+  - platform: mcz_maestro_ble
+    silent:
+      name: Silent
+
+button:
+  - platform: mcz_maestro_ble
+    alarm_reset:
+      name: Acknowledge alarm
+    sync_clock:
+      name: Sync clock
+
+sensor:
+  - platform: mcz_maestro_ble
+    room_temperature:
+      name: Room temperature
+    fumes_temperature:
+      name: Flue gas temperature
+    board_temperature:
+      name: Board temperature
+    combustion_fan_speed:
+      name: Combustion fan
+    exhaust_fan_speed:
+      name: Exhaust fan
+    ignitions:
+      name: Ignitions
+    working_time:
+      name: Working time
+    alarm_code:
+      name: Alarm code
+  - platform: wifi_signal
+    name: WiFi signal
+
+binary_sensor:
+  - platform: mcz_maestro_ble
+    connected:
+      name: BLE connected
+    running:
+      name: Running
+    alarm:
+      name: Alarm
+
+text_sensor:
+  - platform: mcz_maestro_ble
+    state:
+      name: State
+    serial_number:
+      name: Serial number
+    model:
+      name: Model
+    alarm_history:
+      name: Alarm history

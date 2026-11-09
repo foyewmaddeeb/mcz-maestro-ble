@@ -56,6 +56,40 @@ The pinout of the ESP32 inside the Maestro M2 oven display is as follows:
 
 To flash it, IO0 must be pulled to GND during reset.
 
+## ESPHome
+
+The same bridge is also available as an ESPHome external component, in
+`components/mcz_maestro_ble/`. With ESPHome you get OTA updates and the native
+Home Assistant API instead of MQTT.
+
+```yaml
+external_components:
+  - source: github://muka/mcz-maestro-ble@main
+    components: [mcz_maestro_ble]
+
+ble_client:
+  - mac_address: "XX:XX:XX:XX:XX:XX"   # the display's BLE MAC (MCZ_EP...)
+    id: stove_ble
+
+mcz_maestro_ble:
+  ble_client_id: stove_ble
+  time_id: ha_time                     # optional: sets the stove clock daily
+```
+
+Entities: `climate` (on/off, setpoint, room temperature), `select` (power, mode,
+fan), `switch` (silent), `button` (alarm reset, clock sync), and `sensor`,
+`binary_sensor` and `text_sensor` platforms. A full configuration is in
+[`examples/esphome-mcz-stove.yaml`](examples/esphome-mcz-stove.yaml). Use the
+ESP-IDF framework.
+
+The wire protocol (AES framing, Modbus, the status broadcast, the register map)
+lives in `components/mcz_maestro_ble/mcz_proto.h`. The PlatformIO build includes
+it too, so both builds share one implementation. Host test:
+`tests/host/run.sh` (needs g++, OpenSSL headers and `python3-cryptography`).
+
+Not ported yet: the hydro settings (hysteresis, pump temperature) and the
+serial console commands.
+
 ## Possible Future Projects
 
 With this codebase, it would be possible to replace the oven display entirely — the display and the oven mainboard speak the same protocol.
